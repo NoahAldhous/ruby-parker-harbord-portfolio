@@ -1,0 +1,11 @@
+REQUIREMENTS
+    -header navigation bar
+        -Overview/Home
+            -Clicking on photos opens a fullscreen lightbox  
+        -Projects
+            -scrollable grid of images
+            -images display text on hover
+            -clickable links to individual project galleries
+                -each gallery has a text/carousel/thumbnail option
+        -Film Photography
+    -footer contact info
