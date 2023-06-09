@@ -13,7 +13,7 @@ REQUIREMENTS
         -About
             -single page, text, single image (self-portrait)
         -Contact me
-            -Links to email, instagram, PDF dowload of protfolio
+            -Links to email, instagram, PDF dowload of portfolio
     -footer contact info
     -transitions between pages / on photos loading in with Headless UI
     -Where are our images kept?
