@@ -5,6 +5,7 @@ PLAN
     3.Initialise project and install packages-
         NextJS 
         Tailwind 
+            -headless UI
         Typescript 
     4. Deploy Project with Vercel
     5. Create Navigation bar

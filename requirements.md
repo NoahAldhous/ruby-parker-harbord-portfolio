@@ -1,5 +1,5 @@
 REQUIREMENTS
-    -header navigation bar
+    -Header navigation bar- fixed to the top of the page. (Nextjs Link component for client-side navigation)
         -Overview/Home
             -Clicking on photos opens a fullscreen lightbox  
         -Projects
@@ -8,4 +8,14 @@ REQUIREMENTS
             -clickable links to individual project galleries
                 -each gallery has a text/carousel/thumbnail option
         -Film Photography
+            -masonry grid of photos (React-masonry-css)
+            -clicking on photos will open a full-page lightbox (lightGallery)
+        -About
+            -single page, text, single image (self-portrait)
+        -Contact me
+            -Links to email, instagram, PDF dowload of protfolio
     -footer contact info
+    -transitions between pages / on photos loading in with Headless UI
+    -Where are our images kept?
+        -Begin with fetching from Unsplash API (random images)
+        -Refactor for Mongo DB
