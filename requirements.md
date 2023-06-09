@@ -18,4 +18,4 @@ REQUIREMENTS
     -transitions between pages / on photos loading in with Headless UI
     -Where are our images kept?
         -Begin with fetching from Unsplash API (random images)
-        -Refactor for Mongo DB
+        -Refactor for a backend server with images stored on Mongo DB
