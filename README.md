@@ -1,3 +1,2 @@
-# Ruby-Parker-Harbord-Website
+# ruby-parker-harbord-portfolio
 Personal Website for Ruby Parker Harbord
-initial commit
