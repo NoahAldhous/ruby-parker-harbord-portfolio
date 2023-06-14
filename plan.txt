@@ -1,7 +1,7 @@
 
 PLAN
     1.Choose a design to use (Tom Hull Portfolio)✅
-    2.Choose project requirements.
+    2.Choose project requirements. ✅
     3.Initialise project and install packages-
         NextJS 
         Tailwind 
