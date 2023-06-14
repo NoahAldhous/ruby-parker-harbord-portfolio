@@ -13,4 +13,4 @@ PLAN
     7. Build Masonry grid 
     8. Build the Lightbox (Image Carousel)
     9. Connect to API
-    10. Refactor
+    10. Refactor, add future ideas and improvements.
