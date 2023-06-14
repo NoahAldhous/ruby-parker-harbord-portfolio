@@ -3,10 +3,10 @@ PLAN
     1.Choose a design to use (Tom Hull Portfolio)✅
     2.Choose project requirements. ✅
     3.Initialise project and install packages-
-        NextJS 
-        Tailwind 
+        NextJS ✅
+        Tailwind ✅
             -headless UI
-        Typescript 
+        Typescript ✅
     4. Deploy Project with Vercel
     5. Create Navigation bar
     6. Create Layout
