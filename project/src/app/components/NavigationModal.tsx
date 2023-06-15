@@ -1,7 +1,6 @@
 'use client'
 import React, {useEffect} from 'react';
 import ReactPortal from './ReactPortal';
-import Link from 'Next/link';
 
 interface NavigationModalProps {
     children: React.ReactNode;
