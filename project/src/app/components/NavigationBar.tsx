@@ -12,7 +12,7 @@ export default function NavigationBar() {
     }
 
     return <>
-        <div className="hidden sm:flex flex-row w-full bg-red-400 top-0 absolute z-10 py-4 pl-4 justify-between">
+        <div className="hidden sm:flex flex-row w-full bg-red-400 top-0 fixed z-10 py-4 pl-4 justify-between">
             <p className="font-superRetro italic text-md md:text-3xl align-middle bg-green-500 w-1/2 items-center overflow-x-visible">
                 Ruby Parker-Harbord
             </p>
@@ -24,7 +24,7 @@ export default function NavigationBar() {
                 <Link onClick={handleClose} className="px-2" href="/contact">Contact</Link> 
             </section>
             </div>
-        <div className="sm:hidden flex flex-row w-full bg-red-400 top-0 absolute z-10 py-4 pl-4 justify-between">
+        <div className="sm:hidden flex flex-row w-full bg-red-400 top-0 fixed z-10 py-4 pl-4 justify-between">
             <p className="font-superRetro italic text-sm align-middle p-0 bg-green-500 w-2/3 items-center overflow-x-visible">
                 Ruby Parker-Harbord
             </p>
