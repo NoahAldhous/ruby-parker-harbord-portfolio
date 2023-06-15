@@ -8,7 +8,7 @@ PLAN
             -headless UI
         Typescript ✅
     4. Deploy Project with Vercel✅
-    5. Create Navigation bar
+    5. Create Navigation bar ✅
     6. Create Layout
     7. Build Masonry grid 
     8. Build the Lightbox (Image Carousel)
