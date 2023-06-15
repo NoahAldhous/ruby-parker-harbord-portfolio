@@ -1,5 +1,6 @@
 import './globals.css'
 import localFont from 'next/font/local';
+import Link from 'next/link';
 
 const superRetro = localFont({
   src: [
@@ -34,11 +35,13 @@ export default function RootLayout({
           Ruby Parker-Harbord
         </p>
         <div className="flex flex-row justify-end items-center bg-blue-500 w-1/2">
-          <p className="px-2">Home</p>
-          <p className="px-2">Projects</p>
-          <p className="px-2">Analogue</p>
-          <p className="px-2">About</p>
-          <p className="px-2">Contact</p>
+  
+          <Link className="px-2" href="/">Home</Link>
+          <Link className="px-2" href="/project">Projects</Link>
+          <Link className="px-2" href="/film-photography">Film Photography</Link>
+          <Link className="px-2" href="/about">About</Link>
+          <Link className="px-2" href="/contact">Contact</Link>
+          
         </div>
       </div>
       <nav></nav>
