@@ -10,9 +10,9 @@ module.exports = {
     extend: {
       backgroundColor: theme => ({
         ...theme('colors'),
-        'primary': '#EDFDF9',
+        'primary': '#E5E7EB',
         'secondary': '#38423B',
-        'dark': '#2B3B36'
+        'dark': '#1F2937'
       }),
       fontFamily: {
         superRetro: ['var(--superRetro)']
