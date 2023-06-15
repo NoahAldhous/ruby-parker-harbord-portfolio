@@ -1,20 +1,45 @@
 'use client'
-import {useState} from 'react';
+import React, {useEffect} from 'react';
+import ReactPortal from './ReactPortal';
 import Link from 'Next/link';
 
+interface NavigationModalProps {
+    children: React.ReactNode;
+    isOpen: boolean;
+    handleClose: () => void;
+}
 
+export default function NavigationModal({children, isOpen, handleClose}: NavigationModalProps){
 
-export default function NavigationModal(){
+    //disable scroll on modal load
+    useEffect(() => {
+        document.body.style.overflow = 'hidden';
+        return (): void => {
+            document.body.style.overflow = 'unset';
+        };
+    }, [isOpen])
 
-    const [NavigationModalIsOpen, setNavigationModalIsOpen] = useState(false)
+    if (!isOpen) return null;
 
-    return <div className="flex justify-center items-center z-40 absolute h-full w-full bg-slate-800 opacity-90">
-        <div className="flex flex-col justify-center items-center bg-red-600 text-4xl text-blue-400">
-            <Link className="px-2 py-6" href="/">Home</Link>
-            <Link className="px-2 py-6" href="/project">Projects</Link>
-            <Link className="px-2 py-6 whitespace-nowrap" href="/film-photography">Film Photography</Link>
-            <Link className="px-2 py-6" href="/about">About</Link>
-            <Link className="px-2 py-6" href="/contact">Contact</Link>
-        </div>
-    </div>
+    return (
+        <ReactPortal wrapperId="react-portal-modal-container">
+            <>
+                <div className=" flex flex-col justify-center items-center fixed top-0 left-0 w-screen h-screen z-40 bg-slate-800 opacity-90">
+                    <div className="fixed rounded flex flex-col justify-center items-center box-border min-w-fit h-5/6 overflow-hidden p-5">
+                        <button 
+                            onClick={handleClose} 
+                            className="py-2 px-8 self-end text-zinc-200"
+                        >
+                            Close
+                        </button>
+                        <div className="flex justify-center items-center"> {children}</div>
+                    </div>
+                </div>
+            </>
+        </ReactPortal>
+    )
+    
+    
+    
+   
 }
