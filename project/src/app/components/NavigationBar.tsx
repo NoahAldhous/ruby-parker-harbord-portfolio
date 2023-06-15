@@ -25,7 +25,7 @@ export default function NavigationBar() {
             </section>
             </div>
         <div className="sm:hidden flex flex-row w-full top-0 fixed z-10 py-6 px-6 justify-between">
-            <p className="font-superRetro italic text-sm align-middle p-0 w-2/3 items-center overflow-x-visible">
+            <p className="font-superRetro italic text-xs align-middle p-0 w-2/3 items-center overflow-x-visible">
                 Ruby Parker-Harbord
             </p>
             <section className="flex flex-row justify-end items-center w-1/3">
