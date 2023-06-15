@@ -24,11 +24,11 @@ export default function NavigationBar() {
                 <Link onClick={handleClose} className="px-2" href="/contact">Contact</Link> 
             </section>
             </div>
-        <div className="sm:hidden flex flex-row w-full bg-red-400 top-0 fixed z-10 py-4 pl-4 justify-between">
-            <p className="font-superRetro italic text-sm align-middle p-0 bg-green-500 w-2/3 items-center overflow-x-visible">
+        <div className="sm:hidden flex flex-row w-full top-0 fixed z-10 py-6 px-6 justify-between">
+            <p className="font-superRetro italic text-sm align-middle p-0 w-2/3 items-center overflow-x-visible">
                 Ruby Parker-Harbord
             </p>
-            <section className="flex flex-row justify-end items-center bg-blue-500 w-1/3">
+            <section className="flex flex-row justify-end items-center w-1/3">
                 <button onClick={() => setNavigationModalOpen(!navigationModalOpen)} className="px-2">Menu</button>
             </section>
             {navigationModalOpen && (
