@@ -21,9 +21,9 @@ export default function NavigationModal({children, isOpen, handleClose}: Navigat
     if (!isOpen) return null;
 
     return (
-        <ReactPortal wrapperId="react-portal-modal-container">
+        <ReactPortal wrapperId="react-portal-modal-container" >
             <>
-                <div className="flex flex-col justify-center items-center fixed top-0 left-0 w-screen h-screen z-40 bg-slate-800 opacity-90">
+                <div className="md:hidden flex flex-col justify-center items-center fixed top-0 left-0 w-screen h-screen z-40 bg-slate-800 opacity-90">
                     <div className="fixed rounded flex flex-col justify-start items-center box-border min-w-fit h-5/6 overflow-hidden p-5">
                         <button 
                             onClick={handleClose} 
