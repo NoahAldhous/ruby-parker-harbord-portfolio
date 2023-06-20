@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center md:p-24 md:pt-32 p-10 pt-24 bg-primary dark:bg-dark">
-      <div className="w-fill object-contain flex flex-col md:grid gap-6 md:gap-4 md:grid-cols-3 md:grid-rows-3">
+      <div className="w-fill object-contain flex flex-col sm:grid gap-6 sm:gap-4 sm:grid-cols-3 sm:grid-rows-3">
         <Image placeholder='blur' src={localfile} alt='img-1'/>
         <Image placeholder='blur' src={portrait2} alt='img-1'/>
         <Image placeholder='blur' src={portrait1} alt='img-1'/>
