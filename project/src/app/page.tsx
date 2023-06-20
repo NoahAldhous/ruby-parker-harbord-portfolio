@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import { useRef } from 'react';
 
@@ -20,24 +21,27 @@ import portrait2 from '../assets/images/portrait2.jpg';
 
 export default function Home() {
 
-  const lightboxRef = useRef<LightGallery | null>(null)
+  const lightboxRef = useRef<LightGallery | null>(null);
+
+  const onInit = () => {
+    console.log('lightGallery has been initialized');
+  };
 
   return (
     <main className="flex min-h-screen flex-col items-center md:p-24 md:pt-32 p-10 pt-24 bg-primary dark:bg-dark">
       <div className="w-fill object-contain flex flex-col md:grid gap-6 md:gap-4 md:grid-cols-3 md:grid-rows-3">
-        <Image placeholder='blur' src={portrait1} alt="two people eating ice cream"></Image>
-        <Image placeholder='blur' src={portrait2} alt="Two women in red light"></Image>
-        <Image placeholder='blur' src={placeholderMiriam} alt="Young woman drinking from a glass"></Image>
-        <Image placeholder='blur' src={placeholderMiriam} alt="Young woman drinking from a glass"></Image>
         <LightGalleryComponent
-                onInit={() => {console.log('light gallery initialised')}}
-                speed={500}
-                plugins={[lgThumbnail, lgZoom]}
-                dynamic
-                dynamicEl={[
-
-                ]}
-            />
+                       onInit={onInit}
+                       speed={500}
+                       plugins={[lgThumbnail, lgZoom]}
+                   >
+                       <a href="img/../assets/images/placeholder-miriam.jpg">
+                           <img alt="img1" src='../assets/images/placeholder-miriam.jpg' />
+                       </a>
+                       <a href="img/../assets/images/portrait1.jpg">
+                           <img alt="img2" src='../assets/images/portrait1.jpg' />
+                       </a>
+            </LightGalleryComponent>
       </div>
     </main>
   )
