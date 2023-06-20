@@ -12,11 +12,11 @@ export default function Page(){
         <Link className="flex flex-col items-center pt-8 w-full bg-zinc-300 p-6" href='/project/beer'>
             <Image placeholder='blur' src={placeholderMiriam} alt='woman drinking from glass'></Image>
         </Link>
-            <div>Beer</div>
+            <div>Wine</div>
         <Link className="flex flex-col items-center pt-8 w-full bg-zinc-400 p-6" href='/project/beer'>
             <Image placeholder='blur' src={placeholderMiriam} alt='woman drinking from glass'></Image>
         </Link>
-            <div>Beer</div>
+            <div>Cider</div>
      </div>
     </main>
 }
