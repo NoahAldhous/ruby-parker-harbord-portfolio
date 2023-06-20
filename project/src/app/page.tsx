@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import placeholderMiriam from '../../public/static/images/placeholder-miriam.jpg'
-import placeholderIceCream from '../../public/static/images/placeholder-iceCream.jpg'
-import placeholderRed from '../../public/static/images/placeholder-red.jpg'
+import placeholderMiriam from '../assets/images/placeholder-miriam.jpg'
+import placeholderIceCream from '../assets/images/placeholder-iceCream.jpg'
+import placeholderRed from '../assets/images/placeholder-red.jpg'
 
 export default function Home() {
   return (
