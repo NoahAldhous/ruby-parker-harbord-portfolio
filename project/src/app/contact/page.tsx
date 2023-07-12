@@ -2,7 +2,7 @@ import Link from 'next/link';
 import ContactLink from '../components/ContactLink';
 
 export default function Page(){
-    return <main className="flex flex-col space-y-8 sm:space-y-10 justify-center items-start border-2 space-around border-indigo-600 h-screen w-screen p-24 bg-primary dark:bg-dark">
+    return <main className="flex flex-col space-y-8 sm:space-y-10 justify-center items-start space-around h-screen w-screen p-24 bg-primary dark:bg-dark">
         <ContactLink 
             firstLineText='Follow me on'
             secondLineText='Instagram'
