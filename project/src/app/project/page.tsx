@@ -4,22 +4,61 @@ import wedding1 from '../../assets/images/wedding1.jpg';
 import ProjectCard from '../components/ProjectCard';
 
 export default function Page(){
-    return <main className="flex min-h-screen min-w-screen flex-col items-center pt-24 bg-primary dark:bg-dark">
-     <div className="font-superRetro italic flex flex-col sm:flex-row sm:items-start items-center w-full">
-        <div className="sm:flex-col sm:flex sm:w-1/2">
-            <ProjectCard 
-                imageSource={placeholderMiriam} 
-                projectTitle='portraits' 
-                imageAlt='woman drinking from glass'
-            />
+    return <main className="flex h-screen w-screen flex-col items-center pt-24 bg-primary dark:bg-dark overflow-y-auto overflow-x-hidden">
+        <div className="h-screen w-screen font-superRetro italic flex flex-col sm:flex-row sm:items-start items-center w-full">
+            <div className="sm:flex-col sm:block sm:w-1/2 sm:h-full">
+                <ProjectCard 
+                    imageSource={placeholderMiriam} 
+                    projectTitle='portraits' 
+                    imageAlt='woman drinking from glass'
+                />
+                <div className="h-1/2 invisible"></div>
+                <ProjectCard 
+                    imageSource={placeholderMiriam} 
+                    projectTitle='portraits' 
+                    imageAlt='woman drinking from glass'
+                />
+                <div className="h-1/2 invisible"></div>
+                <ProjectCard 
+                    imageSource={placeholderMiriam} 
+                    projectTitle='portraits' 
+                    imageAlt='woman drinking from glass'
+                />
+                <div className="h-1/2 invisible"></div>
+                <ProjectCard 
+                    imageSource={placeholderMiriam} 
+                    projectTitle='portraits' 
+                    imageAlt='woman drinking from glass'
+                />
+                <div className="h-1/2 invisible"></div>
+            </div>
+            <div className="sm:flex-col sm:block sm:w-1/2 sm:h-full">
+                <div className="h-1/2 w-full"></div>
+                <ProjectCard 
+                    imageSource={portrait1} 
+                    projectTitle='headshots' 
+                    imageAlt='headshot of a woman'
+                />
+                <div className="h-1/2 invisible"></div>
+                <ProjectCard 
+                    imageSource={portrait1} 
+                    projectTitle='headshots' 
+                    imageAlt='headshot of a woman'
+                />
+                <div className="h-1/2 invisible"></div>
+                <ProjectCard 
+                    imageSource={portrait1} 
+                    projectTitle='headshots' 
+                    imageAlt='headshot of a woman'
+                />
+                <div className="h-1/2 invisible"></div>
+                <ProjectCard 
+                    imageSource={portrait1} 
+                    projectTitle='headshots' 
+                    imageAlt='headshot of a woman'
+                />
+                <div className="h-1/2 invisible"></div>
+            </div>
         </div>
-        <div className="sm:flex-col sm:flex sm:w-1/2">
-            <ProjectCard 
-                imageSource={portrait1} 
-                projectTitle='headshots' 
-                imageAlt='headshot of a woman'
-            />
-        </div>
-     </div>
     </main>
 }
