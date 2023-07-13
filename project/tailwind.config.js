@@ -12,7 +12,7 @@ module.exports = {
         ...theme('colors'),
         'primary': '#E5E7EB',
         'secondary': '#38423B',
-        'dark': '#1F2937'
+        'dark': '#272A27'
       }),
       fontFamily: {
         superRetro: ['var(--superRetro)']
