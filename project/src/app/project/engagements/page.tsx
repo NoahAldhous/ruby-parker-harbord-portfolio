@@ -1,7 +1,7 @@
 'use client';
 import MasonryGrid from "@/app/components/MasonryGrid";
 
-//image imports
+//image import
 import images from '../../../assets/images/projects/engagements/export'
 
 export default function Page(){
