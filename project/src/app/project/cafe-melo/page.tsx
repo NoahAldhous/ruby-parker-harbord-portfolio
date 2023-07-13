@@ -21,9 +21,18 @@ import melo14 from '../../../assets/images/projects/cafe-melo/melo14.jpg';
 
 
 export default function Page(){
+
+    const breakpointColumnsObj = {
+        default: 3,
+        1100: 3,
+        700: 2,
+        500: 1
+      };
+
+
     return <main className="flex min-h-screen flex-col items-center pt-24 px-6 bg-primary dark:bg-dark">
      <div className="flex flex-col items-center p-2 sm:p-12 w-full cursor-pointer">
-        <Masonry breakpointCols={3} className="flex gap-2 sm:gap-8" columnClassName="">
+        <Masonry breakpointCols={breakpointColumnsObj} className="flex gap-2 sm:gap-8" columnClassName="">
             <Image placeholder="blur" src={melo1} alt='melo1' className="sm:mb-8 mb-2"/>
             <Image placeholder="blur" src={melo2} alt='melo2' className="sm:mb-8 mb-2"/>
             <Image placeholder="blur" src={melo3} alt='melo3' className="sm:mb-8 mb-2"/>
