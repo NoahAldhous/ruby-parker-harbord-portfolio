@@ -1,7 +1,5 @@
 'use client';
-
-import Masonry from 'react-masonry-css';
-import Image from 'next/image';
+import MasonryGrid from '@/app/components/MasonryGrid';
 
 //image imports
 import melo1 from '../../../assets/images/projects/cafe-melo/melo1.jpg';
@@ -19,35 +17,70 @@ import melo12 from '../../../assets/images/projects/cafe-melo/melo12.jpg';
 import melo13 from '../../../assets/images/projects/cafe-melo/melo13.jpg';
 import melo14 from '../../../assets/images/projects/cafe-melo/melo14.jpg';
 
-
 export default function Page(){
 
-    const breakpointColumnsObj = {
-        default: 3,
-        1100: 3,
-        700: 2,
-        500: 1
-      };
+    const images = [
+        {
+            alt: 'melo1',
+            src: melo1, 
+        },
+        {
+            alt: 'melo2',
+            src: melo2, 
+        },
+        {
+            alt: 'melo3',
+            src: melo3, 
+        },
+        {
+            alt: 'melo4',
+            src: melo4, 
+        },
+        {
+            alt: 'melo5',
+            src: melo5, 
+        },
+        {
+            alt: 'melo6',
+            src: melo6, 
+        },
+        {
+            alt: 'melo7',
+            src: melo7, 
+        },
+        {
+            alt: 'melo8',
+            src: melo8, 
+        },
+        {
+            alt: 'melo9',
+            src: melo9, 
+        },
+        {
+            alt: 'melo10',
+            src: melo10, 
+        },
+        {
+            alt: 'melo11',
+            src: melo11, 
+        },
+        {
+            alt: 'melo12',
+            src: melo12, 
+        },
+        {
+            alt: 'melo13',
+            src: melo13, 
+        },
+        {
+            alt: 'melo14',
+            src: melo14, 
+        }
+    ]
 
-
-    return <main className="flex min-h-screen flex-col items-center pt-24 px-6 bg-primary dark:bg-dark">
-     <div className="flex flex-col items-center p-2 sm:p-12 w-full cursor-pointer">
-        <Masonry breakpointCols={breakpointColumnsObj} className="flex gap-2 sm:gap-8" columnClassName="">
-            <Image placeholder="blur" src={melo1} alt='melo1' className="sm:mb-8 mb-2"/>
-            <Image placeholder="blur" src={melo2} alt='melo2' className="sm:mb-8 mb-2"/>
-            <Image placeholder="blur" src={melo3} alt='melo3' className="sm:mb-8 mb-2"/>
-            <Image placeholder="blur" src={melo4} alt='melo4' className="sm:mb-8 mb-2"/>
-            <Image placeholder="blur" src={melo5} alt='melo5' className="sm:mb-8 mb-2"/>
-            <Image placeholder="blur" src={melo6} alt='melo6' className="sm:mb-8 mb-2"/>
-            <Image placeholder="blur" src={melo7} alt='melo7' className="sm:mb-8 mb-2"/>
-            <Image placeholder="blur" src={melo8} alt='melo8' className="sm:mb-8 mb-2"/>
-            <Image placeholder="blur" src={melo9} alt='melo9' className="sm:mb-8 mb-2"/>
-            <Image placeholder="blur" src={melo10} alt='melo10' className="sm:mb-8 mb-2"/>
-            <Image placeholder="blur" src={melo11} alt='melo11' className="sm:mb-8 mb-2"/>
-            <Image placeholder="blur" src={melo12} alt='melo12' className="sm:mb-8 mb-2"/>
-            <Image placeholder="blur" src={melo13} alt='melo13' className="sm:mb-8 mb-2"/>
-            <Image placeholder="blur" src={melo14} alt='melo14' className="sm:mb-8 mb-2"/>
-        </Masonry>
+    return <main className="flex sm:h-screen sm:w-screen flex-col items-center pt-24 bg-primary dark:bg-dark overflow-y-auto overflow-x-hidden">
+     <div className="flex flex-col items-center p-2 sm:p-12 w-full">
+        <MasonryGrid images={images}/>
      </div>
     </main>
 }
