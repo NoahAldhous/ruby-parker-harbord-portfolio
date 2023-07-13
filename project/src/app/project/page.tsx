@@ -16,12 +16,14 @@ export default function Page(){
                     imageSource={cafeMeloThumb} 
                     projectTitle='cafe melo' 
                     imageAlt='woman drinking from glass'
+                    url='cafe-melo'
                 />
                 <div className="h-0 sm:h-1/2 invisible"></div>
                 <ProjectCard 
                     imageSource={engagementsThumb} 
                     projectTitle='engagements' 
                     imageAlt='woman drinking from glass'
+                    url='engagements'
                 />
                 <div className="h-0 sm:h-1/2 invisible"></div>
             </div>
@@ -31,12 +33,14 @@ export default function Page(){
                     imageSource={headshotsThumb} 
                     projectTitle='headshots' 
                     imageAlt='headshot of a woman'
+                    url='headshots'
                 />
                 <div className="h-0 sm:h-1/2 invisible"></div>
                 <ProjectCard 
                     imageSource={namesBandThumb} 
                     projectTitle='names' 
                     imageAlt='headshot of a woman'
+                    url='names-band'
                 />
                 <div className="h-0 sm:h-1/2 invisible"></div>
             </div>
