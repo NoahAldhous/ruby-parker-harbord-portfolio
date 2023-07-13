@@ -29,8 +29,8 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center md:p-24 md:pt-32 p-10 pt-24 bg-primary dark:bg-dark">
-      <div className="w-fill object-contain flex flex-col sm:grid gap-6 sm:gap-4 sm:grid-cols-3 sm:grid-rows-3">
+    <main className="fflex sm:h-screen sm:w-screen flex-col items-center pt-24 bg-primary dark:bg-dark overflow-y-auto overflow-x-hidden">
+      <div className="w-full object-contain flex flex-col sm:grid gap-6 sm:gap-4 sm:grid-cols-3 sm:grid-rows-3">
         <Image src={portrait1} alt='img-1'/>
         <Image src={portrait2} alt='img-1'/>
         <Image src={localfile} alt='img-1'/>

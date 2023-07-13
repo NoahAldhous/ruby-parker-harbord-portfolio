@@ -16,6 +16,29 @@ const superRetro = localFont({
   variable: '--superRetro'
 })
 
+const items = [
+  {
+    title: "Home" ,
+    href: "/"
+  },
+  {
+    title: "Projects" ,
+    href: "/project"
+  },
+  {
+    title: "Film Photography" ,
+    href: "/film-photography"
+  },
+  {
+    title: "About" ,
+    href: "/about"
+  },
+  {
+    title: "Contact" ,
+    href: "/contact"
+  },
+]
+
 
 export const metadata = {
   title: 'Ruby Parker-Harbord',
@@ -30,7 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={superRetro.variable}>
-        <NavigationBar/>
+        <NavigationBar items={items}/>
       <nav></nav>
         {children}</body>
     </html>

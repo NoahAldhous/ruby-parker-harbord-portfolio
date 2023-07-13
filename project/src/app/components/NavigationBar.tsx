@@ -2,26 +2,45 @@
 import NavigationModal from "./NavigationModal";
 import Link from 'next/link';
 import React, {useState} from 'react';
+import { usePathname } from "next/navigation";
 
-export default function NavigationBar() {
+interface NavigationBarProps {
+    items:{
+        title:string,
+        href:string
+    }[];
+}
+
+export default function NavigationBar({items}:NavigationBarProps) {
 
     const [navigationModalOpen, setNavigationModalOpen] = useState<boolean>(false);
+
+    const pathname = usePathname();
 
     function handleClose(){
         setNavigationModalOpen(false);
     }
 
     return <>
-        <div className="hidden sm:flex flex-row w-full top-0 fixed z-10 py-6 px-6 justify-between">
+        <div className="hidden sm:flex flex-row w-full top-0 right-0 absolute z-10 py-6 px-6 justify-between">
             <p className="font-superRetro italic text-md md:text-3xl align-middle w-1/2 items-center overflow-x-visible">
                 Ruby Parker-Harbord
             </p>
             <section className="flex flex-row justify-end items-center w-1/2 text-xs md:text-lg pr-2">
-                <Link onClick={handleClose} className="px-2" href="/">Home</Link>
-                <Link onClick={handleClose} className="px-2" href="/project">Projects</Link>
-                <Link onClick={handleClose} className="px-2 whitespace-nowrap" href="/film-photography">Film Photography</Link>
-                <Link onClick={handleClose} className="px-2" href="/about">About</Link>
-                <Link onClick={handleClose} className="px-2" href="/contact">Contact</Link> 
+                {items.map((item) => (
+                    <Link 
+                        onClick={handleClose} 
+                        key={item.href}
+                        className={`${
+                            pathname === item.href 
+                                ? "underline"
+                                : ""
+                            } px-2 whitespace-nowrap`} 
+                        href={item.href}
+                    >
+                        {item.title}
+                    </Link>
+                ))}
             </section>
             </div>
         <div className="sm:hidden flex flex-row w-full top-0 fixed z-10 py-6 px-6 justify-between">
