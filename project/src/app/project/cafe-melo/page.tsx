@@ -22,22 +22,22 @@ import melo14 from '../../../assets/images/projects/cafe-melo/melo14.jpg';
 
 export default function Page(){
     return <main className="flex min-h-screen flex-col items-center pt-24 px-6 bg-primary dark:bg-dark">
-     <div className="flex flex-col items-center p-12 border-2 border-red-200 w-full cursor-pointer">
-        <Masonry breakpointCols={3} className="flex gap-8" columnClassName="">
-            <Image placeholder="blur" src={melo1} alt='melo1' className="mb-8"/>
-            <Image placeholder="blur" src={melo2} alt='melo2' className="mb-8"/>
-            <Image placeholder="blur" src={melo3} alt='melo3' className="mb-8"/>
-            <Image placeholder="blur" src={melo4} alt='melo4' className="mb-8"/>
-            <Image placeholder="blur" src={melo5} alt='melo5' className="mb-8"/>
-            <Image placeholder="blur" src={melo6} alt='melo6' className="mb-8"/>
-            <Image placeholder="blur" src={melo7} alt='melo7' className="mb-8"/>
-            <Image placeholder="blur" src={melo8} alt='melo8' className="mb-8"/>
-            <Image placeholder="blur" src={melo9} alt='melo9' className="mb-8"/>
-            <Image placeholder="blur" src={melo10} alt='melo10' className="mb-8"/>
-            <Image placeholder="blur" src={melo11} alt='melo11' className="mb-8"/>
-            <Image placeholder="blur" src={melo12} alt='melo12' className="mb-8"/>
-            <Image placeholder="blur" src={melo13} alt='melo13' className="mb-8"/>
-            <Image placeholder="blur" src={melo14} alt='melo14' className="mb-8"/>
+     <div className="flex flex-col items-center p-2 sm:p-12 border-2 border-red-200 w-full cursor-pointer">
+        <Masonry breakpointCols={3} className="flex gap-2 sm:gap-8" columnClassName="">
+            <Image placeholder="blur" src={melo1} alt='melo1' className="sm:mb-8 mb-2"/>
+            <Image placeholder="blur" src={melo2} alt='melo2' className="sm:mb-8 mb-2"/>
+            <Image placeholder="blur" src={melo3} alt='melo3' className="sm:mb-8 mb-2"/>
+            <Image placeholder="blur" src={melo4} alt='melo4' className="sm:mb-8 mb-2"/>
+            <Image placeholder="blur" src={melo5} alt='melo5' className="sm:mb-8 mb-2"/>
+            <Image placeholder="blur" src={melo6} alt='melo6' className="sm:mb-8 mb-2"/>
+            <Image placeholder="blur" src={melo7} alt='melo7' className="sm:mb-8 mb-2"/>
+            <Image placeholder="blur" src={melo8} alt='melo8' className="sm:mb-8 mb-2"/>
+            <Image placeholder="blur" src={melo9} alt='melo9' className="sm:mb-8 mb-2"/>
+            <Image placeholder="blur" src={melo10} alt='melo10' className="sm:mb-8 mb-2"/>
+            <Image placeholder="blur" src={melo11} alt='melo11' className="sm:mb-8 mb-2"/>
+            <Image placeholder="blur" src={melo12} alt='melo12' className="sm:mb-8 mb-2"/>
+            <Image placeholder="blur" src={melo13} alt='melo13' className="sm:mb-8 mb-2"/>
+            <Image placeholder="blur" src={melo14} alt='melo14' className="sm:mb-8 mb-2"/>
         </Masonry>
      </div>
     </main>
