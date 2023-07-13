@@ -13,13 +13,13 @@ export default function Page(){
         <div className="h-screen w-screen font-superRetro italic flex flex-col sm:flex-row sm:items-start items-center w-full">
             <div className="sm:flex-col sm:block sm:w-1/2 sm:h-full">
                 <ProjectCard 
-                    imageSource={placeholderMiriam} 
+                    imageSource={cafeMeloThumb} 
                     projectTitle='cafe melo' 
                     imageAlt='woman drinking from glass'
                 />
                 <div className="h-0 sm:h-1/2 invisible"></div>
                 <ProjectCard 
-                    imageSource={placeholderMiriam} 
+                    imageSource={engagementsThumb} 
                     projectTitle='engagements' 
                     imageAlt='woman drinking from glass'
                 />
@@ -28,14 +28,14 @@ export default function Page(){
             <div className="sm:flex-col sm:block sm:w-1/2 sm:h-full">
                 <div className="h-0 sm:h-1/2 w-full"></div>
                 <ProjectCard 
-                    imageSource={portrait1} 
+                    imageSource={headshotsThumb} 
                     projectTitle='headshots' 
                     imageAlt='headshot of a woman'
                 />
                 <div className="h-0 sm:h-1/2 invisible"></div>
                 <ProjectCard 
-                    imageSource={portrait1} 
-                    projectTitle='names band' 
+                    imageSource={namesBandThumb} 
+                    projectTitle='names' 
                     imageAlt='headshot of a woman'
                 />
                 <div className="h-0 sm:h-1/2 invisible"></div>
