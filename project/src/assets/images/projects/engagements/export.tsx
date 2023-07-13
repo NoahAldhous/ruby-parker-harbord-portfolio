@@ -28,6 +28,10 @@ export default [
         src: engagements2, 
     },
     {
+        alt: 'engagements14',
+        src: engagements14, 
+    },
+    {
         alt: 'engagements3',
         src: engagements3, 
     },
@@ -70,10 +74,6 @@ export default [
     {
         alt: 'engagements13',
         src: engagements13, 
-    },
-    {
-        alt: 'engagements14',
-        src: engagements14, 
     },
     {
         alt: 'engagements15',
