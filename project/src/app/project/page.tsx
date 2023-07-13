@@ -4,7 +4,7 @@ import ProjectCard from '../components/ProjectCard';
 
 //image imports
 import cafeMeloThumb from '../../assets/images/projects/cafe-melo/melo1.jpg';
-import engagementsThumb from '../../assets/images/projects/engagements/DSCF6970.jpg';
+import engagementsThumb from '../../assets/images/projects/engagements/engagements1.jpg';
 import headshotsThumb from '../../assets/images/projects/headshots/DSCF6699.jpg'
 import namesBandThumb from '../../assets/images/projects/names-band/000093060003.jpg'
 
