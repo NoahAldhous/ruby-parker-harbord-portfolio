@@ -1,8 +1,8 @@
 'use client';
 import Image from 'next/image';
-import { useRef } from 'react';
 
-import type {LightGallery} from 'lightgallery/lightgallery';
+import { Transition } from '@headlessui/react'
+
 import LightGalleryComponent from 'lightgallery/react';
 
 // import styles
@@ -15,7 +15,6 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 
 //import images
-import placeholderMiriam from '../assets/images/placeholder-miriam.jpg'
 import portrait1 from '../assets/images/portrait1.jpg';
 import portrait2 from '../assets/images/portrait2.jpg';
 import localfile from '../../public/images/localfile.jpg';
@@ -34,9 +33,20 @@ export default function Home() {
           speed={500}
           plugins={[lgThumbnail, lgZoom]}
         >
-          <Image src={portrait1} alt='img-1'/>
-          <Image src={portrait2} alt='img-1'/>
-          <Image src={localfile} alt='img-1'/>
+          <Transition
+            appear={true}
+            show={true}
+            enter="transition-opacity duration-75"
+            enterFrom="opacity-0"
+            enterTo="opacity-100"
+            leave="transition-opacity duration-150"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0"
+          >
+          <Image placeholder='blur' src={portrait1} alt='img-1'/>
+          <Image placeholder='blur' src={portrait2} alt='img-1'/>
+          <Image placeholder='blur' src={localfile} alt='img-1'/>
+          </Transition>
         </LightGalleryComponent>
       </div>
     </main>
