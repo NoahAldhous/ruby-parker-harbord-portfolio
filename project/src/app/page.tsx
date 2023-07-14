@@ -21,9 +21,7 @@ import portrait2 from '../assets/images/portrait2.jpg';
 import localfile from '../../public/images/localfile.jpg';
 
 export default function Home() {
-
-  const lightboxRef = useRef<LightGallery | null>(null);
-
+  
   const onInit = () => {
     console.log('lightGallery has been initialized');
   };
@@ -31,9 +29,15 @@ export default function Home() {
   return (
     <main className="flex sm:h-screen sm:w-screen flex-col items-center pt-24 bg-primary dark:bg-dark overflow-y-auto overflow-x-hidden">
       <div className="w-full object-contain flex flex-col sm:grid gap-6 sm:gap-4 sm:grid-cols-3 sm:grid-rows-3">
-        <Image src={portrait1} alt='img-1'/>
-        <Image src={portrait2} alt='img-1'/>
-        <Image src={localfile} alt='img-1'/>
+        <LightGalleryComponent
+          onInit={onInit}
+          speed={500}
+          plugins={[lgThumbnail, lgZoom]}
+        >
+          <Image src={portrait1} alt='img-1'/>
+          <Image src={portrait2} alt='img-1'/>
+          <Image src={localfile} alt='img-1'/>
+        </LightGalleryComponent>
       </div>
     </main>
   )

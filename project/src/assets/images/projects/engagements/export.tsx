@@ -21,78 +21,78 @@ import engagements19 from './engagements19.jpg'
 export default [
     {
         alt: 'engagements1',
-        src: engagements1, 
+        data: engagements1, 
     },
     {
         alt: 'engagements2',
-        src: engagements2, 
+        data: engagements2, 
     },
     {
         alt: 'engagements14',
-        src: engagements14, 
+        data: engagements14, 
     },
     {
         alt: 'engagements3',
-        src: engagements3, 
+        data: engagements3, 
     },
     {
         alt: 'engagements4',
-        src: engagements4, 
+        data: engagements4, 
     },
     {
         alt: 'engagements5',
-        src: engagements5, 
+        data: engagements5, 
     },
     {
         alt: 'engagements6',
-        src: engagements6, 
+        data: engagements6, 
     },
     {
         alt: 'engagements7',
-        src: engagements7, 
+        data: engagements7, 
     },
     {
         alt: 'engagements8',
-        src: engagements8, 
+        data: engagements8, 
     },
     {
         alt: 'engagements9',
-        src: engagements9, 
+        data: engagements9, 
     },
     {
         alt: 'engagements10',
-        src: engagements10, 
+        data: engagements10, 
     },
     {
         alt: 'engagements11',
-        src: engagements11, 
+        data: engagements11, 
     },
     {
         alt: 'engagements12',
-        src: engagements12, 
+        data: engagements12, 
     },
     {
         alt: 'engagements13',
-        src: engagements13, 
+        data: engagements13, 
     },
     {
         alt: 'engagements15',
-        src: engagements15, 
+        data: engagements15, 
     },
     {
         alt: 'engagements16',
-        src: engagements16, 
+        data: engagements16, 
     },
     {
         alt: 'engagements17',
-        src: engagements17, 
+        data: engagements17, 
     },
     {
         alt: 'engagements18',
-        src: engagements18, 
+        data: engagements18, 
     },
     {
         alt: 'engagements19',
-        src: engagements19, 
+        data: engagements19, 
     },
 ]

@@ -12,42 +12,42 @@ import headshots10 from './headshots10.jpg'
 export default [
     {
         alt: 'headshots1',
-        src: headshots1, 
+        data: headshots1, 
     },
     {
         alt: 'headshots2',
-        src: headshots2, 
+        data: headshots2, 
     },
     {
         alt: 'headshots3',
-        src: headshots3, 
+        data: headshots3, 
     },
     {
         alt: 'headshots4',
-        src: headshots4, 
+        data: headshots4, 
     },
     {
         alt: 'headshots5',
-        src: headshots5, 
+        data: headshots5, 
     },
     {
         alt: 'headshots6',
-        src: headshots6, 
+        data: headshots6, 
     },
     {
         alt: 'headshots7',
-        src: headshots7, 
+        data: headshots7, 
     },
     {
         alt: 'headshots8',
-        src: headshots8, 
+        data: headshots8, 
     },
     {
         alt: 'headshots9',
-        src: headshots9, 
+        data: headshots9, 
     },
     {
         alt: 'headshots10',
-        src: headshots10, 
+        data: headshots10, 
     },
 ]
