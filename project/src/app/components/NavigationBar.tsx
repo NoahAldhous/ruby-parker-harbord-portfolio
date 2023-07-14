@@ -55,7 +55,7 @@ export default function NavigationBar({items}:NavigationBarProps) {
                     isOpen={navigationModalOpen}
                     handleClose={() => setNavigationModalOpen(!navigationModalOpen)}
                 >
-                    <section className="flex flex-col justify-center items-center bg-slate-800 text-4xl text-zinc-200">
+                    <section className="flex flex-col justify-center items-center bg-primary text-4xl dark:bg-dark">
                         <Link onClick={handleClose} className="px-2 py-6" href="/">Home</Link>
                         <Link onClick={handleClose} className="px-2 py-6" href="/project">Projects</Link>
                         <Link onClick={handleClose} className="px-2 py-6 whitespace-nowrap" href="/film-photography">Film Photography</Link>
