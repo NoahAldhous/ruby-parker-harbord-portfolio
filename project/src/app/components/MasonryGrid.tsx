@@ -14,7 +14,6 @@ import 'lightgallery/css/lg-thumbnail.css';
 
 // import plugins
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
-import lgZoom from 'lightgallery/plugins/zoom';
 
 interface MasonryGridProps {
     images:{
@@ -62,7 +61,8 @@ export default function MasonryGrid({images}:MasonryGridProps){
                 }
             }}
             speed={500}
-            plugins={[lgThumbnail, lgZoom]}
+            download={false}
+            plugins={[lgThumbnail]}
             dynamic
             dynamicEl={images.map(image => ({
                 src: image.src, 
