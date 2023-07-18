@@ -1,10 +1,3 @@
-import home1 from '/home1.jpg'
-import home2 from '/home2.jpg'
-import home3 from '/home3.jpg'
-import home4 from '/home4.jpg'
-import home5 from '/home5.jpg'
-import home6 from '/home6.jpg'
-
 export default [
     {
         alt: 'home1',

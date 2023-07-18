@@ -1,93 +1,75 @@
-import names1 from '/images/projects/names-band/names1.jpg'
-import names2 from '/images/projects/names-band/names2.jpg'
-import names3 from '/images/projects/names-band/names3.jpg'
-import names4 from '/images/projects/names-band/names4.jpg'
-import names5 from '/images/projects/names-band/names5.jpg'
-import names6 from '/images/projects/names-band/names6.jpg'
-import names7 from '/images/projects/names-band/names7.jpg'
-import names8 from '/images/projects/names-band/names8.jpg'
-import names9 from '/images/projects/names-band/names9.jpg'
-import names10 from '/images/projects/names-band/names10.jpg'
-import names11 from '/images/projects/names-band/names11.jpg'
-import names12 from '/images/projects/names-band/names12.jpg'
-import names13 from '/images/projects/names-band/names13.jpg'
-import names14 from '/images/projects/names-band/names14.jpg'
-import names15 from '/images/projects/names-band/names15.jpg'
-import names16 from '/images/projects/names-band/names16.jpg'
-import names17 from '/images/projects/names-band/names17.jpg'
-import names18 from '/images/projects/names-band/names18.jpg'
 
 export default [
     {
         alt: 'names1',
-        data: names1, 
+        src: '/images/projects/names-band/names1.jpg', 
     },
     {
         alt: 'names2',
-        data: names2, 
+        src: '/images/projects/names-band/names2.jpg', 
     },
     {
         alt: 'names3',
-        data: names3, 
+        src: '/images/projects/names-band/names3.jpg', 
     },
     {
         alt: 'names4',
-        data: names4, 
+        src: '/images/projects/names-band/names4.jpg', 
     },
     {
         alt: 'names5',
-        data: names5, 
+        src: '/images/projects/names-band/names5.jpg', 
     },
     {
         alt: 'names6',
-        data: names6, 
+        src: '/images/projects/names-band/names6.jpg', 
     },
     {
         alt: 'names7',
-        data: names7, 
+        src: '/images/projects/names-band/names7.jpg', 
     },
     {
         alt: 'names8',
-        data: names8, 
+        src: '/images/projects/names-band/names8.jpg', 
     },
     {
         alt: 'names9',
-        data: names9, 
+        src: '/images/projects/names-band/names9.jpg', 
     },
     {
         alt: 'names10',
-        data: names10, 
+        src: '/images/projects/names-band/names10.jpg', 
     },
     {
         alt: 'names11',
-        data: names11, 
+        src: '/images/projects/names-band/names11.jpg', 
     },
     {
         alt: 'names12',
-        data: names12, 
+        src: '/images/projects/names-band/names12.jpg', 
     },
     {
         alt: 'names13',
-        data: names13, 
+        src: '/images/projects/names-band/names13.jpg', 
     },
     {
         alt: 'names14',
-        data: names14, 
+        src: '/images/projects/names-band/names14.jpg', 
     },
     {
         alt: 'names15',
-        data: names15, 
+        src: '/images/projects/names-band/names15.jpg', 
     },
     {
         alt: 'names16',
-        data: names16, 
+        src: '/images/projects/names-band/names16.jpg', 
     },
     {
         alt: 'names17',
-        data: names17, 
+        src: '/images/projects/names-band/names17.jpg', 
     },
     {
         alt: 'names18',
-        data: names18, 
+        src: '/images/projects/names-band/names18.jpg', 
     },
 ]

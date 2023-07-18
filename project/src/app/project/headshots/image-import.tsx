@@ -1,53 +1,43 @@
-import headshots1 from '/images/projects/headshots/headshots1.jpg'
-import headshots2 from '/images/projects/headshots/headshots2.jpg'
-import headshots3 from '/images/projects/headshots/headshots3.jpg'
-import headshots4 from '/images/projects/headshots/headshots4.jpg'
-import headshots5 from '/images/projects/headshots/headshots5.jpg'
-import headshots6 from '/images/projects/headshots/headshots6.jpg'
-import headshots7 from '/images/projects/headshots/headshots7.jpg'
-import headshots8 from '/images/projects/headshots/headshots8.jpg'
-import headshots9 from '/images/projects/headshots/headshots9.jpg'
-import headshots10 from '/images/projects/headshots/headshots10.jpg'
 
 export default [
     {
         alt: 'headshots1',
-        data: headshots1, 
+        src: '/images/projects/headshots/headshots1.jpg', 
     },
     {
         alt: 'headshots2',
-        data: headshots2, 
+        src: '/images/projects/headshots/headshots2.jpg', 
     },
     {
         alt: 'headshots3',
-        data: headshots3, 
+        src: '/images/projects/headshots/headshots3.jpg', 
     },
     {
         alt: 'headshots4',
-        data: headshots4, 
+        src: '/images/projects/headshots/headshots4.jpg', 
     },
     {
         alt: 'headshots5',
-        data: headshots5, 
+        src: '/images/projects/headshots/headshots5.jpg', 
     },
     {
         alt: 'headshots6',
-        data: headshots6, 
+        src: '/images/projects/headshots/headshots6.jpg', 
     },
     {
         alt: 'headshots7',
-        data: headshots7, 
+        src: '/images/projects/headshots/headshots7.jpg', 
     },
     {
         alt: 'headshots8',
-        data: headshots8, 
+        src: '/images/projects/headshots/headshots8.jpg', 
     },
     {
         alt: 'headshots9',
-        data: headshots9, 
+        src: '/images/projects/headshots/headshots9.jpg', 
     },
     {
         alt: 'headshots10',
-        data: headshots10, 
+        src: '/images/projects/headshots/headshots10.jpg', 
     },
 ]

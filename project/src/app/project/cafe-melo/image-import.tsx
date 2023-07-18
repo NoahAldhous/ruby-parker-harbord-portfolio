@@ -16,58 +16,58 @@ import melo14 from '/images/projects/cafe-melo/melo14.jpg'
 export default [
     {
         alt: 'melo1',
-        data: melo1,
+        src: '/images/projects/cafe-melo/melo1.jpg',
     },
     {
         alt: 'melo2',
-        data: melo2,
+        src: '/images/projects/cafe-melo/melo2.jpg',
     },
     {
         alt: 'melo3',
-        data: melo3, 
+        src: '/images/projects/cafe-melo/melo3.jpg', 
     },
     {
         alt: 'melo4',
-        data: melo4,
+        src: '/images/projects/cafe-melo/melo4.jpg',
     },
     {
         alt: 'melo5',
-        data: melo5, 
+        src: '/images/projects/cafe-melo/melo5.jpg', 
     },
     {
         alt: 'melo6',
-        data: melo6,
+        src: '/images/projects/cafe-melo/melo6.jpg',
     },
     {
         alt: 'melo7',
-        data: melo7,
+        src: '/images/projects/cafe-melo/melo7.jpg',
     },
     {
         alt: 'melo8',
-        data: melo8,
+        src: '/images/projects/cafe-melo/melo8.jpg',
     },
     {
         alt: 'melo9',
-        data: melo9, 
+        src: '/images/projects/cafe-melo/melo9.jpg', 
     },
     {
         alt: 'melo10',
-        data: melo10,
+        src: '/images/projects/cafe-melo/melo10.jpg',
     },
     {
         alt: 'melo11',
-        data: melo11,
+        src: '/images/projects/cafe-melo/melo11.jpg',
     },
     {
         alt: 'melo12',
-        data: melo12,
+        src: '/images/projects/cafe-melo/melo12.jpg',
     },
     {
         alt: 'melo13',
-        data: melo13,
+        src: '/images/projects/cafe-melo/melo13.jpg',
     },
     {
         alt: 'melo14',
-        data: melo14, 
+        src: '/images/projects/cafe-melo/melo14.jpg', 
     },
 ]

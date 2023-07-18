@@ -1,98 +1,79 @@
-import engagements1 from '/images/projects/engagements/engagements1.jpg'
-import engagements2 from '/images/projects/engagements/engagements2.jpg'
-import engagements3 from '/images/projects/engagements/engagements3.jpg'
-import engagements4 from '/images/projects/engagements/engagements4.jpg'
-import engagements5 from '/images/projects/engagements/engagements5.jpg'
-import engagements6 from '/images/projects/engagements/engagements6.jpg'
-import engagements7 from '/images/projects/engagements/engagements7.jpg'
-import engagements8 from '/images/projects/engagements/engagements8.jpg'
-import engagements9 from '/images/projects/engagements/engagements9.jpg'
-import engagements10 from '/images/projects/engagements/engagements10.jpg'
-import engagements11 from '/images/projects/engagements/engagements11.jpg'
-import engagements12 from '/images/projects/engagements/engagements12.jpg'
-import engagements13 from '/images/projects/engagements/engagements13.jpg'
-import engagements14 from '/images/projects/engagements/engagements14.jpg'
-import engagements15 from '/images/projects/engagements/engagements15.jpg'
-import engagements16 from '/images/projects/engagements/engagements16.jpg'
-import engagements17 from '/images/projects/engagements/engagements17.jpg'
-import engagements18 from '/images/projects/engagements/engagements18.jpg'
-import engagements19 from '/images/projects/engagements/engagements19.jpg'
 
 export default [
     {
         alt: 'engagements1',
-        data: engagements1, 
+        src: '/images/projects/engagements/engagements1.jpg', 
     },
     {
         alt: 'engagements2',
-        data: engagements2, 
+        src: '/images/projects/engagements/engagements2.jpg', 
     },
     {
         alt: 'engagements14',
-        data: engagements14, 
+        src: '/images/projects/engagements/engagements14.jpg', 
     },
     {
         alt: 'engagements3',
-        data: engagements3, 
+        src: '/images/projects/engagements/engagements3.jpg', 
     },
     {
         alt: 'engagements4',
-        data: engagements4, 
+        src: '/images/projects/engagements/engagements4.jpg', 
     },
     {
         alt: 'engagements5',
-        data: engagements5, 
+        src: '/images/projects/engagements/engagements5.jpg', 
     },
     {
         alt: 'engagements6',
-        data: engagements6, 
+        src: '/images/projects/engagements/engagements6.jpg', 
     },
     {
         alt: 'engagements7',
-        data: engagements7, 
+        src: '/images/projects/engagements/engagements7.jpg', 
     },
     {
         alt: 'engagements8',
-        data: engagements8, 
+        src: '/images/projects/engagements/engagements8.jpg', 
     },
     {
         alt: 'engagements9',
-        data: engagements9, 
+        src: '/images/projects/engagements/engagements9.jpg', 
     },
     {
         alt: 'engagements10',
-        data: engagements10, 
+        src: '/images/projects/engagements/engagements10.jpg', 
     },
     {
         alt: 'engagements11',
-        data: engagements11, 
+        src: '/images/projects/engagements/engagements11.jpg', 
     },
     {
         alt: 'engagements12',
-        data: engagements12, 
+        src: '/images/projects/engagements/engagements12.jpg', 
     },
     {
         alt: 'engagements13',
-        data: engagements13, 
+        src: '/images/projects/engagements/engagements13.jpg', 
     },
     {
         alt: 'engagements15',
-        data: engagements15, 
+        src: '/images/projects/engagements/engagements15.jpg', 
     },
     {
         alt: 'engagements16',
-        data: engagements16, 
+        src: '/images/projects/engagements/engagements16.jpg', 
     },
     {
         alt: 'engagements17',
-        data: engagements17, 
+        src: '/images/projects/engagements/engagements17.jpg', 
     },
     {
         alt: 'engagements18',
-        data: engagements18, 
+        src: '/images/projects/engagements/engagements18.jpg', 
     },
     {
         alt: 'engagements19',
-        data: engagements19, 
+        src: '/images/projects/engagements/engagements19.jpg', 
     },
 ]
