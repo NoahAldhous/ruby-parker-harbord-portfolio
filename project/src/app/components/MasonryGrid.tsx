@@ -2,6 +2,8 @@ import Masonry from 'react-masonry-css';
 import Image, { StaticImageData } from 'next/image';
 import { useRef } from 'react';
 
+import { Transition } from '@headlessui/react'
+
 //light gallery
 import type {LightGallery} from 'lightgallery/lightgallery';
 //component import renamed to avoid conflict with type import on line above
@@ -42,18 +44,29 @@ export default function MasonryGrid({images}:MasonryGridProps){
         columnClassName=""
     >
         {images.map((image, idx) => (
-            <Image 
-                key={image.alt} 
-                priority={true}
-                quality={100}
-                placeholder="blur" 
-                src={image.staticImageData} 
-                alt={image.alt} 
-                className="sm:mb-8 mb-12 cursor-pointer"
-                onClick={() => {
-                    lightboxRef.current?.openGallery(idx);
-                }}
-            />
+            <Transition
+            appear={true}
+            show={true}
+            enter="transition-opacity duration-75"
+            enterFrom="opacity-0"
+            enterTo="opacity-100"
+            leave="transition-opacity duration-150"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0"
+            >
+                <Image 
+                    key={image.alt} 
+                    priority={true}
+                    quality={100}
+                    placeholder="blur" 
+                    src={image.staticImageData} 
+                    alt={image.alt} 
+                    className="sm:mb-8 mb-12 cursor-pointer"
+                    onClick={() => {
+                        lightboxRef.current?.openGallery(idx);
+                    }}
+                />
+            </Transition>
         ))}
     </Masonry>
     <LightGalleryComponent
