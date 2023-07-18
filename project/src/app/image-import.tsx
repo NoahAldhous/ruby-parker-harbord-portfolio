@@ -1,9 +1,9 @@
-import home1 from '/images/projects/home-page/home1.jpg'
-import home2 from '/images/projects/home-page/home2.jpg'
-import home3 from '/images/projects/home-page/home3.jpg'
-import home4 from '/images/projects/home-page/home4.jpg'
-import home5 from '/images/projects/home-page/home5.jpg'
-import home6 from '/images/projects/home-page/home6.jpg'
+import home1 from '../../public/images/projects/home-page/home1.jpg'
+import home2 from '../../public/images/projects/home-page/home2.jpg'
+import home3 from '../../public/images/projects/home-page/home3.jpg'
+import home4 from '../../public/images/projects/home-page/home4.jpg'
+import home5 from '../../public/images/projects/home-page/home5.jpg'
+import home6 from '../../public/images/projects/home-page/home6.jpg'
 
 export default [
     {
