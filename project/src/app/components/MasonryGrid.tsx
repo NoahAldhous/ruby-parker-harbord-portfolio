@@ -19,6 +19,7 @@ interface MasonryGridProps {
     images:{
         alt:string, 
         src:string,
+        staticImageData:StaticImageData,
         thumb:string
     }[]
 }
@@ -45,7 +46,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
                 key={image.alt} 
                 quality={100}
                 placeholder="blur" 
-                src={image.src} 
+                src={image.staticImageData} 
                 alt={image.alt} 
                 className="sm:mb-8 mb-12 cursor-pointer"
                 onClick={() => {
