@@ -2,7 +2,7 @@
 import MasonryGrid from "@/app/components/MasonryGrid";
 
 //image import
-import images from '../../../assets/images/projects/engagements/export'
+import images from '../../../../public/images/projects/engagements/export'
 
 export default function Page(){
     return <main className="flex sm:h-screen sm:w-screen flex-col items-center pt-24 bg-primary dark:bg-dark overflow-y-auto overflow-x-hidden">
