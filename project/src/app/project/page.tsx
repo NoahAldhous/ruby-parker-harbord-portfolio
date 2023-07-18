@@ -1,12 +1,10 @@
-import placeholderMiriam from '../../assets/images/placeholder-miriam.jpg';
-import portrait1 from '../../assets/images/portrait1.jpg';
 import ProjectCard from '../components/ProjectCard';
 
 //image imports
-import cafeMeloThumb from '../../assets/images/projects/cafe-melo/melo1.jpg';
-import engagementsThumb from '../../assets/images/projects/engagements/engagements1.jpg';
-import headshotsThumb from '../../assets/images/projects/headshots/headshots1.jpg'
-import namesBandThumb from '../../assets/images/projects/names-band/names1.jpg'
+import cafeMeloThumb from '../../../../public/images/projects/cafe-melo/melo1.jpg';
+import engagementsThumb from '../../../../public/images/projects/engagements/engagements1.jpg';
+import headshotsThumb from '../../../../public/images/projects/headshots/headshots1.jpg'
+import namesBandThumb from '../../../../public/images/projects/names-band/names1.jpg'
 
 export default function Page(){
     return <main className="flex sm:h-screen sm:w-screen flex-col items-center pt-24 bg-primary dark:bg-dark overflow-y-auto overflow-x-hidden">
