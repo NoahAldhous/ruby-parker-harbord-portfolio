@@ -19,7 +19,8 @@ import lgZoom from 'lightgallery/plugins/zoom';
 interface MasonryGridProps {
     images:{
         alt:string, 
-        src:string
+        src:string,
+        thumb:string
     }[]
 }
 
@@ -65,7 +66,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
             dynamic
             dynamicEl={images.map(image => ({
                 src: image.src, 
-                thumb: image.src
+                thumb: image.thumb
             }))}
         />
     </>
