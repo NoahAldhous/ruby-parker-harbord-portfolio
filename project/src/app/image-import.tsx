@@ -1,9 +1,9 @@
-import home1 from './home1.jpg'
-import home2 from './home2.jpg'
-import home3 from './home3.jpg'
-import home4 from './home4.jpg'
-import home5 from './home5.jpg'
-import home6 from './home6.jpg'
+import home1 from '/images/home/home1.jpg'
+import home2 from '/images/home/home2.jpg'
+import home3 from '/images/home/home3.jpg'
+import home4 from '/images/home/home4.jpg'
+import home5 from '/images/home/home5.jpg'
+import home6 from '/images/home/home6.jpg'
 
 export default [
     {
