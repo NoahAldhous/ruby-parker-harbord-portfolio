@@ -44,6 +44,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
         {images.map((image, idx) => (
             <Image 
                 key={image.alt} 
+                priority={true}
                 quality={100}
                 placeholder="blur" 
                 src={image.staticImageData} 
