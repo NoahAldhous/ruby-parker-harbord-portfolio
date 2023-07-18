@@ -1,7 +1,7 @@
 'use client';
 import MasonryGrid from './components/MasonryGrid';
 
-import images from '../../public/images/home/export'
+import images from './image-import'
 
 export default function Home() {
 

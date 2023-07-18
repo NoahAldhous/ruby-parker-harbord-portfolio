@@ -4,7 +4,7 @@
 import MasonryGrid from '@/app/components/MasonryGrid';
 
 //image import
-import images from '../../../../public/images/projects/cafe-melo/export';
+import images from './image-import';
 
 export default function Page(){
 
