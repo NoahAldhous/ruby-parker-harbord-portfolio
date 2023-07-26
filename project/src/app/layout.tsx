@@ -56,9 +56,7 @@ export default function RootLayout({
           <body className={superRetro.variable}>
             <NavigationBar items={items}/>
             <nav></nav>
-            <PageTransition>
             {children}
-            </PageTransition>
           </body>
     </html>
   )
