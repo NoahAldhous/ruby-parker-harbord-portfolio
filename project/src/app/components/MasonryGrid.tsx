@@ -51,8 +51,8 @@ export default function MasonryGrid({images}:MasonryGridProps){
             whileInView='inViewState'
             exit='exitState'
             transition={{
-                duration: 0.75,
-                // delay: idx / 2
+                duration: 0.9,
+                delay: 0.3
             }}
             variants={{
                 initialState: {
