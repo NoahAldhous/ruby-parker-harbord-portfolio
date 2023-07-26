@@ -52,7 +52,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
             exit='exitState'
             transition={{
                 duration: 0.9,
-                delay: 0.3
+                delay: (idx / 4)
             }}
             variants={{
                 initialState: {
