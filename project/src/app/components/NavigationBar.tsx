@@ -36,7 +36,7 @@ export default function NavigationBar({items}:NavigationBarProps) {
             variants={{
                 initialState: {
                     opacity:0,
-                    x:-5
+                    x:-50
                 },
                 animateState: {
                     opacity: 1,
@@ -61,7 +61,7 @@ export default function NavigationBar({items}:NavigationBarProps) {
                 variants={{
                     initialState: {
                         opacity:0,
-                        x:5
+                        x:50
                     },
                     animateState: {
                         opacity: 1,
