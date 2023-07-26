@@ -31,16 +31,16 @@ export default function NavigationBar({items}:NavigationBarProps) {
             exit='exitState'
             transition={{
                 duration: 0.5,
-                delay: 0.1
+                delay: 0.3
             }}
             variants={{
                 initialState: {
                     opacity:0,
-                    x:-50
+                    y:10
                 },
                 animateState: {
                     opacity: 1,
-                    x:0
+                    y:0
                 },
                 exitState: {
                     opacity: 0
@@ -56,16 +56,16 @@ export default function NavigationBar({items}:NavigationBarProps) {
                 exit='exitState'
                 transition={{
                     duration: 0.5,
-                    delay: 0.1
+                    delay: 0.3
                 }}
                 variants={{
                     initialState: {
                         opacity:0,
-                        x:50
+                        y:10
                     },
                     animateState: {
                         opacity: 1,
-                        x:0
+                        y:0
                     },
                     exitState: {
                         opacity: 0
