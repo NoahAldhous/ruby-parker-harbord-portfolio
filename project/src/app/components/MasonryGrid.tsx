@@ -48,6 +48,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
             key={image.alt}
             initial='initialState'
             animate='animateState'
+            whileInView='inViewState'
             exit='exitState'
             transition={{
                 duration: (idx + 0.5)/2 
@@ -57,6 +58,9 @@ export default function MasonryGrid({images}:MasonryGridProps){
                     opacity:0
                 },
                 animateState: {
+                    opacity: 1
+                },
+                inViewState: {
                     opacity: 1
                 },
                 exitState: {
