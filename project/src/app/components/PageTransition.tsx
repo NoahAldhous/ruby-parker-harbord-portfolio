@@ -26,7 +26,6 @@ export default function PageTransition({children}:PageTransitionProps){
                 opacity: 1
             },
             exitState: {
-                opacity: 0
             },
         }}
         >
