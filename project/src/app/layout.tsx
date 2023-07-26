@@ -1,7 +1,6 @@
 import './globals.css';
 import localFont from 'next/font/local';
 import NavigationBar from './components/NavigationBar';
-import PageTransition from './components/PageTransition';
 
 const superRetro = localFont({
   src: [
