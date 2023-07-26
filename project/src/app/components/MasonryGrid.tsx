@@ -60,6 +60,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
                     opacity: 1
                 },
                 exitState: {
+                    opacity: 0
                 },
             }}
             >
