@@ -53,7 +53,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
             viewport={{ once: true }}
             transition={{
                 duration: 0.9,
-                delay: (Math.floor(Math.random() * 5)) / 2
+                delay: 0.5 + ((Math.floor(Math.random() * 11)) / 10)
             }}
             variants={{
                 initialState: {
