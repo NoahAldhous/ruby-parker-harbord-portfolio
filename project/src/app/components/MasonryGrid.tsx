@@ -47,12 +47,12 @@ export default function MasonryGrid({images}:MasonryGridProps){
             <motion.div
             key={image.alt}
             initial='initialState'
-            animate='animateState'
-            // whileInView='inViewState'
+            // animate='animateState'
+            whileInView='inViewState'
             exit='exitState'
             transition={{
                 duration: 0.75,
-                delay: idx / 2
+                // delay: idx / 2
             }}
             variants={{
                 initialState: {
