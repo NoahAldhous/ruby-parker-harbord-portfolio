@@ -1,6 +1,7 @@
 import './globals.css';
 import localFont from 'next/font/local';
 import NavigationBar from './components/NavigationBar';
+import PageTransition from './components/PageTransition';
 
 const superRetro = localFont({
   src: [
@@ -39,11 +40,11 @@ const items = [
   },
 ]
 
-
 export const metadata = {
   title: 'Ruby Parker-Harbord',
   description: 'Professional Photographer and Videographer',
 }
+
 
 export default function RootLayout({
   children,
@@ -52,10 +53,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={superRetro.variable}>
-        <NavigationBar items={items}/>
-      <nav></nav>
-        {children}</body>
+      
+          <body className={superRetro.variable}>
+            <NavigationBar items={items}/>
+            <nav></nav>
+            <PageTransition>
+            {children}
+            </PageTransition>
+          </body>
     </html>
   )
 }
