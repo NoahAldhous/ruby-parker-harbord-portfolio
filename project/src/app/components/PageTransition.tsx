@@ -9,7 +9,7 @@ interface PageTransitionProps {
 
 export default function PageTransition({children}:PageTransitionProps){
     const pathname = usePathname();
-    return <AnimatePresence mode="wait" initial={false}>
+    return <AnimatePresence mode="wait">
         <motion.div
         key={pathname}
         initial='initialState'
@@ -20,12 +20,13 @@ export default function PageTransition({children}:PageTransitionProps){
         }}
         variants={{
             initialState: {
-                opacity: 0
+                
             },
             animateState: {
                 opacity: 1
             },
             exitState: {
+                opacity: 0
             },
         }}
         >
