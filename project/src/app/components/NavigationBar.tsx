@@ -49,7 +49,29 @@ export default function NavigationBar({items}:NavigationBarProps) {
         >
             Ruby Parker-Harbord
         </motion.p>
-            <section className="flex flex-row justify-end items-center w-1/2 text-xs md:text-lg pr-2">
+            <motion.section 
+                className="flex flex-row justify-end items-center w-1/2 text-xs md:text-lg pr-2"
+                initial='initialState'
+                animate='animateState'
+                exit='exitState'
+                transition={{
+                    duration: 0.5,
+                    delay: 0.1
+                }}
+                variants={{
+                    initialState: {
+                        opacity:0,
+                        x:5
+                    },
+                    animateState: {
+                        opacity: 1,
+                        x:0
+                    },
+                    exitState: {
+                        opacity: 0
+                    },
+                }}
+            >
                 {items.map((item) => (
                     <Link 
                         onClick={handleClose} 
@@ -64,7 +86,7 @@ export default function NavigationBar({items}:NavigationBarProps) {
                         {item.title}
                     </Link>
                 ))}
-            </section>
+            </motion.section>
             </div>
         <div className="sm:hidden flex flex-row w-full top-0 fixed z-10 py-6 px-6 justify-between">
             <p className="font-superRetro italic text-xs align-middle p-0 w-2/3 items-center overflow-x-visible">
