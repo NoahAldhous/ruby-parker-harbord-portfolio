@@ -1,6 +1,7 @@
 import Masonry from 'react-masonry-css';
 import Image, { StaticImageData } from 'next/image';
 import { useRef } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 
 //light gallery
@@ -42,18 +43,41 @@ export default function MasonryGrid({images}:MasonryGridProps){
         columnClassName=""
     >
         {images.map((image, idx) => (
-                <Image 
-                    key={image.alt} 
-                    priority={true}
-                    quality={100}
-                    placeholder="blur" 
-                    src={image.staticImageData} 
-                    alt={image.alt} 
-                    className="sm:mb-8 mb-12 cursor-pointer"
-                    onClick={() => {
-                        lightboxRef.current?.openGallery(idx);
-                    }}
-                />
+            <AnimatePresence mode="wait">
+            <motion.div
+            key={image.alt}
+            initial='initialState'
+            animate='animateState'
+            exit='exitState'
+            transition={{
+                duration:0.75
+            }}
+            variants={{
+                initialState: {
+                    
+                },
+                animateState: {
+                    opacity: 1
+                },
+                exitState: {
+                    opacity: 0
+                },
+            }}
+            >
+            <Image 
+                key={image.alt} 
+                priority={true}
+                quality={100}
+                placeholder="blur" 
+                src={image.staticImageData} 
+                alt={image.alt} 
+                className="sm:mb-8 mb-12 cursor-pointer"
+                onClick={() => {
+                    lightboxRef.current?.openGallery(idx);
+                }}
+            />
+            </motion.div>
+        </AnimatePresence>
         ))}
     </Masonry>
     <LightGalleryComponent
