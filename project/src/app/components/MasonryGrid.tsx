@@ -47,8 +47,6 @@ export default function MasonryGrid({images}:MasonryGridProps){
             <motion.div
             key={image.alt}
             initial='initialState'
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
             animate='animateState'
             exit='exitState'
             transition={{
