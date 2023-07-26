@@ -16,7 +16,7 @@ export default function PageTransition({children}:PageTransitionProps){
         animate='animateState'
         exit='exitState'
         transition={{
-            duration:3
+            duration:0.75
         }}
         variants={{
             initialState: {
