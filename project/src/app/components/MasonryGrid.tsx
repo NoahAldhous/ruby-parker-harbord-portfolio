@@ -50,7 +50,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
             animate='animateState'
             exit='exitState'
             transition={{
-                duration: (idx + 1)/2 
+                duration: (idx + 0.5)/2 
             }}
             variants={{
                 initialState: {
