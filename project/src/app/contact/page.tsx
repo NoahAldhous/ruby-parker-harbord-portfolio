@@ -1,3 +1,5 @@
+'use client';
+
 import ContactLink from '../components/ContactLink';
 import { motion } from 'framer-motion';
 

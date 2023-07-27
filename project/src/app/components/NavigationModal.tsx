@@ -1,4 +1,5 @@
-'use client'
+'use client';
+
 import React, { useEffect } from 'react';
 import ReactPortal from './ReactPortal';
 import { motion } from 'framer-motion';
