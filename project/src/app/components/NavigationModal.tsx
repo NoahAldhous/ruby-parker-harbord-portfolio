@@ -42,7 +42,7 @@ export default function NavigationModal({children, isOpen, handleClose}: Navigat
                         }}
                         >
                         <motion.div 
-                            className="fixed rounded flex flex-col justify-start items-center box-border min-w-fit h-5/6 overflow-hidden p-5"
+                            className="fixed rounded flex flex-col justify-center items-center box-border min-w-fit h-5/6 overflow-hidden p-5"
                             initial='initialState'
                             animate='animateState'
                             transition={{
