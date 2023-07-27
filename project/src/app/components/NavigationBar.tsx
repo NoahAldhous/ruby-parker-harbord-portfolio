@@ -128,7 +128,7 @@ export default function NavigationBar() {
                                 pathname === item.href 
                                     ? "underline"
                                     : ""
-                                } px-2 whitespace-nowrap transition-all duration-600 relative`} 
+                                } px-2 whitespace-nowrap transition-all duration-600 relative flex flex-col items-center`} 
                             href={item.href}
                             
                         >
