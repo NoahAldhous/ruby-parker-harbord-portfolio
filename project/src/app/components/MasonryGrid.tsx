@@ -58,7 +58,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
             variants={{
                 initialState: {
                     opacity:0,
-                    y:10
+                    y:15
                 },
                 animateState: {
                     opacity: 1,
@@ -70,7 +70,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
                 },
                 exitState: {
                     opacity: 0,
-                    y:10
+                    y:15
                 },
             }}
             >
