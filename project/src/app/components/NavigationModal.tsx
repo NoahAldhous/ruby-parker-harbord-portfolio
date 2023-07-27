@@ -76,13 +76,13 @@ export default function NavigationModal({isOpen, handleClose, navModalItems}: Na
                             <section className="flex flex-col justify-center items-center bg-primary text-4xl dark:bg-dark">
                                 {navModalItems.map((item) => (
                                     <Link 
-                                        onClick={handleClose} 
+                                        onClick={handleClose}
                                         key={item.href}
                                         className={`${
                                             pathname === item.href 
                                                 ? "underline"
                                                 : ""
-                                            } px-2 py-6 underline`} 
+                                            } px-2 py-6`} 
                                         href={item.href}
                                     >
                                         {item.title}
