@@ -126,7 +126,7 @@ export default function NavigationBar() {
                             pathname === item.href 
                                 ? "underline"
                                 : ""
-                            } px-2 whitespace-nowrap transition-all duration-600 md:hover:pb-2 text-backdrop-invert`} 
+                            } px-2 whitespace-nowrap transition-all duration-600 md:hover:pb-2`} 
                         href={item.href}
                     >
                         {item.title}

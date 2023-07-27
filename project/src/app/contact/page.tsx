@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import ContactLink from '../components/ContactLink';
 
 export default function Page(){

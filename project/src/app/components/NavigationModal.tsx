@@ -82,7 +82,7 @@ export default function NavigationModal({isOpen, handleClose, navModalItems}: Na
                                             pathname === item.href 
                                                 ? "underline"
                                                 : ""
-                                            } px-2 py-6`} 
+                                            } px-2 py-6 underline`} 
                                         href={item.href}
                                     >
                                         {item.title}
