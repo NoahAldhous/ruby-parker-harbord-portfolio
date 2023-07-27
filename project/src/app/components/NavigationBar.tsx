@@ -112,7 +112,7 @@ export default function NavigationBar() {
             </motion.section>
             </div>
         <motion.div 
-            className="sm:hidden flex flex-row w-full top-0 fixed z-10 py-6 px-4 justify-between"
+            className="sm:hidden flex flex-row w-full top-0 fixed z-10 py-6  px-6 justify-between"
             initial='initialState'
             animate='animateState'
             exit='exitState'
@@ -134,11 +134,11 @@ export default function NavigationBar() {
                 },
             }}
             >
-            <p className="text-backdrop-invert font-superRetro italic text-xs align-middle p-0 w-2/3 items-center overflow-x-visible">
+            <p className="font-superRetro italic text-xs align-middle p-0 w-2/3 items-center overflow-x-visible">
                 Ruby Parker-Harbord
             </p>
             <section className="flex flex-row justify-end items-center w-1/3">
-                <button onClick={() => setNavigationModalOpen(!navigationModalOpen)} className="p-0 text-backdrop-invert font-superRetro italic text-xs align-middle">Menu</button>
+                <button onClick={() => setNavigationModalOpen(!navigationModalOpen)} className="p-0 font-superRetro italic text-xs align-middle items-center overflow-x-visible">Menu</button>
             </section>
             {navigationModalOpen && (
                 <NavigationModal 
