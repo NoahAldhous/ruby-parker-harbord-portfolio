@@ -47,7 +47,7 @@ export default function NavigationBar() {
                 href={'/'}
             >
                 <motion.p
-                    className="font-superRetro italic text-md md:text-3xl align-middle w-1/2 items-center overflow-x-visible"
+                    className="backdrop-invert font-superRetro italic text-md md:text-3xl align-middle w-1/2 items-center overflow-x-visible"
                     initial='initialState'
                     animate='animateState'
                     exit='exitState'
