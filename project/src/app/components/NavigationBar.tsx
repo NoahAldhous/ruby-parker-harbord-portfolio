@@ -124,18 +124,13 @@ export default function NavigationBar() {
                         <Link 
                             onClick={handleClose} 
                             key={item.href}
-                            className={`${
-                                pathname === item.href 
-                                    ? "underline"
-                                    : ""
-                                } px-2 whitespace-nowrap transition-all duration-600 relative flex flex-col items-center`} 
-                            href={item.href}
-                            
+                            className='px-2 whitespace-nowrap transition-all duration-600 relative flex flex-col items-center' 
+                            href={item.href}                      
                         >
                             {item.title}
                             {pathname === item.href ? (
                         <motion.div
-                        className='bottom--8 inset-x-0 h-1 bg-secondary rounded-lg z-0 w-11/12'
+                        className='bottom--6 inset-x-0 h-1 bg-secondary rounded-lg z-0 w-full'
                         layoutId="underline"
                         />
                         ) : null}
