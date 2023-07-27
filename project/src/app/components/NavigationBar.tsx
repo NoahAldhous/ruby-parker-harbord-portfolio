@@ -3,7 +3,7 @@ import NavigationModal from "./NavigationModal";
 import Link from 'next/link';
 import React, {useState} from 'react';
 import { usePathname } from "next/navigation";
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 interface NavigationBarProps {
     items:{
@@ -88,7 +88,29 @@ export default function NavigationBar({items}:NavigationBarProps) {
                 ))}
             </motion.section>
             </div>
-        <div className="sm:hidden flex flex-row w-full top-0 fixed z-10 py-6 px-6 justify-between">
+        <motion.div 
+            className="sm:hidden flex flex-row w-full top-0 fixed z-10 py-6 px-6 justify-between"
+            initial='initialState'
+            animate='animateState'
+            exit='exitState'
+            transition={{
+                duration: 0.75,
+                delay: 0.3
+            }}
+            variants={{
+                initialState: {
+                    opacity:0,
+                    y:-20
+                },
+                animateState: {
+                    opacity: 1,
+                    y:0
+                },
+                exitState: {
+                    opacity: 0
+                },
+            }}
+            >
             <p className="font-superRetro italic text-xs align-middle p-0 w-2/3 items-center overflow-x-visible">
                 Ruby Parker-Harbord
             </p>
@@ -109,6 +131,6 @@ export default function NavigationBar({items}:NavigationBarProps) {
                     </section>
                 </NavigationModal>
             )}
-        </div>
+        </motion.div>
     </>
 }
