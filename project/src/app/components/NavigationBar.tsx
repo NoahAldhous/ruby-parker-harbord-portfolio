@@ -134,7 +134,7 @@ export default function NavigationBar() {
                 },
             }}
             >
-            <p className="font-superRetro italic text-xs align-middle p-0 w-2/3 items-center overflow-x-visible">
+            <p className="backdrop-invert font-superRetro italic text-xs align-middle p-0 w-2/3 items-center overflow-x-visible">
                 Ruby Parker-Harbord
             </p>
             <section className="flex flex-row justify-end items-center w-1/3">
