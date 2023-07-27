@@ -135,17 +135,7 @@ export default function NavigationBar() {
                             {item.title}
                             {pathname === item.href ? (
                         <motion.div
-                        style={{
-                            position: 'absolute',
-                            bottom: '-10px',
-                            left: '0px',
-                            right: 0,
-                            height: '4px',
-                            background: '#5686F5',
-                            borderRadius: '8px',
-                            zIndex: 0,
-                            width: '100%'
-                        }}
+                        className='absolute bottom--10 inset-x-0 h-2 bg-secondary rounded-lg z-0 w-full'
                         layoutId="underline"
                         />
                         ) : null}
