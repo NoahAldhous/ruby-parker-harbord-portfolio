@@ -118,7 +118,6 @@ export default function NavigationBar() {
                     },
                 }}
             >
-                <LayoutGroup>
                     {navBarItems.map((item) => (
                         <Link 
                             onClick={handleClose} 
@@ -129,11 +128,11 @@ export default function NavigationBar() {
                                     : ""
                                 } px-2 whitespace-nowrap transition-all duration-600 md:hover:pb-2`} 
                             href={item.href}
+                            
                         >
                             {item.title}
                         </Link>
                     ))}
-                </LayoutGroup>
             </motion.section>
             </div>
         <motion.div 
