@@ -47,7 +47,7 @@ export default function NavigationBar() {
                 href={'/'}
             >
                 <motion.p
-                    className="backdrop-invert font-superRetro italic text-md md:text-3xl align-middle w-1/2 items-center overflow-x-visible"
+                    className="text-backdrop-invert font-superRetro italic text-md md:text-3xl align-middle w-1/2 items-center overflow-x-visible"
                     initial='initialState'
                     animate='animateState'
                     exit='exitState'
@@ -103,7 +103,7 @@ export default function NavigationBar() {
                             pathname === item.href 
                                 ? "underline"
                                 : ""
-                            } px-2 whitespace-nowrap transition-all duration-600 md:hover:pb-2`} 
+                            } px-2 whitespace-nowrap transition-all duration-600 md:hover:pb-2 text-backdrop-invert`} 
                         href={item.href}
                     >
                         {item.title}
@@ -134,11 +134,11 @@ export default function NavigationBar() {
                 },
             }}
             >
-            <p className="backdrop-invert font-superRetro italic text-xs align-middle p-0 w-2/3 items-center overflow-x-visible">
+            <p className="text-backdrop-invert font-superRetro italic text-xs align-middle p-0 w-2/3 items-center overflow-x-visible">
                 Ruby Parker-Harbord
             </p>
             <section className="flex flex-row justify-end items-center w-1/3">
-                <button onClick={() => setNavigationModalOpen(!navigationModalOpen)} className="p-0 backdrop-invert font-superRetro italic text-xs align-middle">Menu</button>
+                <button onClick={() => setNavigationModalOpen(!navigationModalOpen)} className="p-0 text-backdrop-invert font-superRetro italic text-xs align-middle">Menu</button>
             </section>
             {navigationModalOpen && (
                 <NavigationModal 
