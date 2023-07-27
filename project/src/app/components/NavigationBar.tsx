@@ -133,6 +133,21 @@ export default function NavigationBar() {
                             
                         >
                             {item.title}
+                            {pathname === item.href ? (
+                        <motion.div
+                        style={{
+                            position: 'absolute',
+                            bottom: '-10px',
+                            left: '0px',
+                            right: 0,
+                            height: '4px',
+                            background: '#5686F5',
+                            borderRadius: '8px',
+                            zIndex: 0,
+                        }}
+                        layoutId="underline"
+                        />
+                        ) : null}
                         </Link>
                     ))}
             </motion.section>
