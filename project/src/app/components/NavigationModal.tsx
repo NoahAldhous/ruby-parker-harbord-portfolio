@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import ReactPortal from './ReactPortal';
 import { motion } from 'framer-motion';
-import Link from 'next/Link';
+import Link from 'next/link';
 import { usePathname } from "next/navigation";
 
 interface NavigationModalProps {
