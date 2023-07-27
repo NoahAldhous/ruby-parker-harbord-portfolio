@@ -111,6 +111,7 @@ export default function NavigationBar() {
                         y:-20
                     },
                     animateState: {
+                        opacity:1,
                         y:0
                     },
                     exitState: {
@@ -118,6 +119,7 @@ export default function NavigationBar() {
                     },
                 }}
             >
+                <LayoutGroup>
                     {navBarItems.map((item) => (
                         <Link 
                             onClick={handleClose} 
@@ -133,6 +135,7 @@ export default function NavigationBar() {
                             {item.title}
                         </Link>
                     ))}
+                </LayoutGroup>
             </motion.section>
             </div>
         <motion.div 
