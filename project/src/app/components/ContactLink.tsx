@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/Link';
 import { motion } from 'framer-motion';
 
 interface ContactLinkProps {
