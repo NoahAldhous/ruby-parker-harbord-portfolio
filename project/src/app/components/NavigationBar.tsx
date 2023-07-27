@@ -39,7 +39,7 @@ export default function NavigationBar() {
     }
 
     return <>
-        <div className="hidden sm:flex flex-row w-full top-0 right-0 absolute z-10 py-6 px-6 justify-between bg-gradient-to-b from-bgprimary to-70% dark:from-bgdark">
+        <div className="hidden sm:flex flex-row w-full top-0 right-0 absolute z-10 py-6 px-6 justify-between bg-gradient-to-b from-bgprimary from-10% to-70% dark:from-bgdark">
             <Link 
                 onClick={handleClose} 
                 key={'/'}
@@ -112,7 +112,7 @@ export default function NavigationBar() {
             </motion.section>
             </div>
         <motion.div 
-            className="sm:hidden flex flex-row w-full top-0 fixed z-10 py-6  px-6 justify-between bg-gradient-to-b from-bgprimary to-70% dark:from-bgdark"
+            className="sm:hidden flex flex-row w-full top-0 fixed z-10 py-6  px-6 justify-between bg-gradient-to-b from-bgprimary from-10% to-70% dark:from-bgdark"
             initial='initialState'
             animate='animateState'
             exit='exitState'
