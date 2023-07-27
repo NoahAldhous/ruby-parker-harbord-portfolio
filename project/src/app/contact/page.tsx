@@ -23,26 +23,27 @@ export default function Page(){
         }
     ];
 
+    const mainVariant = {
+        hidden: {
+            x: -15, //move out of the site
+            opacity: 0
+        },
+        visible: {
+            x: 0, // bring it back to normal
+            opacity: 1,
+            transition: {
+                delay: 0.5,
+                when: "beforeChildren", //use this instead of delay
+                staggerChildren: 0.2, //apply stagger on the parent tag
+            },
+        },
+    };
+
     return <motion.main 
                 className="flex flex-col space-y-8 sm:space-y-10 justify-center items-start space-around h-screen w-screen p-24 bg-primary dark:bg-dark"
-                initial='initialState'
-                animate='animateState'
-                transition={{
-                    duration: 0.3,
-                    delay: 0.2
-                }}
-                variants={{
-                    initialState: {
-                        opacity:0,
-                    },
-                    animateState: {
-                        opacity: 1,
-                        transition: {
-                            when: 'beforeChildren',
-                            staggerChildren: 0.3,
-                            },
-                    },
-                }}
+                initial='hidden'
+                animate='visible'
+                variants={mainVariant}
             >
             {contactItems.map((item) => (
                                         <ContactLink 
