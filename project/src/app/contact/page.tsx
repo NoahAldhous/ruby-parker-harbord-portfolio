@@ -39,9 +39,11 @@ export default function Page(){
 
     const divVariant = {
         hidden: {
-            x:-20
+            opacity:0,
+            x:-40
         },
         visible: {
+            opacity:1,
             x:0
         },
     }
