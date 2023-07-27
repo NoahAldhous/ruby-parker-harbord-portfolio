@@ -54,8 +54,6 @@ export default function Page(){
             >
             {contactItems.map((item) => (
                                         <motion.div
-                                            initial='hidden'
-                                            animate='visible'
                                             variants={divVariant}>
                                                 <ContactLink 
                                                     firstLineText={item.firstLineText}
