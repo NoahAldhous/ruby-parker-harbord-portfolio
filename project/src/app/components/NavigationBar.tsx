@@ -30,6 +30,29 @@ export default function NavigationBar() {
         },
     ];
 
+    const navModalItems = [
+        {
+            title: "Home" ,
+            href: "/"
+          },
+          {
+            title: "Projects" ,
+            href: "/project"
+          },
+          {
+            title: "Film Photography" ,
+            href: "/film-photography"
+          },
+          {
+            title: "About" ,
+            href: "/about"
+          },
+          {
+            title: "Contact" ,
+            href: "/contact"
+          },
+    ]
+
     const [navigationModalOpen, setNavigationModalOpen] = useState<boolean>(false);
 
     const pathname = usePathname();
@@ -144,15 +167,8 @@ export default function NavigationBar() {
                 <NavigationModal 
                     isOpen={navigationModalOpen}
                     handleClose={() => setNavigationModalOpen(!navigationModalOpen)}
-                >
-                    <section className="flex flex-col justify-center items-center bg-primary text-4xl dark:bg-dark">
-                        <Link onClick={handleClose} className="px-2 py-6" href="/">Home</Link>
-                        <Link onClick={handleClose} className="px-2 py-6" href="/project">Projects</Link>
-                        <Link onClick={handleClose} className="px-2 py-6 whitespace-nowrap" href="/film-photography">Film Photography</Link>
-                        <Link onClick={handleClose} className="px-2 py-6" href="/about">About</Link>
-                        <Link onClick={handleClose} className="px-2 py-6" href="/contact">Contact</Link>
-                    </section>
-                </NavigationModal>
+                    navModalItems={navModalItems}
+                />
             )}
         </motion.div>
     </>

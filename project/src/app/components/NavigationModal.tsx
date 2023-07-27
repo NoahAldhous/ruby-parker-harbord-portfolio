@@ -1,15 +1,22 @@
 'use client'
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import ReactPortal from './ReactPortal';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
+import Link from 'next/Link';
+import { usePathname } from "next/navigation";
 
 interface NavigationModalProps {
-    children: React.ReactNode;
     isOpen: boolean;
     handleClose: () => void;
+    navModalItems:{
+        title:string,
+        href:string
+    }[]
 }
 
-export default function NavigationModal({children, isOpen, handleClose}: NavigationModalProps){
+export default function NavigationModal({isOpen, handleClose, navModalItems}: NavigationModalProps){
+
+    const pathname = usePathname();
 
     //disable scroll on modal load
     useEffect(() => {
@@ -66,7 +73,22 @@ export default function NavigationModal({children, isOpen, handleClose}: Navigat
                                 Close
                             </button>
                             <div className="flex justify-center items-center"> 
-                                {children}
+                            <section className="flex flex-col justify-center items-center bg-primary text-4xl dark:bg-dark">
+                                {navModalItems.map((item) => (
+                                    <Link 
+                                        onClick={handleClose} 
+                                        key={item.href}
+                                        className={`${
+                                            pathname === item.href 
+                                                ? "underline"
+                                                : ""
+                                            } className="px-2 py-6"`} 
+                                        href={item.href}
+                                    >
+                                        {item.title}
+                                    </Link>
+                                ))}
+                            </section>
                             </div>
                         </motion.div>
                     </motion.div>
