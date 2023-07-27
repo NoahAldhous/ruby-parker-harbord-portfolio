@@ -30,9 +30,9 @@ export default function Page(){
         visible: {
             opacity: 1,
             transition: {
-                delay: 0.5,
+                delay: 0.4,
                 when: "beforeChildren", //use this instead of delay
-                staggerChildren: 0.2, //apply stagger on the parent tag
+                staggerChildren: 0.3, //apply stagger on the parent tag
             },
         },
     };
