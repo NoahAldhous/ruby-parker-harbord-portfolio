@@ -97,6 +97,7 @@ export default function NavigationBar() {
                 </motion.p>
             </Link>
             <motion.section 
+                layout
                 className="flex flex-row justify-end items-center w-1/2 text-xs md:text-lg pr-2"
                 initial='initialState'
                 animate='animateState'
@@ -119,7 +120,6 @@ export default function NavigationBar() {
                     },
                 }}
             >
-                <LayoutGroup>
                     {navBarItems.map((item) => (
                         <Link 
                             onClick={handleClose} 
@@ -128,14 +128,13 @@ export default function NavigationBar() {
                                 pathname === item.href 
                                     ? "underline"
                                     : ""
-                                } px-2 whitespace-nowrap transition-all duration-600 md:hover:pb-2`} 
+                                } px-2 whitespace-nowrap transition-all duration-600`} 
                             href={item.href}
                             
                         >
                             {item.title}
                         </Link>
                     ))}
-                </LayoutGroup>
             </motion.section>
             </div>
         <motion.div 
