@@ -120,9 +120,6 @@ export default function NavigationBar() {
             >
                 <AnimateSharedLayout>
                     {navBarItems.map((item) => (
-                        <motion.div
-                            animate={{opacity:pathname === item.href ? 1 : 0.8}}
-                        >
                         <Link 
                             onClick={handleClose} 
                             key={item.href}
@@ -135,7 +132,6 @@ export default function NavigationBar() {
                         >
                             {item.title}
                         </Link>
-                        </motion.div>
                     ))}
                 </AnimateSharedLayout>
             </motion.section>
