@@ -39,7 +39,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
     return <>
     <Masonry 
         breakpointCols={breakpointColumnsObj} 
-        className="flex gap-2 sm:gap-8" 
+        className="flex gap-4 sm:gap-8" 
         columnClassName=""
     >
         {images.map((image, idx) => (
@@ -47,7 +47,6 @@ export default function MasonryGrid({images}:MasonryGridProps){
             <motion.div
             key={image.alt}
             initial='initialState'
-            // animate='animateState'
             whileInView='inViewState'
             exit='exitState'
             viewport={{ once: true }}
@@ -59,10 +58,6 @@ export default function MasonryGrid({images}:MasonryGridProps){
                 initialState: {
                     opacity:0,
                     y:15
-                },
-                animateState: {
-                    opacity: 1,
-                    y:0
                 },
                 inViewState: {
                     opacity: 1,

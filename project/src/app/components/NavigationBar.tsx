@@ -112,7 +112,7 @@ export default function NavigationBar() {
             </motion.section>
             </div>
         <motion.div 
-            className="sm:hidden flex flex-row w-full top-0 fixed z-10 py-6 px-6 justify-between"
+            className="sm:hidden flex flex-row w-full top-0 fixed z-10 py-6 px-4 justify-between"
             initial='initialState'
             animate='animateState'
             exit='exitState'
