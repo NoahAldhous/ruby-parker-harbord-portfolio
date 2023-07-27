@@ -34,12 +34,13 @@ export default function Page(){
                 variants={{
                     initialState: {
                         opacity:0,
-                        transition: {
-                            staggerChildren: 0.3,
-                            },
                     },
                     animateState: {
-                        opacity: 1
+                        opacity: 1,
+                        transition: {
+                            when: 'beforeChildren',
+                            staggerChildren: 0.3,
+                            },
                     },
                 }}
             >
