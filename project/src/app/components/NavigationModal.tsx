@@ -25,7 +25,7 @@ export default function NavigationModal({children, isOpen, handleClose}: Navigat
         <ReactPortal wrapperId="react-portal-modal-container" >
                 <>
                     <motion.div 
-                        className="md:hidden flex flex-col justify-center items-center fixed top-0 left-0 w-screen h-screen z-40 bg-primary dark:bg-dark opacity-90"
+                        className="md:hidden flex flex-col justify-start items-center fixed top-0 left-0 w-screen h-screen z-40 bg-primary dark:bg-dark opacity-90"
                         initial='initialState'
                         animate='animateState'
                         transition={{
