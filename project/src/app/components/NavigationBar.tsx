@@ -128,7 +128,7 @@ export default function NavigationBar() {
                                 pathname === item.href 
                                     ? "underline"
                                     : ""
-                                } px-2 whitespace-nowrap transition-all duration-600`} 
+                                } px-2 whitespace-nowrap transition-all duration-600 relative`} 
                             href={item.href}
                             
                         >
@@ -144,6 +144,7 @@ export default function NavigationBar() {
                             background: '#5686F5',
                             borderRadius: '8px',
                             zIndex: 0,
+                            width: '100%'
                         }}
                         layoutId="underline"
                         />
