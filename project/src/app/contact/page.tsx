@@ -25,11 +25,9 @@ export default function Page(){
 
     const mainVariant = {
         hidden: {
-            x: -15, //move out of the site
             opacity: 0
         },
         visible: {
-            x: 0, // bring it back to normal
             opacity: 1,
             transition: {
                 delay: 0.5,
@@ -39,6 +37,15 @@ export default function Page(){
         },
     };
 
+    const divVariant = {
+        hidden: {
+            x:-20
+        },
+        visible: {
+            x:0
+        },
+    }
+
     return <motion.main 
                 className="flex flex-col space-y-8 sm:space-y-10 justify-center items-start space-around h-screen w-screen p-24 bg-primary dark:bg-dark"
                 initial='hidden'
@@ -46,11 +53,16 @@ export default function Page(){
                 variants={mainVariant}
             >
             {contactItems.map((item) => (
-                                        <ContactLink 
-                                            firstLineText={item.firstLineText}
-                                            secondLineText={item.secondLineText}
-                                            url={item.url}
-                                        />
+                                        <motion.div
+                                            initial='hidden'
+                                            animate='visible'
+                                            variants={divVariant}>
+                                                <ContactLink 
+                                                    firstLineText={item.firstLineText}
+                                                    secondLineText={item.secondLineText}
+                                                    url={item.url}
+                                                />
+                                        </motion.div> 
                                     ))}
     </motion.main>
 }
