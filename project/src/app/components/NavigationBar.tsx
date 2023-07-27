@@ -5,14 +5,30 @@ import React, {useState} from 'react';
 import { usePathname } from "next/navigation";
 import { motion } from 'framer-motion';
 
-interface NavigationBarProps {
-    items:{
-        title:string,
-        href:string
-    }[];
-}
+export default function NavigationBar() {
 
-export default function NavigationBar({items}:NavigationBarProps) {
+    const navBarItems = [
+        {
+          title: "Home" ,
+          href: "/"
+        },
+        {
+          title: "Projects" ,
+          href: "/project"
+        },
+        {
+          title: "Film Photography" ,
+          href: "/film-photography"
+        },
+        {
+          title: "About" ,
+          href: "/about"
+        },
+        {
+          title: "Contact" ,
+          href: "/contact"
+        },
+    ];
 
     const [navigationModalOpen, setNavigationModalOpen] = useState<boolean>(false);
 
@@ -24,31 +40,37 @@ export default function NavigationBar({items}:NavigationBarProps) {
 
     return <>
         <div className="hidden sm:flex flex-row w-full top-0 right-0 absolute z-10 py-6 px-6 justify-between">
-        <motion.p
-            className="font-superRetro italic text-md md:text-3xl align-middle w-1/2 items-center overflow-x-visible"
-            initial='initialState'
-            animate='animateState'
-            exit='exitState'
-            transition={{
-                duration: 0.75,
-                delay: 0.3
-            }}
-            variants={{
-                initialState: {
-                    opacity:0,
-                    y:-20
-                },
-                animateState: {
-                    opacity: 1,
-                    y:0
-                },
-                exitState: {
-                    opacity: 0
-                },
-            }}
-        >
-            Ruby Parker-Harbord
-        </motion.p>
+            <Link onClick={handleClose} 
+                        key={'/'}
+                        className='px-2 whitespace-nowrap transition-all duration-600 md:hover:pb-2'
+                        href={'/'}
+            >
+                <motion.p
+                    className="font-superRetro italic text-md md:text-3xl align-middle w-1/2 items-center overflow-x-visible"
+                    initial='initialState'
+                    animate='animateState'
+                    exit='exitState'
+                    transition={{
+                        duration: 0.75,
+                        delay: 0.3
+                    }}
+                    variants={{
+                        initialState: {
+                            opacity:0,
+                            y:-20
+                        },
+                        animateState: {
+                            opacity: 1,
+                            y:0
+                        },
+                        exitState: {
+                            opacity: 0
+                        },
+                    }}
+                >
+                    Ruby Parker-Harbord
+                </motion.p>
+            </Link>
             <motion.section 
                 className="flex flex-row justify-end items-center w-1/2 text-xs md:text-lg pr-2"
                 initial='initialState'
@@ -72,7 +94,7 @@ export default function NavigationBar({items}:NavigationBarProps) {
                     },
                 }}
             >
-                {items.map((item) => (
+                {navBarItems.map((item) => (
                     <Link 
                         onClick={handleClose} 
                         key={item.href}
