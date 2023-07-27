@@ -3,7 +3,8 @@ import NavigationModal from "./NavigationModal";
 import Link from 'next/link';
 import React, {useState} from 'react';
 import { usePathname } from "next/navigation";
-import { motion } from 'framer-motion';
+import { motion, AnimateSharedLayout } from 'framer-motion';
+
 
 export default function NavigationBar() {
 
@@ -110,7 +111,6 @@ export default function NavigationBar() {
                         y:-20
                     },
                     animateState: {
-                        opacity: 1,
                         y:0
                     },
                     exitState: {
@@ -118,20 +118,26 @@ export default function NavigationBar() {
                     },
                 }}
             >
-                {navBarItems.map((item) => (
-                    <Link 
-                        onClick={handleClose} 
-                        key={item.href}
-                        className={`${
-                            pathname === item.href 
-                                ? "underline"
-                                : ""
-                            } px-2 whitespace-nowrap transition-all duration-600 md:hover:pb-2`} 
-                        href={item.href}
-                    >
-                        {item.title}
-                    </Link>
-                ))}
+                <AnimateSharedLayout>
+                    {navBarItems.map((item) => (
+                        <motion.div
+                            animate={{opacity:pathname === item.href ? 1 : 0.8}}
+                        >
+                        <Link 
+                            onClick={handleClose} 
+                            key={item.href}
+                            className={`${
+                                pathname === item.href 
+                                    ? "underline"
+                                    : ""
+                                } px-2 whitespace-nowrap transition-all duration-600 md:hover:pb-2`} 
+                            href={item.href}
+                        >
+                            {item.title}
+                        </Link>
+                        </motion.div>
+                    ))}
+                </AnimateSharedLayout>
             </motion.section>
             </div>
         <motion.div 
