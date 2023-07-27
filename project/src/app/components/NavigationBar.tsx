@@ -40,10 +40,11 @@ export default function NavigationBar() {
 
     return <>
         <div className="hidden sm:flex flex-row w-full top-0 right-0 absolute z-10 py-6 px-6 justify-between">
-            <Link onClick={handleClose} 
-                        key={'/'}
-                        className='px-2 whitespace-nowrap transition-all duration-600 md:hover:pb-2'
-                        href={'/'}
+            <Link 
+                onClick={handleClose} 
+                key={'/'}
+                className='px-2 whitespace-nowrap transition-all duration-600 hover:opacity-90'
+                href={'/'}
             >
                 <motion.p
                     className="font-superRetro italic text-md md:text-3xl align-middle w-1/2 items-center overflow-x-visible"
