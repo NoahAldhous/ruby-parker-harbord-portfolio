@@ -124,7 +124,7 @@ export default function NavigationBar() {
                         <Link 
                             onClick={handleClose} 
                             key={item.href}
-                            className='px-2 whitespace-nowrap transition-all duration-600 relative flex flex-col items-center' 
+                            className='px-2 whitespace-nowrap transition-all duration-600 relative flex flex-col items-center hover:pb-2' 
                             href={item.href}                      
                         >
                             {item.title}
