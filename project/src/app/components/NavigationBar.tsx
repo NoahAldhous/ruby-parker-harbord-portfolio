@@ -3,7 +3,7 @@ import NavigationModal from "./NavigationModal";
 import Link from 'next/link';
 import React, {useState} from 'react';
 import { usePathname } from "next/navigation";
-import { motion, AnimateSharedLayout } from 'framer-motion';
+import { motion, LayoutGroup } from 'framer-motion';
 
 
 export default function NavigationBar() {
@@ -118,7 +118,7 @@ export default function NavigationBar() {
                     },
                 }}
             >
-                <AnimateSharedLayout>
+                <LayoutGroup>
                     {navBarItems.map((item) => (
                         <Link 
                             onClick={handleClose} 
@@ -133,7 +133,7 @@ export default function NavigationBar() {
                             {item.title}
                         </Link>
                     ))}
-                </AnimateSharedLayout>
+                </LayoutGroup>
             </motion.section>
             </div>
         <motion.div 
