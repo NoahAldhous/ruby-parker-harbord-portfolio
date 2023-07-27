@@ -138,7 +138,7 @@ export default function NavigationBar() {
                 Ruby Parker-Harbord
             </p>
             <section className="flex flex-row justify-end items-center w-1/3">
-                <button onClick={() => setNavigationModalOpen(!navigationModalOpen)} className="px-2">Menu</button>
+                <button onClick={() => setNavigationModalOpen(!navigationModalOpen)} className="p-0 backdrop-invert font-superRetro italic text-xs align-middle">Menu</button>
             </section>
             {navigationModalOpen && (
                 <NavigationModal 
