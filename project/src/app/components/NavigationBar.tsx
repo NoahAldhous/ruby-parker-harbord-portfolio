@@ -135,7 +135,7 @@ export default function NavigationBar() {
                             {item.title}
                             {pathname === item.href ? (
                         <motion.div
-                        className='absolute bottom--8 inset-x-0 h-1 bg-secondary rounded-lg z-0 w-90'
+                        className='absolute bottom--8 inset-x-0 h-1 bg-secondary rounded-lg z-0 w-11/12'
                         layoutId="underline"
                         />
                         ) : null}
