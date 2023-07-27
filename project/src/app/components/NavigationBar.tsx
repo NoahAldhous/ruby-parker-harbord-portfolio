@@ -63,15 +63,15 @@ export default function NavigationBar() {
     }
 
     return <>
-        <div className="hidden sm:flex flex-row w-full top-0 right-0 absolute z-10 py-6 px-6 sm:px-12 justify-between bg-gradient-to-b from-bgprimary from-10% to-70% dark:from-bgdark">
+        <div className="hidden sm:flex flex-row w-full top-0 right-0 absolute z-10 py-6 px-6 sm:px-12 justify-between bg-gradient-to-b from-semiPrimary from-30% to-85% dark:from-semiDark">
             <Link 
                 onClick={handleClose} 
                 key={'/'}
-                className='whitespace-nowrap transition-all duration-600 opacity-80 md:hover:opacity-100'
+                className='whitespace-nowrap transition-all duration-600 opacity-80 md:hover:opacity-100 z-20'
                 href={'/'}
             >
                 <motion.p
-                    className="tracking-wide font-superRetro italic text-md md:text-3xl align-middle w-1/2 items-center overflow-x-visible"
+                    className="mix-blend-difference tracking-wide font-superRetro italic text-md md:text-3xl align-middle w-1/2 items-center overflow-x-visible"
                     initial='initialState'
                     animate='animateState'
                     exit='exitState'
@@ -128,7 +128,7 @@ export default function NavigationBar() {
                                 pathname === item.href 
                                     ? 'opacity-100'
                                     : 'opacity-70'
-                                } p-0 px-2 whitespace-nowrap transition-all duration-600 relative flex flex-col items-center opacity-70 hover:opacity-100`} 
+                                } p-0 px-2 whitespace-nowrap transition-all duration-600 relative flex flex-col items-center hover:opacity-100`} 
                             href={item.href}                      
                         >
                         <p className='m-0 p-0'>

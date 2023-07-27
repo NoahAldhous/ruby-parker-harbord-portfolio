@@ -17,7 +17,10 @@ module.exports = {
       colors: {
         'bgprimary': '#E5E7EB',
         'bgsecondary': '#38423B',
-        'bgdark': '#272A27'
+        'bgdark': '#272A27',
+        'semiPrimary': '#E5E7EB80',
+        'semiSecondary': '#38423B80',
+        'semiDark': '#272A2780'
       },
       fontFamily: {
         superRetro: ['var(--superRetro)']
