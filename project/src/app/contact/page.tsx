@@ -25,12 +25,12 @@ export default function Page(){
 
     const mainVariant = {
         hidden: {
-            opacity: 0
+            opacity: 1
         },
         visible: {
             opacity: 1,
             transition: {
-                delay: 0.4,
+                delay: 0.3,
                 when: "beforeChildren", //use this instead of delay
                 staggerChildren: 0.3, //apply stagger on the parent tag
             },

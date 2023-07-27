@@ -67,11 +67,11 @@ export default function NavigationBar() {
             <Link 
                 onClick={handleClose} 
                 key={'/'}
-                className='whitespace-nowrap transition-all duration-600 md:hover:text-slate-700'
+                className='whitespace-nowrap transition-all duration-600 opacity-80 md:hover:opacity-100'
                 href={'/'}
             >
                 <motion.p
-                    className="text-backdrop-invert font-superRetro italic text-md md:text-3xl align-middle w-1/2 items-center overflow-x-visible"
+                    className="tracking-wide font-superRetro italic text-md md:text-3xl align-middle w-1/2 items-center overflow-x-visible"
                     initial='initialState'
                     animate='animateState'
                     exit='exitState'
@@ -124,13 +124,19 @@ export default function NavigationBar() {
                         <Link 
                             onClick={handleClose} 
                             key={item.href}
-                            className='px-2 whitespace-nowrap transition-all duration-600 relative flex flex-col items-center hover:pb-2' 
+                            className={`${
+                                pathname === item.href 
+                                    ? 'opacity-100'
+                                    : 'opacity-70'
+                                } p-0 px-2 whitespace-nowrap transition-all duration-600 relative flex flex-col items-center opacity-70 hover:opacity-100`} 
                             href={item.href}                      
                         >
-                            {item.title}
+                        <p className='m-0 p-0'>
+                        {item.title}
+                            </p> 
                             {pathname === item.href ? (
                         <motion.div
-                        className='bottom--6 inset-x-0 h-1 bg-secondary rounded-lg z-0 w-full'
+                        className='bottom-0 inset-x-0 h-1 bg-dark dark:bg-primary rounded-lg z-0 w-full'
                         layoutId="underline"
                         />
                         ) : null}
