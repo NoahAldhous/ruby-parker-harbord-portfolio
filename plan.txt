@@ -13,5 +13,12 @@ PLAN
     6. Create Layout 
     7. Build Masonry grid ✅
     8. Build the Lightbox (Image Carousel) ✅
-    9. Connect to API
+    9. Finish other pages
     10. Refactor, add future ideas and improvements.
+
+TODO / FIX
+    1. Contact page background is a different color on initial load 
+    2. Contact page text is too small on mobile screen ✅
+    3. Medium screens breakpoint need styling attention- look through everything on a tablet screen
+    4.rebuild Project card to be more intuitive.
+    5.add text to existing pages and animate.

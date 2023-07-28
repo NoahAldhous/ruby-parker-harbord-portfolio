@@ -49,7 +49,7 @@ export default function Page(){
     }
 
     return <motion.main 
-                className="flex flex-col space-y-8 sm:space-y-10 justify-center items-start space-around h-screen w-screen p-24 bg-primary dark:bg-dark"
+                className="flex flex-col space-y-8 sm:space-y-10 justify-center items-start space-around overflow-y-hidden overflow-x-hidden h-screen w-screen p-12 sm:p-24 bg-primary dark:bg-dark"
                 initial='hidden'
                 animate='visible'
                 variants={mainVariant}
