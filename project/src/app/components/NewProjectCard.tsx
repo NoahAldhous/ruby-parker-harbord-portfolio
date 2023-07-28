@@ -1,5 +1,7 @@
+'use client';
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 interface ProjectCardProps {
     imageSource: StaticImageData;
@@ -9,23 +11,53 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({imageSource, projectTitle, imageAlt, url}:ProjectCardProps){
-    return <div className="sm:w-full sm:h-full h-screen w-screen flex flex-col relative items-center sm:justify-between p-2 sm:p-0">
-        <Link className="group sm:mb-4 mb-1 h-2/3 sm:h-full flex flex-col relative items-center sm:justify-center w-full cursor-pointer" href={`/project/${url}`}>
-            <div className="relative flex sm:inline-block object-contain h-full w-full">
-                <Image 
-                    placeholder='blur' 
-                    className="object-contain sm:group-hover:opacity-60 sm:transition sm:duration-200" 
-                    src={imageSource} 
-                    alt={imageAlt} 
-                    quality={100}
-                    fill={true}/> 
-                <div className="hidden sm:tracking-wider sm:text-lg md:text-3xl sm:absolute sm:w-full sm:h-full sm:flex sm:justify-center sm:items-center sm:opacity-0 sm:group-hover:opacity-100 sm:transition sm:duration-200">
-                    {projectTitle}
+
+    const divVariants = {
+        initialState: {
+            opacity:0,
+            y:15
+        },
+        inViewState: {
+            opacity: 1,
+            y:0
+        },
+        exitState: {
+            opacity: 0,
+            y:15
+        },
+    }
+
+        return <motion.div 
+                    className = "w-full md:w-1/2"
+                    key={imageAlt}
+                    initial='initialState'
+                    whileInView='inViewState'
+                    exit='exitState'
+                    viewport={{ once: true }}
+                    transition={{
+                        duration: 0.7,
+                        delay: 0.1 + ((Math.floor(Math.random() * 7)) / 10)
+                    }}
+            variants={divVariants}
+            >
+                <div className='relative pb-portrait w-full h-full'>
+                    <Image 
+                        placeholder='blur' 
+                        className="h-full w-full absolute object-cover bottom-0" 
+                        priority={true}
+                        src={imageSource} 
+                        alt={imageAlt} 
+                        quality={100}
+                    />
+                    <Link 
+                        className='transition duration-300 absolute text-3xl text-primary dark:text-dark h-full w-full items-center flex justify-center bg-dark dark:bg-primary opacity-0 sm:hover:opacity-80' 
+                        href={`/project/${url}`}
+                    >
+                        {projectTitle}
+                    </Link> 
                 </div>
-            </div>
-        </Link>
-        <div className="pt-4 lg:hidden">
-            {projectTitle}
-        </div>
-    </div>
+                <Link href={`/project/${url}`} className="mt-6 lg:hidden">
+                    {projectTitle}
+                </Link>
+            </motion.div> 
 }
