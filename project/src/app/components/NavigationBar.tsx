@@ -67,7 +67,7 @@ export default function NavigationBar() {
             <Link 
                 onClick={handleClose} 
                 key={'/'}
-                className='whitespace-nowrap transition-all duration-600 opacity-80 md:hover:opacity-100 z-20'
+                className='whitespace-nowrap transition-all duration-600 opacity-90 md:hover:opacity-100 z-20'
                 href={'/'}
             >
                 <motion.p
