@@ -21,5 +21,7 @@ TODO / FIX
         -Needs to be adjusted on globals.css ✅
     2. Contact page text is too small on mobile screen ✅
     3. Medium screens breakpoint need styling attention- look through everything on a tablet screen
-    4.rebuild Project card to be more intuitive.
+    4.rebuild Project card to be more intuitive.✅
     5.add text to existing pages and animate.
+    6.contacts page is scrollable on mobile screens for some reason.
+    7.double scroll bar on projects page on mobile.
