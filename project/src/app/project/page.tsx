@@ -8,8 +8,8 @@ import headshotsThumb from '../../../public/images/projects/headshots/headshots1
 import namesBandThumb from '../../../public/images/projects/names-band/names1.jpg'
 
 export default function Page(){
-    return <main className="flex w-screen flex-col items-center pt-24 bg-primary dark:bg-dark overflow-x-hidden">
-        <div className="w-screen font-superRetro italic flex flex-col sm:flex-row sm:items-start items-center mb-12">
+    return <main className="flex w-screen flex-col items-center pt-24 bg-primary dark:bg-dark overflow-x-hidden box-border">
+        <div className="w-screen font-superRetro italic flex flex-col sm:flex-row sm:items-start items-center mb-12 overflow-x-hidden">
             <div className="justify-center flex items-center flex-col w-2/3 sm:w-1/2 sm:h-full">
                 <ProjectCard
                     imageSource={cafeMeloThumb} 
