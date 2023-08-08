@@ -28,7 +28,7 @@ export default function ProjectCard({imageSource, projectTitle, imageAlt, url}:P
     }
 
         return <motion.div 
-                    className = "w-full md:w-1/2"
+                    className = "w-full sm:w-3/4 md:w-2/3 lg:w-1/2"
                     key={imageAlt}
                     initial='initialState'
                     whileInView='inViewState'
@@ -50,7 +50,7 @@ export default function ProjectCard({imageSource, projectTitle, imageAlt, url}:P
                         quality={100}
                     />
                     <Link 
-                        className='transition duration-300 absolute text-3xl text-primary dark:text-dark h-full w-full items-center flex justify-center bg-dark dark:bg-primary opacity-0 sm:hover:opacity-80' 
+                        className='transition duration-300 absolute text-2xl text-primary dark:text-dark h-full w-full items-center flex justify-center bg-dark dark:bg-primary opacity-0 lg:hover:opacity-80' 
                         href={`/project/${url}`}
                     >
                         {projectTitle}
