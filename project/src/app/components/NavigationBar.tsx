@@ -63,7 +63,7 @@ export default function NavigationBar() {
     }
 
     return <>
-        <div className="hidden sm:flex flex-row w-full top-0 right-0 absolute z-10 py-6 px-6 sm:px-12 justify-between bg-gradient-to-b from-semiPrimary from-30% to-85% dark:from-semiDark">
+        <div className="hidden sm:flex flex-row w-full top-0 right-0 fixed z-10 py-6 px-6 sm:px-12 justify-between bg-gradient-to-b from-semiPrimary from-30% to-85% dark:from-semiDark">
             <Link 
                 onClick={handleClose} 
                 key={'/'}
