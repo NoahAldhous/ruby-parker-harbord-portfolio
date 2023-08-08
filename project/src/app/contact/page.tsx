@@ -30,9 +30,9 @@ export default function Page(){
         visible: {
             opacity: 1,
             transition: {
-                delay: 0.3,
+                delay: 0.2,
                 when: "beforeChildren", //use this instead of delay
-                staggerChildren: 0.3, //apply stagger on the parent tag
+                staggerChildren: 0.2, //apply stagger on the parent tag
             },
         },
     };
@@ -40,12 +40,15 @@ export default function Page(){
     const divVariant = {
         hidden: {
             opacity:0,
-            x:-40
+            x:-20
         },
         visible: {
             opacity:1,
-            x:0
-        },
+            x:0,
+            transition: {
+                duration:0.8
+            }
+        }
     }
 
     return <motion.main 

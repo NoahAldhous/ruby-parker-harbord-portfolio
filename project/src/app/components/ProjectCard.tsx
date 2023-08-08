@@ -1,3 +1,5 @@
+//this is no longer a used component, will delete and replace with 'NewProjectCard' 
+
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
