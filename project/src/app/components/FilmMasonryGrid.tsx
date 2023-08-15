@@ -39,7 +39,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
     return <>
     <Masonry 
         breakpointCols={breakpointColumnsObj} 
-        className="flex gap-0 px-4 sm:px-1/6 sm:gap-18" 
+        className="flex gap-0 px-4 sm:px-24 sm:gap-24" 
         columnClassName=""
     >
         {images.map((image, idx) => (
