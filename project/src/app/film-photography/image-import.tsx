@@ -262,12 +262,18 @@ export default [
         alt: 'film31',
         src: '/images/film/film31.jpg',
         staticImageData: film31,
-        thumb: '/images/film/thumbnails/film-thumb32.jpg' 
+        thumb: '/images/film/thumbnails/film-thumb31.jpg' 
     },
     {
         alt: 'film32',
         src: '/images/film/film32.jpg',
         staticImageData: film32,
+        thumb: '/images/film/thumbnails/film-thumb32.jpg' 
+    },
+    {
+        alt: 'film33',
+        src: '/images/film/film33.jpg',
+        staticImageData: film33,
         thumb: '/images/film/thumbnails/film-thumb33.jpg' 
     },
     {
@@ -390,36 +396,37 @@ export default [
         staticImageData: film52,
         thumb: '/images/film/thumbnails/film-thumb52.jpg' 
     },
-    {
-        alt: 'film53',
-        src: '/images/film/film53.jpg',
-        staticImageData: film53,
-        thumb: '/images/film/thumbnails/film-thumb53.jpg' 
-    },
-    {
-        alt: 'film54',
-        src: '/images/film/film54.jpg',
-        staticImageData: film54,
-        thumb: '/images/film/thumbnails/film-thumb54.jpg' 
-    },
-    {
-        alt: 'film55',
-        src: '/images/film/film55.jpg',
-        staticImageData: film55,
-        thumb: '/images/film/thumbnails/film-thumb55.jpg' 
-    },
-    {
-        alt: 'film56',
-        src: '/images/film/film56.jpg',
-        staticImageData: film56,
-        thumb: '/images/film/thumbnails/film-thumb56.jpg' 
-    },
-    {
-        alt: 'film57',
-        src: '/images/film/film57.jpg',
-        staticImageData: film57,
-        thumb: '/images/film/thumbnails/film-thumb57.jpg' 
-    },
+    //files need converting from TIFF format to be usable 
+    // {
+    //     alt: 'film53',
+    //     src: '/images/film/film53.jpg',
+    //     staticImageData: film53,
+    //     thumb: '/images/film/thumbnails/film-thumb53.jpg' 
+    // },
+    // {
+    //     alt: 'film54',
+    //     src: '/images/film/film54.jpg',
+    //     staticImageData: film54,
+    //     thumb: '/images/film/thumbnails/film-thumb54.jpg' 
+    // },
+    // {
+    //     alt: 'film55',
+    //     src: '/images/film/film55.jpg',
+    //     staticImageData: film55,
+    //     thumb: '/images/film/thumbnails/film-thumb55.jpg' 
+    // },
+    // {
+    //     alt: 'film56',
+    //     src: '/images/film/film56.jpg',
+    //     staticImageData: film56,
+    //     thumb: '/images/film/thumbnails/film-thumb56.jpg' 
+    // },
+    // {
+    //     alt: 'film57',
+    //     src: '/images/film/film57.jpg',
+    //     staticImageData: film57,
+    //     thumb: '/images/film/thumbnails/film-thumb57.jpg' 
+    // },
     {
         alt: 'film58',
         src: '/images/film/film58.jpg',
