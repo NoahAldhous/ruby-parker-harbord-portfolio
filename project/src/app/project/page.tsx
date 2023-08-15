@@ -7,7 +7,7 @@ import engagements from '../../../public/images/projects/engagements/engagements
 import headshots from '../../../public/images/projects/headshots/headshots1.jpg'
 import namesBand from '../../../public/images/projects/names-band/names1.jpg'
 import ali from '../../../public/images/projects/ali/ali1.jpg'
-import patient from '../../../public/images/projects/patient/patient1.png'
+import patient from '../../../public/images/projects/patient/patient4.png'
 
 export default function Page(){
     return <main className="flex flex-col items-center pt-24 bg-primary dark:bg-dark overflow-x-hidden box-border">
