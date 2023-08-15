@@ -30,8 +30,8 @@ export default function MasonryGrid({images}:MasonryGridProps){
     const lightboxRef = useRef<LightGallery | null>(null)
 
     const breakpointColumnsObj = {
-        default: 2,
-        1024: 2,
+        default: 3,
+        1024: 3,
         768: 1,
         640: 1
       };
@@ -39,7 +39,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
     return <>
     <Masonry 
         breakpointCols={breakpointColumnsObj} 
-        className="flex gap-0 px-4 sm:px-1/6 sm:gap-1/6" 
+        className="flex gap-0 px-4 sm:px-1/6 sm:gap-18" 
         columnClassName=""
     >
         {images.map((image, idx) => (
