@@ -337,12 +337,6 @@ export default [
         thumb: '/images/film/thumbnails/film-thumb43.jpg' 
     },
     {
-        alt: 'film43',
-        src: '/images/film/film43.jpg',
-        staticImageData: film43,
-        thumb: '/images/film/thumbnails/film-thumb43.jpg' 
-    },
-    {
         alt: 'film44',
         src: '/images/film/film44.jpg',
         staticImageData: film44,
