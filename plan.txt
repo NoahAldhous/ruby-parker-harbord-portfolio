@@ -26,7 +26,13 @@ TODO / FIX
     6.contacts page is scrollable on mobile screens for some reason.
     7.double scroll bar on projects page on mobile ✅
     8. Change timing on contact page animations. ✅
-    9.make a folder called dependencies
+    9.make a folder called dependencies ✅
         -copy lightgalley node module folder into it 
         -change package lock dependency to file:{path to depencies folder} 
         -edit lightgalley.css background color + padding to background color.
+    10. Add footer to every page 
+    11. change loading gif on lightgallery component.
+    12. change breakpoint for single column masonry grid on film page.
+    13. finish about section.
+    14. resize super wide panorama images for better quality. 
+    
