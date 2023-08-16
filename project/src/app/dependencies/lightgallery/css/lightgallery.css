@@ -28,7 +28,7 @@
 .lg-prev {
   background-color: rgba(0, 0, 0, 0.45);
   border-radius: 2px;
-  color: #999;
+  color: rgb(181, 181, 181);
   cursor: pointer;
   display: block;
   font-size: 22px;
