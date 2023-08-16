@@ -5,16 +5,16 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 
 //light gallery
-import type {LightGallery} from 'lightgallery/lightgallery';
+import type {LightGallery} from '../../app/dependencies/lightgallery/lightgallery';
 //component import renamed to avoid conflict with type import on line above
-import LightGalleryComponent from 'lightgallery/react';
+import LightGalleryComponent from '../../app/dependencies/lightgallery/react';
 
 // import styles
-import 'lightgallery/css/lightgallery.css';
-import 'lightgallery/css/lg-thumbnail.css';
+import '../../app/dependencies/lightgallery/css/lightgallery.css'
+import '../../app/dependencies/lightgallery/css/lg-thumbnail.css';
 
 // import plugins
-import lgThumbnail from 'lightgallery/plugins/thumbnail';
+import lgThumbnail from '../../app/dependencies/lightgallery/plugins/thumbnail';
 
 interface MasonryGridProps {
     images:{
