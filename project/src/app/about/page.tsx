@@ -24,15 +24,15 @@ export default function Page(){
                 variants={{
                     initialState: {
                         opacity:0,
-                        y:15
+                        x:-15
                     },
                     inViewState: {
                         opacity: 1,
-                        y:0
+                        x:0
                     },
                     exitState: {
                         opacity: 0,
-                        y:15
+                        x:-15
                     },
                 }}
                 >
