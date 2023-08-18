@@ -4,6 +4,11 @@ import { motion } from 'framer-motion';
 import profilePicture from '../../../public/images/about/ruby-portrait.png';
 
 export default function Page(){
+
+    function handleClick(){
+        window.open('https://www.instagram.com/rubyparkerh/','_blank')
+    }
+
     return <main className="justify-center flex h-screen flex-row items-center p-4 md:p-16 xl:p-24 pt-20 xl:pt-24 bg-primary dark:bg-dark">
      <section className='w-full h-full flex lg:flex-row flex-col items-center md:justify-start lg:justify-evenly'>
         <motion.div
@@ -37,7 +42,8 @@ export default function Page(){
                     placeholder="blur" 
                     src={profilePicture} 
                     alt='ruby in profile'
-                    className="cursor-pointer hover:scale-110 transition duration-200 ease-in-out "
+                    className="cursor-pointer hover:scale-105 transition duration-300 ease-in-out"
+                    onClick={handleClick}
                 />
         </motion.div>
         <section className='flex flex-col w-10/12 sm:w-2/3 md:w-2/3 lg:w-1/2 text-xs sm:text-xs md:text-base lg:text-base xl:text-lg'>
