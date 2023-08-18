@@ -73,11 +73,9 @@ export default function Page(){
                     }}
             >
                 <h2 className='font-superRetro italic text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl'>
-                    Hello and Welcome!
+                    Hello
                 </h2>
                 <p>
-                Thanks for being here!
-                <br/>
                 I'm Ruby. I'm a Photographer, Writer and Director based in London.
                 <br/>
 
