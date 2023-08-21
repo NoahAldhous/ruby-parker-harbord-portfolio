@@ -279,7 +279,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home9} 
                 alt='home9'
-                className='cursor-pointer mt-24 sm:ml-4 mb-36 sm:pr-2 sm:w-1/2'
+                className='cursor-pointer mt-24 sm:ml-4 mb-24 sm:mb-36 sm:pr-2 sm:w-1/2'
             />
             <Image
               onClick={() => {
@@ -310,7 +310,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home11} 
                 alt='home11'
-                className='cursor-pointer mt-24 w-9/12'
+                className='cursor-pointer mt-24 sm:w-9/12'
             />
           </motion.div>
           <motion.div 
@@ -332,7 +332,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home12} 
                 alt='home12'
-                className='cursor-pointer mt-24 ml-4 mb-4 pr-2 w-1/2'
+                className='cursor-pointer mt-24 sm:ml-4 mb-4 sm:pr-2 sm:w-1/2'
             />
             <Image
               onClick={() => {
@@ -341,7 +341,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home13} 
                 alt='home13'
-                className='cursor-pointer mt-24 mr-2 mb-32 w-5/12'
+                className='cursor-pointer sm:mt-24 sm:mr-2 mb-32 sm:w-5/12'
             />
           </motion.div>
         </AnimatePresence>
