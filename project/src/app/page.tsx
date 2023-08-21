@@ -1,5 +1,4 @@
 'use client';
-import MasonryGrid from './components/MasonryGrid';
 import Image from 'next/image';
 import { useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
