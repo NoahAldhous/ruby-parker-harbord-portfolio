@@ -78,16 +78,16 @@ export default function Page(){
                 <p>
                 I'm Ruby. I'm a Photographer, Writer and Director based in London.
                 <br/>
-
+                <br/>
                 I have always enjoyed photography and before freelancing professionally in this field, I worked primarily in Film and Television. I love to tell stories with visuals and to explore what a picture can say.
                 <br/>
-
+                <br/>
                 I have worked in a variety of different environments, including Behind the Scenes photography, Weddings, Brand work and Red Carpet premieres. I have a cinematic documentary style and love to capture people in their most natural state. 
                 <br/>
-
+                <br/>
                 Whilst I am proficient in all types of photography, shooting on film is my favourite way of recording these moments. I've been doing film photography for almost a decade now. It's timeless and adds an organic look which is perfect for street photography and rustic weddings.
                 <br/>
-
+                <br/>
                 If you're looking for a photographer for an event, headshots, branding or even just to get some nice pictures for yourself or someone you love, please don't hesitate to get in touch and we can discuss further! 
                 </p>
             </motion.div>
