@@ -108,7 +108,7 @@ export default function homepage() {
     <main className="flex sm:h-screen sm:w-screen flex-col items-center pt-24 bg-primary dark:bg-dark overflow-y-auto overflow-x-hidden">
       <section className="space-y-6 sm:space-y-0 flex h-full flex-col justify-start items-start p-2 sm:p-8 w-full h-full ">
         <AnimatePresence mode="wait">
-          <div className='w-full flex-col flex sm:flex-row sm:justify-end'>
+          <div className='space-y-6 sm:space-y-0  w-full flex-col flex sm:flex-row sm:justify-end'>
             <motion.div 
               className='sm:p-8 flex flex-col justify-end sm:mb-24'
               initial='initialState'
