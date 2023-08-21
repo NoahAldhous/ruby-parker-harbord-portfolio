@@ -110,7 +110,7 @@ export default function homepage() {
         <AnimatePresence mode="wait">
           <div className='w-full flex-col flex sm:flex-row sm:justify-end'>
             <motion.div 
-              className='p-8 flex flex-col justify-end sm:mb-24'
+              className='sm:p-8 flex flex-col justify-end sm:mb-24'
               initial='initialState'
               whileInView='inViewState'
               exit='exitState'
