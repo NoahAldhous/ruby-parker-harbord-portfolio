@@ -110,7 +110,7 @@ export default function homepage() {
         <AnimatePresence mode="wait">
           <div className='w-full flex-col flex sm:flex-row sm:justify-end'>
             <motion.div 
-              className='p-8 flex flex-col justify-end mb-24'
+              className='p-8 flex flex-col justify-end sm:mb-24'
               initial='initialState'
               whileInView='inViewState'
               exit='exitState'
@@ -150,7 +150,7 @@ export default function homepage() {
                 placeholder='blur' 
                 src={home2} 
                 alt='home2'
-                className='cursor-pointer mb-24 sm:w-11/12'
+                className='cursor-pointer sm:mb-24 sm:w-11/12'
               />
               <Image
                 onClick={() => {
@@ -159,7 +159,7 @@ export default function homepage() {
                 placeholder='blur' 
                 src={home3} 
                 alt='home3'
-                className='cursor-pointer mt-24 sm:pr-8 sm:pl-2'
+                className='cursor-pointer sm:mt-24 sm:pr-8 sm:pl-2'
               />
             </motion.div>
           </div>
@@ -182,11 +182,11 @@ export default function homepage() {
               placeholder='blur' 
                 src={home4} 
                 alt='home4'
-                className='cursor-pointer mt-24'
+                className='cursor-pointer sm:mt-24'
             />
           </motion.div>
           <motion.div 
-            className='w-full flex flex-col sm:flex-row items-center pt-12 justify-between'
+            className='w-full flex flex-col sm:flex-row items-center sm:pt-12 justify-between'
             initial='initialState'
             whileInView='inViewState'
             exit='exitState'
@@ -235,7 +235,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home7} 
                 alt='home7'
-                className='cursor-pointer mt-24'
+                className='cursor-pointer sm:mt-24'
             />
           </motion.div>
           <motion.div 
@@ -257,7 +257,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home8} 
                 alt='home8'
-                className='cursor-pointer mt-24 sm:pr-2 sm:w-5/6'
+                className='cursor-pointer sm:mt-24 sm:pr-2 sm:w-5/6'
             />
           </motion.div>
           <motion.div 
@@ -279,7 +279,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home9} 
                 alt='home9'
-                className='cursor-pointer mt-24 sm:ml-4 mb-24 sm:mb-36 sm:pr-2 sm:w-1/2'
+                className='cursor-pointer sm:mt-24 sm:ml-4 sm:mb-36 sm:pr-2 sm:w-1/2'
             />
             <Image
               onClick={() => {
@@ -288,7 +288,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home10} 
                 alt='home10'
-                className='cursor-pointer mt-24 sm:mr-6 sm:w-5/12'
+                className='cursor-pointer sm:mt-24 sm:mr-6 sm:w-5/12'
             />
           </motion.div>
           <motion.div 
@@ -310,7 +310,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home11} 
                 alt='home11'
-                className='cursor-pointer mt-24 sm:w-9/12'
+                className='cursor-pointer sm:mt-24 sm:w-9/12'
             />
           </motion.div>
           <motion.div 
@@ -332,7 +332,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home12} 
                 alt='home12'
-                className='cursor-pointer mt-24 sm:ml-4 mb-4 sm:pr-2 sm:w-1/2'
+                className='cursor-pointer sm:mt-24 sm:ml-4 sm:mb-4 sm:pr-2 sm:w-1/2'
             />
             <Image
               onClick={() => {
@@ -341,7 +341,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home13} 
                 alt='home13'
-                className='cursor-pointer sm:mt-24 sm:mr-2 mb-32 sm:w-5/12'
+                className='cursor-pointer sm:mt-24 sm:mr-2 sm:mb-32 sm:w-5/12'
             />
           </motion.div>
         </AnimatePresence>
