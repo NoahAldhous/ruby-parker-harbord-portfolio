@@ -261,7 +261,7 @@ export default function homepage() {
             />
           </motion.div>
           <motion.div 
-            className='w-full flex justify-between items-end'
+            className='w-full flex sm:flex-row flex-col justify-between items-center sm:items-end'
             initial='initialState'
             whileInView='inViewState'
             exit='exitState'
@@ -279,7 +279,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home9} 
                 alt='home9'
-                className='cursor-pointer mt-24 ml-4 mb-36 pr-2 w-1/2'
+                className='cursor-pointer mt-24 sm:ml-4 mb-36 sm:pr-2 sm:w-1/2'
             />
             <Image
               onClick={() => {
@@ -288,7 +288,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home10} 
                 alt='home10'
-                className='cursor-pointer mt-24 mr-6 w-5/12'
+                className='cursor-pointer mt-24 sm:mr-6 sm:w-5/12'
             />
           </motion.div>
           <motion.div 
@@ -314,7 +314,7 @@ export default function homepage() {
             />
           </motion.div>
           <motion.div 
-            className='w-full flex justify-between items-end'
+            className='w-full flex sm:flex-row flex-col justify-between sm:items-end items-center'
             initial='initialState'
             whileInView='inViewState'
             exit='exitState'
