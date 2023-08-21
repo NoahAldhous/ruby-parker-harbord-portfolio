@@ -133,7 +133,7 @@ export default function homepage() {
               />
             </motion.div>
             <motion.div 
-              className='flex flex-col sm:items-end items-center'
+              className='space-y-6 sm:space-y-0 flex flex-col sm:items-end items-center'
               initial='initialState'
               whileInView='inViewState'
               exit='exitState'
@@ -190,7 +190,7 @@ export default function homepage() {
             />
           </motion.div>
           <motion.div 
-            className='w-full flex flex-col sm:flex-row items-center sm:pt-12 justify-between'
+            className='space-y-6 sm:space-y-0 w-full flex flex-col sm:flex-row items-center sm:pt-12 justify-between'
             initial='initialState'
             whileInView='inViewState'
             exit='exitState'
@@ -269,7 +269,7 @@ export default function homepage() {
             />
           </motion.div>
           <motion.div 
-            className='w-full flex sm:flex-row flex-col justify-between items-center sm:items-end'
+            className='space-y-6 sm:space-y-0 w-full flex sm:flex-row flex-col justify-between items-center sm:items-end'
             initial='initialState'
             whileInView='inViewState'
             exit='exitState'
@@ -325,7 +325,7 @@ export default function homepage() {
             />
           </motion.div>
           <motion.div 
-            className='w-full flex sm:flex-row flex-col justify-between sm:items-end items-center'
+            className='space-y-6 sm:space-y-0 w-full flex sm:flex-row flex-col justify-between sm:items-end items-center'
             initial='initialState'
             whileInView='inViewState'
             exit='exitState'
