@@ -33,6 +33,8 @@ TODO / FIX
     10. Add footer to every page 
     11. change loading gif on lightgallery component.
     12. change breakpoint for single column masonry grid on film page.
-    13. finish about section.
+    13. finish about section.✅
     14. resize super wide panorama images for better quality. 
+    15. add proper thumbnail images for homepage. 
+    16. rewrite homepage to render dynamically, use fewer lines of code.
     
