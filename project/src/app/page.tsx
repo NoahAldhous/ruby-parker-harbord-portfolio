@@ -239,7 +239,7 @@ export default function homepage() {
             />
           </motion.div>
           <motion.div 
-            className='w-full flex justify-end'
+            className='w-full flex sm:justify-end justify-center'
             initial='initialState'
             whileInView='inViewState'
             exit='exitState'
@@ -257,7 +257,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home8} 
                 alt='home8'
-                className='cursor-pointer mt-24 pr-2 w-5/6'
+                className='cursor-pointer mt-24 sm:pr-2 sm:w-5/6'
             />
           </motion.div>
           <motion.div 
