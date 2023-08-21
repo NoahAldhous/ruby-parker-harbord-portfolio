@@ -10,7 +10,7 @@ import type {LightGallery} from '../../app/dependencies/lightgallery/lightgaller
 import LightGalleryComponent from '../../app/dependencies/lightgallery/react';
 
 // import styles
-import '../../app/dependencies/lightgallery/css/lightgallery.css'
+import '../../app/dependencies/lightgallery/css/lightgallery.css';
 import '../../app/dependencies/lightgallery/css/lg-thumbnail.css';
 
 // import plugins
