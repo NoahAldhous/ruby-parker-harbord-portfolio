@@ -5,8 +5,8 @@ import { useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 //image import
-import home1 from '../../public/images/film/film78.jpg';
-import home2 from '../../public/images/film/film7.jpg';
+import home1 from '../../public/images/film/film7.jpg';
+import home2 from '../../public/images/film/film78.jpg';
 import home3 from '../../public/images/film/film64.jpg';
 import home4 from '../../public/images/projects/engagements/engagements9.jpg';
 import home5 from '../../public/images/film/film9.jpg';
@@ -34,13 +34,13 @@ import lgThumbnail from '../app/dependencies/lightgallery/plugins/thumbnail';
 export default function homepage() {
 
   const images = [
+    {
+      src:  '/images/film/film7.jpg',
+      thumb:  '/images/film/film7.jpg'
+    },
   {
     src:  '/images/film/film78.jpg',
     thumb:  '/images/film/film78.jpg'
-  },
-  {
-    src:  '/images/film/film7.jpg',
-    thumb:  '/images/film/film7.jpg'
   },
   {
     src:  '/images/film/film64.jpg',
@@ -51,12 +51,12 @@ export default function homepage() {
     thumb:  '/images/projects/engagements/engagements9.jpg'
   },
   {
-    src:  '/images/film/film9.jpg',
-    thumb:  '/images/film/film9.jpg'
-  },
-  {
     src:  '/images/film/film37.jpg',
     thumb:  '/images/film/film37.jpg'
+  },
+  {
+    src:  '/images/film/film9.jpg',
+    thumb:  '/images/film/film9.jpg'
   },
   {
     src:  '/images/projects/headshots/headshots6.jpg',
@@ -127,8 +127,9 @@ export default function homepage() {
                     lightboxRef.current?.openGallery(0);
                 }}
                 placeholder='blur' 
-                src={home2} 
-                alt='home2 mt-24'
+                src={home1} 
+                alt='home1'
+                className=''cursor-pointer 
               />
             </motion.div>
             <motion.div 
@@ -148,9 +149,9 @@ export default function homepage() {
                     lightboxRef.current?.openGallery(1);
                 }}
                 placeholder='blur' 
-                src={home1} 
-                alt='home1'
-                className='mb-24 w-11/12'
+                src={home2} 
+                alt='home2'
+                className='cursor-pointer mb-24 w-11/12'
               />
               <Image
                 onClick={() => {
@@ -159,7 +160,7 @@ export default function homepage() {
                 placeholder='blur' 
                 src={home3} 
                 alt='home3'
-                className='mt-24 pr-8 pl-2'
+                className='cursor-pointer mt-24 pr-8 pl-2'
               />
             </motion.div>
           </div>
@@ -182,7 +183,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home4} 
                 alt='home4'
-                className='mt-24'
+                className='cursor-pointer mt-24'
             />
           </motion.div>
           <motion.div 
@@ -204,7 +205,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home6} 
                 alt='home6'
-                className='w-1/2'
+                className='cursor-pointer w-1/2'
             />
             <Image
               onClick={() => {
@@ -213,7 +214,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home5} 
                 alt='home5'
-                className='w-5/12'
+                className='cursor-pointer w-5/12'
             />
           </motion.div>
           <motion.div 
@@ -235,7 +236,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home7} 
                 alt='home7'
-                className='mt-24'
+                className='cursor-pointer mt-24'
             />
           </motion.div>
           <motion.div 
@@ -257,7 +258,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home8} 
                 alt='home8'
-                className='mt-24 pr-2 w-5/6'
+                className='cursor-pointer mt-24 pr-2 w-5/6'
             />
           </motion.div>
           <motion.div 
@@ -279,7 +280,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home9} 
                 alt='home9'
-                className='mt-24 ml-4 mb-36 pr-2 w-1/2'
+                className='cursor-pointer mt-24 ml-4 mb-36 pr-2 w-1/2'
             />
             <Image
               onClick={() => {
@@ -288,7 +289,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home10} 
                 alt='home10'
-                className='mt-24 mr-6 w-5/12'
+                className='cursor-pointer mt-24 mr-6 w-5/12'
             />
           </motion.div>
           <motion.div 
@@ -310,7 +311,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home11} 
                 alt='home11'
-                className='mt-24 w-9/12'
+                className='cursor-pointer mt-24 w-9/12'
             />
           </motion.div>
           <motion.div 
@@ -332,7 +333,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home12} 
                 alt='home12'
-                className='mt-24 ml-4 mb-4 pr-2 w-1/2'
+                className='cursor-pointer mt-24 ml-4 mb-4 pr-2 w-1/2'
             />
             <Image
               onClick={() => {
@@ -341,7 +342,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home13} 
                 alt='home13'
-                className='mt-24 mr-2 mb-32 w-5/12'
+                className='cursor-pointer mt-24 mr-2 mb-32 w-5/12'
             />
           </motion.div>
         </AnimatePresence>
