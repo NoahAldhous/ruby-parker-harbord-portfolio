@@ -1,6 +1,6 @@
 'use client';
 import MasonryGrid from './components/MasonryGrid';
-import Image from 'next/Image';
+import Image from 'next/image';
 
 //image import
 import home1 from '../../public/images/film/film78.jpg';
@@ -24,7 +24,7 @@ export default function Home() {
 
   return (  
     <main className="flex sm:h-screen sm:w-screen flex-col items-center pt-24 bg-primary dark:bg-dark overflow-y-auto overflow-x-hidden">
-      <section className="flex h-full flex-col justify-start items-start p-2 sm:p-8 w-full border-2 border-red-200 h-full">
+      <section className="flex h-full flex-col justify-start items-start p-2 sm:p-8 w-full h-full">
         <div className='w-full flex justify-end'>
           <div className='p-8 flex flex-col justify-end mb-24'>
           <Image 
