@@ -60,6 +60,7 @@ export default function Home() {
               whileInView='inViewState'
               exit='exitState'
               viewport={{ once: true }}
+              variants={divVariants}
               transition={{
                   duration: 0.7,
                   delay: 0.1 + ((Math.floor(Math.random() * 7)) / 10)
@@ -77,6 +78,7 @@ export default function Home() {
               whileInView='inViewState'
               exit='exitState'
               viewport={{ once: true }}
+              variants={divVariants}
               transition={{
                   duration: 0.7,
                   delay: 0.1 + ((Math.floor(Math.random() * 7)) / 10)
@@ -102,6 +104,7 @@ export default function Home() {
             whileInView='inViewState'
             exit='exitState'
             viewport={{ once: true }}
+            variants={divVariants}
             transition={{
                 duration: 0.7,
                 delay: 0.1 + ((Math.floor(Math.random() * 7)) / 10)
@@ -120,6 +123,7 @@ export default function Home() {
             whileInView='inViewState'
             exit='exitState'
             viewport={{ once: true }}
+            variants={divVariants}
             transition={{
                 duration: 0.7,
                 delay: 0.1 + ((Math.floor(Math.random() * 7)) / 10)
@@ -144,6 +148,7 @@ export default function Home() {
             whileInView='inViewState'
             exit='exitState'
             viewport={{ once: true }}
+            variants={divVariants}
             transition={{
                 duration: 0.7,
                 delay: 0.1 + ((Math.floor(Math.random() * 7)) / 10)
@@ -162,6 +167,7 @@ export default function Home() {
             whileInView='inViewState'
             exit='exitState'
             viewport={{ once: true }}
+            variants={divVariants}
             transition={{
                 duration: 0.7,
                 delay: 0.1 + ((Math.floor(Math.random() * 7)) / 10)
@@ -180,6 +186,7 @@ export default function Home() {
             whileInView='inViewState'
             exit='exitState'
             viewport={{ once: true }}
+            variants={divVariants}
             transition={{
                 duration: 0.7,
                 delay: 0.1 + ((Math.floor(Math.random() * 7)) / 10)
@@ -204,6 +211,7 @@ export default function Home() {
             whileInView='inViewState'
             exit='exitState'
             viewport={{ once: true }}
+            variants={divVariants}
             transition={{
                 duration: 0.7,
                 delay: 0.1 + ((Math.floor(Math.random() * 7)) / 10)
@@ -222,6 +230,7 @@ export default function Home() {
             whileInView='inViewState'
             exit='exitState'
             viewport={{ once: true }}
+            variants={divVariants}
             transition={{
                 duration: 0.7,
                 delay: 0.1 + ((Math.floor(Math.random() * 7)) / 10)
