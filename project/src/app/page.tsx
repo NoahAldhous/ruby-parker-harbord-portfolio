@@ -122,6 +122,7 @@ export default function homepage() {
               }}
             >
               <Image
+                priority={true}
                 onClick={() => {
                     lightboxRef.current?.openGallery(0);
                 }}
@@ -144,6 +145,7 @@ export default function homepage() {
               }}
             >
               <Image
+                priority={true}
                 onClick={() => {
                     lightboxRef.current?.openGallery(1);
                 }}
@@ -153,6 +155,7 @@ export default function homepage() {
                 className='cursor-pointer sm:mb-24 sm:w-11/12'
               />
               <Image
+                priority={true}
                 onClick={() => {
                     lightboxRef.current?.openGallery(2);
                 }}
@@ -176,6 +179,7 @@ export default function homepage() {
             }}
           >
             <Image
+              priority={true}
               onClick={() => {
                     lightboxRef.current?.openGallery(3);
                 }}
@@ -198,6 +202,7 @@ export default function homepage() {
             }}
           >
             <Image
+              priority={true}
               onClick={() => {
                     lightboxRef.current?.openGallery(4);
                 }}
@@ -207,6 +212,7 @@ export default function homepage() {
                 className='cursor-pointer sm:w-1/2'
             />
             <Image
+              priority={true}
               onClick={() => {
                     lightboxRef.current?.openGallery(5);
                 }}
@@ -229,6 +235,7 @@ export default function homepage() {
             }}
           >
             <Image
+              priority={true}
               onClick={() => {
                     lightboxRef.current?.openGallery(6);
                 }}
@@ -251,6 +258,7 @@ export default function homepage() {
             }}
           >
             <Image
+              priority={true}
               onClick={() => {
                     lightboxRef.current?.openGallery(7);
                 }}
@@ -273,6 +281,7 @@ export default function homepage() {
             }}
           >
             <Image
+              priority={true}
               onClick={() => {
                     lightboxRef.current?.openGallery(8);
                 }}
@@ -282,6 +291,7 @@ export default function homepage() {
                 className='cursor-pointer sm:mt-24 sm:ml-4 sm:mb-36 sm:pr-2 sm:w-1/2'
             />
             <Image
+              priority={true}
               onClick={() => {
                     lightboxRef.current?.openGallery(9);
                 }}
@@ -304,6 +314,7 @@ export default function homepage() {
             }}
           >
             <Image
+              priority={true}
               onClick={() => {
                     lightboxRef.current?.openGallery(10);
                 }}
@@ -326,6 +337,7 @@ export default function homepage() {
             }}
           >
             <Image
+              priority={true}
               onClick={() => {
                     lightboxRef.current?.openGallery(11);
                 }}
@@ -335,6 +347,7 @@ export default function homepage() {
                 className='cursor-pointer sm:mt-24 sm:ml-4 sm:mb-4 sm:pr-2 sm:w-1/2'
             />
             <Image
+              priority={true}
               onClick={() => {
                     lightboxRef.current?.openGallery(12);
                 }}
