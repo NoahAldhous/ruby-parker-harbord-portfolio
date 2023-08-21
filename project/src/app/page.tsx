@@ -1,6 +1,7 @@
 'use client';
 import MasonryGrid from './components/MasonryGrid';
 import Image from 'next/image';
+import { useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 //image import
@@ -30,14 +31,69 @@ import '../app/dependencies/lightgallery/css/lg-thumbnail.css';
 // import plugins
 import lgThumbnail from '../app/dependencies/lightgallery/plugins/thumbnail';
 
-import images from './image-import'
+export default function homepage() {
 
-export default function Home() {
+  const images = [
+  {
+    src:  '/images/film/film78.jpg',
+    thumb:  '/images/film/film78.jpg'
+  },
+  {
+    src:  '/images/film/film7.jpg',
+    thumb:  '/images/film/film7.jpg'
+  },
+  {
+    src:  '/images/film/film64.jpg',
+    thumb:  '/images/film/film64.jpg'
+  },
+  {
+    src:  '/images/projects/engagements/engagements9.jpg',
+    thumb:  '/images/projects/engagements/engagements9.jpg'
+  },
+  {
+    src:  '/images/film/film9.jpg',
+    thumb:  '/images/film/film9.jpg'
+  },
+  {
+    src:  '/images/film/film37.jpg',
+    thumb:  '/images/film/film37.jpg'
+  },
+  {
+    src:  '/images/projects/headshots/headshots6.jpg',
+    thumb:  '/images/projects/headshots/headshots6.jpg'
+  },
+  {
+    src:  '/images/home-page/home4.jpg',
+    thumb:  '/images/home-page/home4.jpg'
+  },
+  {
+    src:  '/images/projects/names-band/names4.jpg',
+    thumb:  '/images/projects/names-band/names4.jpg'
+  },
+  {
+    src: 'images/home-page/home11.jpg',
+    thumb: '/images/home-page/home11.jpg'
+  },
+  {
+    src: '/images/home-page/home15.jpg',
+    thumb: '/images/home-page/home15.jpg'
+  },
+  {
+    src: '/images/home-page/home16.jpg',
+    thumb: '/images/home-page/home16.jpg'
+  },
+  {
+    src: '/images/home-page/home17.jpg',
+    thumb: '/images/home-page/home17.jpg'
+  },
+  ]
+
+  const lightboxRef = useRef<LightGallery | null>(null)
 
   const divVariants = {
     initialState: {
         opacity:0,
-        y:15
+        y:15   
     },
     inViewState: {
         opacity: 1,
@@ -45,7 +101,7 @@ export default function Home() {
     },
     exitState: {
         opacity: 0,
-        y:15
+        y:15   
     },
 }
 
@@ -67,6 +123,9 @@ export default function Home() {
               }}
             >
               <Image
+                onClick={() => {
+                    lightboxRef.current?.openGallery(0);
+                }}
                 placeholder='blur' 
                 src={home2} 
                 alt='home2 mt-24'
@@ -85,12 +144,18 @@ export default function Home() {
               }}
             >
               <Image
+                onClick={() => {
+                    lightboxRef.current?.openGallery(1);
+                }}
                 placeholder='blur' 
                 src={home1} 
                 alt='home1'
                 className='mb-24 w-11/12'
               />
               <Image
+                onClick={() => {
+                    lightboxRef.current?.openGallery(2);
+                }}
                 placeholder='blur' 
                 src={home3} 
                 alt='home3'
@@ -111,6 +176,9 @@ export default function Home() {
             }}
           >
             <Image
+              onClick={() => {
+                    lightboxRef.current?.openGallery(3);
+                }}
               placeholder='blur' 
                 src={home4} 
                 alt='home4'
@@ -130,12 +198,18 @@ export default function Home() {
             }}
           >
             <Image
+              onClick={() => {
+                    lightboxRef.current?.openGallery(4);
+                }}
               placeholder='blur' 
                 src={home6} 
                 alt='home6'
                 className='w-1/2'
             />
             <Image
+              onClick={() => {
+                    lightboxRef.current?.openGallery(5);
+                }}
               placeholder='blur' 
                 src={home5} 
                 alt='home5'
@@ -155,6 +229,9 @@ export default function Home() {
             }}
           >
             <Image
+              onClick={() => {
+                    lightboxRef.current?.openGallery(6);
+                }}
               placeholder='blur' 
                 src={home7} 
                 alt='home7'
@@ -174,6 +251,9 @@ export default function Home() {
             }}
           >
             <Image
+              onClick={() => {
+                    lightboxRef.current?.openGallery(7);
+                }}
               placeholder='blur' 
                 src={home8} 
                 alt='home8'
@@ -193,12 +273,18 @@ export default function Home() {
             }}
           >
             <Image
+              onClick={() => {
+                    lightboxRef.current?.openGallery(8);
+                }}
               placeholder='blur' 
                 src={home9} 
                 alt='home9'
                 className='mt-24 ml-4 mb-36 pr-2 w-1/2'
             />
             <Image
+              onClick={() => {
+                    lightboxRef.current?.openGallery(9);
+                }}
               placeholder='blur' 
                 src={home10} 
                 alt='home10'
@@ -218,6 +304,9 @@ export default function Home() {
             }}
           >
             <Image
+              onClick={() => {
+                    lightboxRef.current?.openGallery(10);
+                }}
               placeholder='blur' 
                 src={home11} 
                 alt='home11'
@@ -237,12 +326,18 @@ export default function Home() {
             }}
           >
             <Image
+              onClick={() => {
+                    lightboxRef.current?.openGallery(11);
+                }}
               placeholder='blur' 
                 src={home12} 
                 alt='home12'
                 className='mt-24 ml-4 mb-4 pr-2 w-1/2'
             />
             <Image
+              onClick={() => {
+                    lightboxRef.current?.openGallery(12);
+                }}
               placeholder='blur' 
                 src={home13} 
                 alt='home13'
@@ -251,6 +346,21 @@ export default function Home() {
           </motion.div>
         </AnimatePresence>
       </section>
+        <LightGalleryComponent
+          onInit={(ref) => {
+              if (ref) {
+                  lightboxRef.current = ref.instance
+              }
+          }}
+          speed={500}
+          download={false}
+          plugins={[lgThumbnail]}
+          dynamic
+          dynamicEl={images.map(image => ({
+              src: image.src, 
+              thumb: image.thumb
+          }))}
+        />
     </main>
   )
 }
