@@ -38,8 +38,8 @@ export default function homepage() {
     thumb:  '/images/film/film7.jpg'
   },
   {
-    src:  '/images/film/film18.jpg',
-    thumb:  '/images/film/film18.jpg'
+    src:  '/images/home-page/home18.jpg',
+    thumb:  '/images/home-page/home18.jpg'
   },
   {
     src:  '/images/film/film64.jpg',
@@ -186,7 +186,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home4} 
                 alt='home4'
-                className='cursor-pointer sm:mt-24'
+                className='cursor-pointer sm:mt-24 w-5/12'
             />
           </motion.div>
           <motion.div 
@@ -242,7 +242,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home7} 
                 alt='home7'
-                className='cursor-pointer sm:mt-24'
+                className='cursor-pointer sm:mt-24 w-5/12'
             />
           </motion.div>
           <motion.div 
