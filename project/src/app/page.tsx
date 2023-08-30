@@ -19,16 +19,17 @@ import home12 from '../../public/images/home-page/home16.jpg';
 import home13 from '../../public/images/home-page/home17.jpg';
 
 //light gallery
-import type {LightGallery} from '../app/dependencies/lightgallery/lightgallery';
+import type {LightGallery} from 'lightgallery/lightgallery';
 //component import renamed to avoid conflict with type import on line above
-import LightGalleryComponent from '../app/dependencies/lightgallery/react';
+import LightGalleryComponent from 'lightgallery/react';
+
 
 // import styles
 import '../app/dependencies/lightgallery/css/lightgallery.css';
 import '../app/dependencies/lightgallery/css/lg-thumbnail.css';
 
 // import plugins
-import lgThumbnail from '../app/dependencies/lightgallery/plugins/thumbnail';
+import lgThumbnail from 'lightgallery/plugins/thumbnail';
 
 export default function homepage() {
 
