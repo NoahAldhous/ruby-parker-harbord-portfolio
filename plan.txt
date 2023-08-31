@@ -22,19 +22,23 @@ TODO / FIX
     2. Contact page text is too small on mobile screen ✅
     3. Medium screens breakpoint need styling attention- look through everything on a tablet screen ✅
     4.rebuild Project card to be more intuitive.✅
-    5.add text to existing pages and animate.
-    6.contacts page is scrollable on mobile screens for some reason.
+    5.add text to existing pages and animate. ✅
+    6.contacts page is scrollable on mobile screens for some reason. ✅
     7.double scroll bar on projects page on mobile ✅
     8. Change timing on contact page animations. ✅
     9.make a folder called dependencies ✅
-        -copy lightgalley node module folder into it 
-        -change package lock dependency to file:{path to depencies folder} 
-        -edit lightgalley.css background color + padding to background color.
+        -copy lightgalley node module folder into it ✅
+        -change package lock dependency to file:{path to depencies folder} ✅
+        -edit lightgalley.css background color + padding to background color. ✅
     10. Add footer to every page 
     11. change loading gif on lightgallery component.
-    12. change breakpoint for single column masonry grid on film page.
+    12. change breakpoint for single column masonry grid on film page.✅
     13. finish about section.✅
     14. resize super wide panorama images for better quality. 
     15. add proper thumbnail images for homepage. 
     16. rewrite homepage to render dynamically, use fewer lines of code.
+    17. add bottom margin to 'Hello' on about page. 
+    18. film masonry grid should not render all images with priority=true prop. 
+    19. fix breakpoint image styling on home page for mobile screens. 
+    20.  
     
