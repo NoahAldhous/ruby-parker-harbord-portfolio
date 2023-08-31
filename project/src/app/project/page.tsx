@@ -1,5 +1,6 @@
-// import ProjectCard from '../components/ProjectCard';
 import ProjectCard from '../components/NewProjectCard';
+import Footer from '../components/Footer'
+
 
 //image imports
 import cafeMelo from '../../../public/images/projects/cafe-melo/melo1.jpg';
@@ -59,5 +60,6 @@ export default function Page(){
                 />
             </div>
         </div>
+        <Footer/>
     </main>
 }

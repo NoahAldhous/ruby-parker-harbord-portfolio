@@ -30,7 +30,7 @@ TODO / FIX
         -copy lightgalley node module folder into it ✅
         -change package lock dependency to file:{path to depencies folder} ✅
         -edit lightgalley.css background color + padding to background color. ✅
-    10. Add footer to every page 
+    10. Add footer to pages ✅
     11. change loading gif on lightgallery component.
     12. change breakpoint for single column masonry grid on film page.✅
     13. finish about section.✅

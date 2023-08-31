@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import { useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Footer from '../app/components/Footer'
 
 //image import
 import home1 from '../../public/images/film/film7.jpg';
@@ -106,7 +107,7 @@ export default function homepage() {
 }
 
   return (  
-    <main className="flex sm:h-screen sm:w-screen flex-col items-center pt-24 bg-primary dark:bg-dark overflow-y-auto overflow-x-hidden">
+    <main className="flex sm:h-full sm:w-screen flex-col items-center pt-24 bg-primary dark:bg-dark overflow-y-visible overflow-x-hidden">
       <section className="space-y-6 sm:space-y-0 flex h-full flex-col justify-start items-start p-2 sm:p-8 w-full h-full ">
         <AnimatePresence mode="wait">
           <div className='space-y-6 sm:space-y-0  w-full flex-col flex sm:flex-row sm:justify-end'>
@@ -375,6 +376,7 @@ export default function homepage() {
               thumb: image.thumb
           }))}
         />
+        <Footer/>
     </main>
   )
 }

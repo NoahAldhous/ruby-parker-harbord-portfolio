@@ -1,5 +1,7 @@
 'use client';
 
+import Footer from '../components/Footer'
+
 //masonry grid component
 import FilmMasonryGrid from '@/app/components/FilmMasonryGrid';
 
@@ -14,5 +16,6 @@ export default function Page(){
             images={images}
         />
      </div>
+     <Footer/>
     </main>
 }

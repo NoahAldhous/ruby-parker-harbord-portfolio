@@ -2,7 +2,7 @@ import Masonry from 'react-masonry-css';
 import Image, { StaticImageData } from 'next/image';
 import { useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-
+import Footer from './Footer';
 
 //light gallery
 import type {LightGallery} from 'lightgallery/lightgallery';
@@ -100,5 +100,6 @@ export default function MasonryGrid({images}:MasonryGridProps){
                 thumb: image.thumb
             }))}
         />
+    <Footer/>
     </>
 }

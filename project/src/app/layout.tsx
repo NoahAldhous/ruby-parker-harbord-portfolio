@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-          <body className={superRetro.variable}>
+          <body className={`${superRetro.variable} overflow-x-hidden`}>
             <NavigationBar/>
             <nav></nav>
             {children}
