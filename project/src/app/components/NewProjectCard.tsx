@@ -40,10 +40,10 @@ export default function ProjectCard({imageSource, projectTitle, imageAlt, url}:P
                     }}
             variants={divVariants}
             >
-                <div className='relative pb-portrait w-full h-full'>
+                <div className='relative pb-portrait w-full h-full group overflow-hidden'>
                     <Image 
                         placeholder='blur' 
-                        className="h-full w-full absolute object-cover bottom-0" 
+                        className="h-full w-full absolute object-cover bottom-0 transition duration-300 lg:group-hover:scale-125" 
                         priority={true}
                         src={imageSource} 
                         alt={imageAlt} 
