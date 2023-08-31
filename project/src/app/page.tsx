@@ -187,7 +187,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home4} 
                 alt='home4'
-                className='cursor-pointer sm:mt-24 w-5/12'
+                className='cursor-pointer sm:mt-24 sm:w-5/12'
             />
           </motion.div>
           <motion.div 
@@ -243,7 +243,7 @@ export default function homepage() {
               placeholder='blur' 
                 src={home7} 
                 alt='home7'
-                className='cursor-pointer sm:mt-24 w-5/12'
+                className='cursor-pointer sm:mt-24 sm:w-5/12'
             />
           </motion.div>
           <motion.div 

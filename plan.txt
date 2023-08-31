@@ -39,6 +39,6 @@ TODO / FIX
     16. rewrite homepage to render dynamically, use fewer lines of code.
     17. add bottom margin to 'Hello' on about page. 
     18. film masonry grid should not render all images with priority=true prop. 
-    19. fix breakpoint image styling on home page for mobile screens. 
+    19. fix breakpoint image styling on home page for mobile screens. ✅
     20.  
     
