@@ -5,15 +5,14 @@ PLAN
     3.Initialise project and install packages-
         NextJS ✅
         Tailwind ✅
-            -headless UI ✅
         Typescript ✅
     4. Deploy Project with Vercel✅
     5. Create Navigation bar ✅
     5b. Create loading UI for each route. ✅
-    6. Create Layout 
+    6. Create Layout ✅
     7. Build Masonry grid ✅
     8. Build the Lightbox (Image Carousel) ✅
-    9. Finish other pages
+    9. Finish other pages ✅
     10. Refactor, add future ideas and improvements.
 
 TODO / FIX

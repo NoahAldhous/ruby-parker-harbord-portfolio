@@ -24,7 +24,6 @@ import type {LightGallery} from 'lightgallery/lightgallery';
 //component import renamed to avoid conflict with type import on line above
 import LightGalleryComponent from 'lightgallery/react';
 
-
 // import styles
 import '../app/dependencies/lightgallery/css/lightgallery.css';
 import '../app/dependencies/lightgallery/css/lg-thumbnail.css';
