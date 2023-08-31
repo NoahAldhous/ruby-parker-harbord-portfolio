@@ -73,7 +73,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
                 key={image.alt} 
                 quality={100}
                 placeholder="blur"
-                priority={true}
+                priority={idx <= 10 ? true : false}
                 src={image.staticImageData} 
                 alt={image.alt} 
                 className={`sm:mb-1/${Math.floor(Math.random() * (6 - 4))+4} mb-12 cursor-pointer`}
