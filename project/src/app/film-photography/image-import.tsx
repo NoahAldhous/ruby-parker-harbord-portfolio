@@ -76,6 +76,38 @@ import film75 from '../../../public/images/film/film75.jpg'
 import film76 from '../../../public/images/film/film76.jpg'
 import film77 from '../../../public/images/film/film77.jpg'
 import film78 from '../../../public/images/film/film78.jpg'
+import film79 from '../../../public/images/film/film79.jpg'
+import film80 from '../../../public/images/film/film70.jpg'
+import film81 from '../../../public/images/film/film81.jpg'
+import film82 from '../../../public/images/film/film82.jpg'
+import film83 from '../../../public/images/film/film83.jpg'
+import film84 from '../../../public/images/film/film84.jpg'
+import film85 from '../../../public/images/film/film85.jpg'
+import film86 from '../../../public/images/film/film86.jpg'
+import film87 from '../../../public/images/film/film87.jpg'
+import film88 from '../../../public/images/film/film88.jpg'
+import film89 from '../../../public/images/film/film89.jpg'
+import film90 from '../../../public/images/film/film90.jpg'
+import film91 from '../../../public/images/film/film91.jpg'
+import film92 from '../../../public/images/film/film92.jpg'
+import film93 from '../../../public/images/film/film93.jpg'
+import film94 from '../../../public/images/film/film94.jpg'
+import film95 from '../../../public/images/film/film95.jpg'
+import film96 from '../../../public/images/film/film96.jpg'
+import film97 from '../../../public/images/film/film97.jpg'
+import film98 from '../../../public/images/film/film98.jpg'
+import film99 from '../../../public/images/film/film99.jpg'
+import film100 from '../../../public/images/film/film100.jpg'
+import film101 from '../../../public/images/film/film101.jpg'
+import film102 from '../../../public/images/film/film102.jpg'
+import film103 from '../../../public/images/film/film103.png'
+import film104 from '../../../public/images/film/film104.jpg'
+import film105 from '../../../public/images/film/film105.png'
+import film106 from '../../../public/images/film/film106.png'
+import film107 from '../../../public/images/film/film107.jpg'
+import film108 from '../../../public/images/film/film108.png'
+import film109 from '../../../public/images/film/film109.png'
+import film110 from '../../../public/images/film/film110.jpg'
 
 export default [
     {
@@ -390,37 +422,36 @@ export default [
         staticImageData: film52,
         thumb: '/images/film/thumbnails/film-thumb52.jpg' 
     },
-    //files need converting from TIFF format to be usable 
-    // {
-    //     alt: 'film53',
-    //     src: '/images/film/film53.jpg',
-    //     staticImageData: film53,
-    //     thumb: '/images/film/thumbnails/film-thumb53.jpg' 
-    // },
-    // {
-    //     alt: 'film54',
-    //     src: '/images/film/film54.jpg',
-    //     staticImageData: film54,
-    //     thumb: '/images/film/thumbnails/film-thumb54.jpg' 
-    // },
-    // {
-    //     alt: 'film55',
-    //     src: '/images/film/film55.jpg',
-    //     staticImageData: film55,
-    //     thumb: '/images/film/thumbnails/film-thumb55.jpg' 
-    // },
-    // {
-    //     alt: 'film56',
-    //     src: '/images/film/film56.jpg',
-    //     staticImageData: film56,
-    //     thumb: '/images/film/thumbnails/film-thumb56.jpg' 
-    // },
-    // {
-    //     alt: 'film57',
-    //     src: '/images/film/film57.jpg',
-    //     staticImageData: film57,
-    //     thumb: '/images/film/thumbnails/film-thumb57.jpg' 
-    // },
+    {
+        alt: 'film53',
+        src: '/images/film/film53.jpg',
+        staticImageData: film53,
+        thumb: '/images/film/thumbnails/film-thumb53.jpg' 
+    },
+    {
+        alt: 'film54',
+        src: '/images/film/film54.jpg',
+        staticImageData: film54,
+        thumb: '/images/film/thumbnails/film-thumb54.jpg' 
+    },
+    {
+        alt: 'film55',
+        src: '/images/film/film55.jpg',
+        staticImageData: film55,
+        thumb: '/images/film/thumbnails/film-thumb55.jpg' 
+    },
+    {
+        alt: 'film56',
+        src: '/images/film/film56.jpg',
+        staticImageData: film56,
+        thumb: '/images/film/thumbnails/film-thumb56.jpg' 
+    },
+    {
+        alt: 'film57',
+        src: '/images/film/film57.jpg',
+        staticImageData: film57,
+        thumb: '/images/film/thumbnails/film-thumb57.jpg' 
+    },
     {
         alt: 'film58',
         src: '/images/film/film58.jpg',
@@ -546,5 +577,197 @@ export default [
         src: '/images/film/film78.jpg',
         staticImageData: film78,
         thumb: '/images/film/thumbnails/film-thumb78.jpg' 
+    },
+    {
+        alt: 'film79',
+        src: '/images/film/film79.jpg',
+        staticImageData: film79,
+        thumb: '/images/film/thumbnails/film-thumb79.jpg' 
+    },
+    {
+        alt: 'film80',
+        src: '/images/film/film80.jpg',
+        staticImageData: film80,
+        thumb: '/images/film/thumbnails/film-thumb80.jpg' 
+    },
+    {
+        alt: 'film81',
+        src: '/images/film/film81.jpg',
+        staticImageData: film81,
+        thumb: '/images/film/thumbnails/film-thumb81.jpg' 
+    },
+    {
+        alt: 'film82',
+        src: '/images/film/film82.jpg',
+        staticImageData: film82,
+        thumb: '/images/film/thumbnails/film-thumb82.jpg' 
+    },
+    {
+        alt: 'film83',
+        src: '/images/film/film83.jpg',
+        staticImageData: film83,
+        thumb: '/images/film/thumbnails/film-thumb83.jpg' 
+    },
+    {
+        alt: 'film84',
+        src: '/images/film/film84.jpg',
+        staticImageData: film84,
+        thumb: '/images/film/thumbnails/film-thumb84.jpg' 
+    },
+    {
+        alt: 'film85',
+        src: '/images/film/film85.jpg',
+        staticImageData: film85,
+        thumb: '/images/film/thumbnails/film-thumb85.jpg' 
+    },
+    {
+        alt: 'film86',
+        src: '/images/film/film86.jpg',
+        staticImageData: film86,
+        thumb: '/images/film/thumbnails/film-thumb86.jpg' 
+    },
+    {
+        alt: 'film87',
+        src: '/images/film/film87.jpg',
+        staticImageData: film87,
+        thumb: '/images/film/thumbnails/film-thumb87.jpg' 
+    },
+    {
+        alt: 'film88',
+        src: '/images/film/film88.jpg',
+        staticImageData: film88,
+        thumb: '/images/film/thumbnails/film-thumb88.jpg' 
+    },
+    {
+        alt: 'film89',
+        src: '/images/film/film89.jpg',
+        staticImageData: film89,
+        thumb: '/images/film/thumbnails/film-thumb89.jpg' 
+    },
+    {
+        alt: 'film90',
+        src: '/images/film/film90.jpg',
+        staticImageData: film90,
+        thumb: '/images/film/thumbnails/film-thumb90.jpg' 
+    },
+    {
+        alt: 'film91',
+        src: '/images/film/film91.jpg',
+        staticImageData: film91,
+        thumb: '/images/film/thumbnails/film-thumb91.jpg' 
+    },
+    {
+        alt: 'film92',
+        src: '/images/film/film92.jpg',
+        staticImageData: film92,
+        thumb: '/images/film/thumbnails/film-thumb92.jpg' 
+    },
+    {
+        alt: 'film93',
+        src: '/images/film/film93.jpg',
+        staticImageData: film93,
+        thumb: '/images/film/thumbnails/film-thumb93.jpg' 
+    },
+    {
+        alt: 'film94',
+        src: '/images/film/film94.jpg',
+        staticImageData: film94,
+        thumb: '/images/film/thumbnails/film-thumb94.jpg' 
+    },
+    {
+        alt: 'film95',
+        src: '/images/film/film95.jpg',
+        staticImageData: film95,
+        thumb: '/images/film/thumbnails/film-thumb95.jpg' 
+    },
+    {
+        alt: 'film96',
+        src: '/images/film/film96.jpg',
+        staticImageData: film96,
+        thumb: '/images/film/thumbnails/film-thumb96.jpg' 
+    },
+    {
+        alt: 'film97',
+        src: '/images/film/film97.jpg',
+        staticImageData: film97,
+        thumb: '/images/film/thumbnails/film-thumb97.jpg' 
+    },
+    {
+        alt: 'film98',
+        src: '/images/film/film98.jpg',
+        staticImageData: film98,
+        thumb: '/images/film/thumbnails/film-thumb98.jpg' 
+    },
+    {
+        alt: 'film99',
+        src: '/images/film/film99.jpg',
+        staticImageData: film99,
+        thumb: '/images/film/thumbnails/film-thumb99.jpg' 
+    },
+    {
+        alt: 'film100',
+        src: '/images/film/film100.jpg',
+        staticImageData: film100,
+        thumb: '/images/film/thumbnails/film-thumb100.jpg' 
+    },
+    {
+        alt: 'film101',
+        src: '/images/film/film101.jpg',
+        staticImageData: film101,
+        thumb: '/images/film/thumbnails/film-thumb101.jpg' 
+    },
+    {
+        alt: 'film102',
+        src: '/images/film/film102.jpg',
+        staticImageData: film102,
+        thumb: '/images/film/thumbnails/film-thumb102.jpg' 
+    },
+    {
+        alt: 'film103',
+        src: '/images/film/film103.png',
+        staticImageData: film103,
+        thumb: '/images/film/thumbnails/film-thumb103.png' 
+    },
+    {
+        alt: 'film104',
+        src: '/images/film/film104.jpg',
+        staticImageData: film104,
+        thumb: '/images/film/thumbnails/film-thumb104.jpg' 
+    },
+    {
+        alt: 'film105',
+        src: '/images/film/film105.png',
+        staticImageData: film105,
+        thumb: '/images/film/thumbnails/film-thumb105.png' 
+    },
+    {
+        alt: 'film106',
+        src: '/images/film/film106.png',
+        staticImageData: film106,
+        thumb: '/images/film/thumbnails/film-thumb106.png' 
+    },
+    {
+        alt: 'film107',
+        src: '/images/film/film107.jpg',
+        staticImageData: film107,
+        thumb: '/images/film/thumbnails/film-thumb107.jpg' 
+    },
+    {
+        alt: 'film108',
+        src: '/images/film/film108.png',
+        staticImageData: film108,
+        thumb: '/images/film/thumbnails/film-thumb108.png' 
+    },
+    {
+        alt: 'film109',
+        src: '/images/film/film109.png',
+        staticImageData: film109,
+        thumb: '/images/film/thumbnails/film-thumb109.png' 
+    },
+    {
+        alt: 'film110',
+        src: '/images/film/film110.jpg',
+        staticImageData: film110,
+        thumb: '/images/film/thumbnails/film-thumb110.jpg' 
     },
 ]
