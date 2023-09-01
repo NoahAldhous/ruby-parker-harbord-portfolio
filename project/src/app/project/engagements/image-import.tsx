@@ -17,6 +17,12 @@ import engagements16 from '../../../../public/images/projects/engagements/engage
 import engagements17 from '../../../../public/images/projects/engagements/engagements17.jpg'
 import engagements18 from '../../../../public/images/projects/engagements/engagements18.jpg'
 import engagements19 from '../../../../public/images/projects/engagements/engagements19.jpg'
+import engagements20 from '../../../../public/images/projects/engagements/engagements20.jpg'
+import engagements21 from '../../../../public/images/projects/engagements/engagements21.jpg'
+import engagements22 from '../../../../public/images/projects/engagements/engagements22.jpg'
+import engagements23 from '../../../../public/images/projects/engagements/engagements23.jpg'
+import engagements24 from '../../../../public/images/projects/engagements/engagements24.jpg'
+import engagements25 from '../../../../public/images/projects/engagements/engagements25.jpg'
 
 export default [
     {
@@ -132,5 +138,41 @@ export default [
         src: '/images/projects/engagements/engagements19.jpg',
         staticImageData: engagements19,
         thumb: '/images/projects/engagements/thumbnails/engagements-thumb19.jpg' 
+    },
+    {
+        alt: 'engagements20',
+        src: '/images/projects/engagements/engagements20.jpg',
+        staticImageData: engagements20,
+        thumb: '/images/projects/engagements/thumbnails/engagements-thumb20.jpg' 
+    },
+    {
+        alt: 'engagements21',
+        src: '/images/projects/engagements/engagements21.jpg',
+        staticImageData: engagements21,
+        thumb: '/images/projects/engagements/thumbnails/engagements-thumb21.jpg' 
+    },
+    {
+        alt: 'engagements22',
+        src: '/images/projects/engagements/engagements22.jpg',
+        staticImageData: engagements22,
+        thumb: '/images/projects/engagements/thumbnails/engagements-thumb22.jpg' 
+    },
+    {
+        alt: 'engagements23',
+        src: '/images/projects/engagements/engagements23.jpg',
+        staticImageData: engagements23,
+        thumb: '/images/projects/engagements/thumbnails/engagements-thumb23.jpg' 
+    },
+    {
+        alt: 'engagements24',
+        src: '/images/projects/engagements/engagements24.jpg',
+        staticImageData: engagements24,
+        thumb: '/images/projects/engagements/thumbnails/engagements-thumb24.jpg' 
+    },
+    {
+        alt: 'engagements25',
+        src: '/images/projects/engagements/engagements25.jpg',
+        staticImageData: engagements25,
+        thumb: '/images/projects/engagements/thumbnails/engagements-thumb25.jpg' 
     },
 ]
