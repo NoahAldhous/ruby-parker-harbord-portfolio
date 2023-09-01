@@ -72,7 +72,7 @@ export default function Page(){
                         },
                     }}
             >
-                <h2 className='font-superRetro italic text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl'>
+                <h2 className='font-superRetro italic text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl md:mb-2'>
                     Hello
                 </h2>
                 <p>
