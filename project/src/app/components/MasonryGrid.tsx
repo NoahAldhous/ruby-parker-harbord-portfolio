@@ -46,6 +46,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
             <AnimatePresence mode="wait">
             <motion.div
             key={image.alt}
+            className='md:overflow-clip'
             initial='initialState'
             whileInView='inViewState'
             exit='exitState'
@@ -76,7 +77,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
                 placeholder="blur" 
                 src={image.staticImageData} 
                 alt={image.alt} 
-                className="sm:mb-8 mb-12 cursor-pointer"
+                className="sm:mb-8 mb-12 object-contain cursor-pointer md:transition md:duration-300 md:hover:scale-110"
                 onClick={() => {
                     lightboxRef.current?.openGallery(idx);
                 }}
