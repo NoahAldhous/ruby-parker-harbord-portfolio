@@ -38,10 +38,10 @@ export default [
         thumb: '/images/projects/engagements/thumbnails/engagements-thumb2.jpg' 
     },
     {
-        alt: 'engagements14',
-        src: '/images/projects/engagements/engagements14.jpg',
-        staticImageData: engagements14,
-        thumb: '/images/projects/engagements/thumbnails/engagements-thumb14.jpg' 
+        alt: 'engagements3',
+        src: '/images/projects/engagements/engagements3.jpg',
+        staticImageData: engagements3,
+        thumb: '/images/projects/engagements/thumbnails/engagements-thumb3.jpg' 
     },
     {
         alt: 'engagements3',
@@ -108,6 +108,12 @@ export default [
         src: '/images/projects/engagements/engagements13.jpg',
         staticImageData: engagements13,
         thumb: '/images/projects/engagements/thumbnails/engagements-thumb13.jpg' 
+    },
+    {
+        alt: 'engagements14',
+        src: '/images/projects/engagements/engagements14.jpg',
+        staticImageData: engagements14,
+        thumb: '/images/projects/engagements/thumbnails/engagements-thumb14.jpg' 
     },
     {
         alt: 'engagements15',
