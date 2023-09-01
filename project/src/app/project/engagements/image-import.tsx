@@ -44,12 +44,6 @@ export default [
         thumb: '/images/projects/engagements/thumbnails/engagements-thumb3.jpg' 
     },
     {
-        alt: 'engagements3',
-        src: '/images/projects/engagements/engagements3.jpg',
-        staticImageData: engagements3,
-        thumb: '/images/projects/engagements/thumbnails/engagements-thumb3.jpg' 
-    },
-    {
         alt: 'engagements4',
         src: '/images/projects/engagements/engagements4.jpg',
         staticImageData: engagements4,
