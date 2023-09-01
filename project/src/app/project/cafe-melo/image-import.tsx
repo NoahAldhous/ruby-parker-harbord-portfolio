@@ -12,6 +12,12 @@ import melo11 from '../../../../public/images/projects/cafe-melo/melo11.jpg'
 import melo12 from '../../../../public/images/projects/cafe-melo/melo12.jpg'
 import melo13 from '../../../../public/images/projects/cafe-melo/melo13.jpg'
 import melo14 from '../../../../public/images/projects/cafe-melo/melo14.jpg'
+import melo15 from '../../../../public/images/projects/cafe-melo/melo15.jpg'
+import melo16 from '../../../../public/images/projects/cafe-melo/melo16.jpg'
+import melo17 from '../../../../public/images/projects/cafe-melo/melo17.jpg'
+import melo18 from '../../../../public/images/projects/cafe-melo/melo18.jpg'
+import melo19 from '../../../../public/images/projects/cafe-melo/melo19.jpg'
+import melo20 from '../../../../public/images/projects/cafe-melo/melo20.jpg'
 
 
 export default [
@@ -98,5 +104,41 @@ export default [
         src: '/images/projects/cafe-melo/melo14.jpg',
         staticImageData: melo14,
         thumb: '/images/projects/cafe-melo/thumbnails/melo-thumb14.jpg', 
+    },
+    {
+        alt: 'melo15',
+        src: '/images/projects/cafe-melo/melo15.jpg',
+        staticImageData: melo15,
+        thumb: '/images/projects/cafe-melo/thumbnails/melo-thumb15.jpg', 
+    },
+    {
+        alt: 'melo16',
+        src: '/images/projects/cafe-melo/melo16.jpg',
+        staticImageData: melo16,
+        thumb: '/images/projects/cafe-melo/thumbnails/melo-thumb16.jpg', 
+    },
+    {
+        alt: 'melo17',
+        src: '/images/projects/cafe-melo/melo17.jpg',
+        staticImageData: melo17,
+        thumb: '/images/projects/cafe-melo/thumbnails/melo-thumb17.jpg', 
+    },
+    {
+        alt: 'melo18',
+        src: '/images/projects/cafe-melo/melo18.jpg',
+        staticImageData: melo18,
+        thumb: '/images/projects/cafe-melo/thumbnails/melo-thumb18.jpg', 
+    },
+    {
+        alt: 'melo19',
+        src: '/images/projects/cafe-melo/melo19.jpg',
+        staticImageData: melo19,
+        thumb: '/images/projects/cafe-melo/thumbnails/melo-thumb19.jpg', 
+    },
+    {
+        alt: 'melo20',
+        src: '/images/projects/cafe-melo/melo20.jpg',
+        staticImageData: melo20,
+        thumb: '/images/projects/cafe-melo/thumbnails/melo-thumb20.jpg', 
     },
 ]
