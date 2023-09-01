@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 
 
 //image imports
-import cafeMelo from '../../../public/images/projects/cafe-melo/melo1.jpg';
+import cafeMelo from '../../../public/images/projects/cafe-melo/melo14.jpg';
 import engagements from '../../../public/images/projects/engagements/engagements1.jpg';
 import headshots from '../../../public/images/projects/headshots/headshots1.jpg'
 import namesBand from '../../../public/images/projects/names-band/names1.jpg'
