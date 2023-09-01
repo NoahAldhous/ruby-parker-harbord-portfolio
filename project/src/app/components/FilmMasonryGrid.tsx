@@ -48,6 +48,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
             key={image.alt}
             initial='initialState'
             whileInView='inViewState'
+            className='md:overflow-clip'
             exit='exitState'
             viewport={{ once: true }}
             transition={{
@@ -76,7 +77,7 @@ export default function MasonryGrid({images}:MasonryGridProps){
                 priority={idx <= 10 ? true : false}
                 src={image.staticImageData} 
                 alt={image.alt} 
-                className={`sm:mb-1/${Math.floor(Math.random() * (6 - 4))+4} mb-12 cursor-pointer`}
+                className={`sm:mb-1/${Math.floor(Math.random() * (6 - 4))+4} object-contain md:transition md:duration-300 mb-12 cursor-pointer md:hover:scale-110`}
                 onClick={() => {
                     lightboxRef.current?.openGallery(idx);
                 }}
