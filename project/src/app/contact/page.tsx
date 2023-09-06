@@ -68,7 +68,8 @@ export default function Page(){
                                                     firstLineText={item.firstLineText}
                                                     secondLineText={item.secondLineText}
                                                     url={item.url}
-                                                    isDownload={item.isDownload}                                                />
+                                                    isDownload={item.isDownload}
+                                                />
                                         </motion.div> 
                                     ))}
     </motion.main>
