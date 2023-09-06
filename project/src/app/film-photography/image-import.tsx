@@ -100,9 +100,9 @@ import film99 from '../../../public/images/film/film99.jpg'
 import film100 from '../../../public/images/film/film100.jpg'
 import film101 from '../../../public/images/film/film101.jpg'
 import film102 from '../../../public/images/film/film102.jpg'
-import film103 from '../../../public/images/film/film103.png'
+import film103 from '../../../public/images/film/film103.jpg'
 import film104 from '../../../public/images/film/film104.jpg'
-import film105 from '../../../public/images/film/film105.png'
+import film105 from '../../../public/images/film/film105.jpg'
 
 export default [
     {
