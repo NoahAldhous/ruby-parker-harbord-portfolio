@@ -103,11 +103,6 @@ import film102 from '../../../public/images/film/film102.jpg'
 import film103 from '../../../public/images/film/film103.png'
 import film104 from '../../../public/images/film/film104.jpg'
 import film105 from '../../../public/images/film/film105.png'
-import film106 from '../../../public/images/film/film106.png'
-import film107 from '../../../public/images/film/film107.jpg'
-import film108 from '../../../public/images/film/film108.png'
-import film109 from '../../../public/images/film/film109.png'
-import film110 from '../../../public/images/film/film110.jpg'
 
 export default [
     {
@@ -825,11 +820,11 @@ export default [
         thumb: '/images/film/thumbnails/film-thumb102.jpg' 
     },
     {
-        type: 'png',
+        type: 'jpg',
         alt: 'film103',
-        src: '/images/film/film103.png',
+        src: '/images/film/film103.jpg',
         staticImageData: film103,
-        thumb: '/images/film/thumbnails/film-thumb103.png' 
+        thumb: '/images/film/thumbnails/film-thumb103.jpg' 
     },
     {
         type: 'jpg',
@@ -839,45 +834,10 @@ export default [
         thumb: '/images/film/thumbnails/film-thumb104.jpg' 
     },
     {
-        type: 'png',
+        type: 'jpg',
         alt: 'film105',
-        src: '/images/film/film105.png',
+        src: '/images/film/film105.jpg',
         staticImageData: film105,
-        thumb: '/images/film/thumbnails/film-thumb105.png' 
-    },
-    {
-        type: 'png',
-        alt: 'film106',
-        src: '/images/film/film106.png',
-        staticImageData: film106,
-        thumb: '/images/film/thumbnails/film-thumb106.png' 
-    },
-    {
-        type: 'jpg',
-        alt: 'film107',
-        src: '/images/film/film107.jpg',
-        staticImageData: film107,
-        thumb: '/images/film/thumbnails/film-thumb107.jpg' 
-    },
-    {
-        type: 'png',
-        alt: 'film108',
-        src: '/images/film/film108.png',
-        staticImageData: film108,
-        thumb: '/images/film/thumbnails/film-thumb108.png' 
-    },
-    {
-        type: 'png',
-        alt: 'film109',
-        src: '/images/film/film109.png',
-        staticImageData: film109,
-        thumb: '/images/film/thumbnails/film-thumb109.png' 
-    },
-    {
-        type: 'jpg',
-        alt: 'film110',
-        src: '/images/film/film110.jpg',
-        staticImageData: film110,
-        thumb: '/images/film/thumbnails/film-thumb110.jpg' 
+        thumb: '/images/film/thumbnails/film-thumb105.jpg' 
     },
 ]
