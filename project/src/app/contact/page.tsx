@@ -1,7 +1,8 @@
 'use client';
 
 import ContactLink from '../components/ContactLink';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'; 
+import Link from 'next/link';
 
 export default function Page(){
 
@@ -9,17 +10,20 @@ export default function Page(){
         {
             firstLineText:'Follow me on',
             secondLineText:'Instagram',
-            url:'https://www.instagram.com/rubyparkerh/'  
+            url:'https://www.instagram.com/rubyparkerh/',
+            isDownload:false
         },
         {
             firstLineText:'Send me an',
             secondLineText:'Email',
-            url:'mailto:rubyparkerphotography@gmail.com'
+            url:'mailto:rubyparkerphotography@gmail.com',
+            isDownload:false
         },
         {
             firstLineText:'Download my',
             secondLineText:'Portfolio',
-            url:'https://www.instagram.com/rubyparkerh/'
+            url:'/data/RubyParkerPortfolio.pdf',
+            isDownload:true
         }
     ];
 
@@ -64,7 +68,7 @@ export default function Page(){
                                                     firstLineText={item.firstLineText}
                                                     secondLineText={item.secondLineText}
                                                     url={item.url}
-                                                />
+                                                    isDownload={item.isDownload}                                                />
                                         </motion.div> 
                                     ))}
     </motion.main>
