@@ -548,7 +548,7 @@ export default [
     },
     {
         type: 'jpg',
-        alt: 'film9',
+        alt: 'film64',
         src: '/images/film/film64.jpg',
         staticImageData: film64,
         thumb: '/images/film/thumbnails/film-thumb64.jpg' 
