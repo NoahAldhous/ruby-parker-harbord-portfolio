@@ -49,7 +49,7 @@ export default function Page(){
                 <div className="hidden sm:inline sm:my-1/5 sm:h-1/2 sm:w-1/2 invisible"></div>
                 <ProjectCard 
                     imageSource={carpet} 
-                    projectTitle='red carpet' 
+                    projectTitle='red carpets' 
                     imageAlt='actor standing on the red carpet surrounded by lights'
                     url='red-carpet'
                 />
