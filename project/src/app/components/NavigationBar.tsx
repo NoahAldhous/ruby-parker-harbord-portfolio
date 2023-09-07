@@ -1,10 +1,10 @@
 'use client';
+
 import NavigationModal from "./NavigationModal";
 import Link from 'next/link';
 import React, {useState} from 'react';
 import { usePathname } from "next/navigation";
-import { motion, LayoutGroup } from 'framer-motion';
-
+import { motion } from 'framer-motion';
 
 export default function NavigationBar() {
 

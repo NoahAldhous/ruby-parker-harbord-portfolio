@@ -1,7 +1,10 @@
 'use client'
+
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import profilePicture from '../../../public/images/about/ruby-portrait.png';
+import Link from 'next/link';
+import { useState } from 'react';
 
 export default function Page(){
 
@@ -82,7 +85,7 @@ export default function Page(){
                 I have always enjoyed photography and before freelancing professionally in this field, I worked primarily in Film and Television. I love to tell stories with visuals and to explore what a picture can say.
                 <br/>
                 <br/>
-                I have worked in a variety of different environments, including Behind the Scenes photography, Weddings, Brand work and Red Carpet premieres. I have a cinematic documentary style and love to capture people in their most natural state. 
+                I have worked in a variety of different environments, including Behind the Scenes photography, Weddings, <Link className="transition duration-300 hover:underline" href='/project/cafe-melo'>Brand work</Link> and Red Carpet premieres. I have a cinematic documentary style and love to capture people in their most natural state. 
                 <br/>
                 <br/>
                 Whilst I am proficient in all types of photography, shooting on film is my favourite way of recording these moments. I've been doing film photography for almost a decade now. It's timeless and adds an organic look which is perfect for street photography and rustic weddings.
