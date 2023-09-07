@@ -10,7 +10,7 @@ import namesBand from '../../../public/images/projects/names-band/names2.jpg'
 import portraits from '../../../public/images/projects/portraits/portraits3.jpg'
 import patient from '../../../public/images/projects/patient/patient4.png'
 import summer from '../../../public/images/projects/summer-scott/summer11.jpg'
-import carpet from '../../../public/images/projects/red-carpet/red-carpet9.jpg'
+import carpet from '../../../public/images/projects/red-carpet/red-carpet8.jpg'
 
 export default function Page(){
     return <main className="flex flex-col items-center pt-24 bg-primary dark:bg-dark overflow-x-hidden box-border">
