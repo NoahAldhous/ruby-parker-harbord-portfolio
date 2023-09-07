@@ -7,7 +7,7 @@ import cafeMelo from '../../../public/images/projects/cafe-melo/melo14.jpg';
 import engagements from '../../../public/images/projects/engagements/engagements1.jpg';
 import headshots from '../../../public/images/projects/headshots/headshots1.jpg'
 import namesBand from '../../../public/images/projects/names-band/names1.jpg'
-import ali from '../../../public/images/projects/ali/ali1.jpg'
+import portraits from '../../../public/images/projects/portraits/portraits3.jpg'
 import patient from '../../../public/images/projects/patient/patient4.png'
 
 export default function Page(){
@@ -29,10 +29,10 @@ export default function Page(){
                 />
                 <div className="my-1/5 h-1/2 w-1/2 invisible"></div>
                 <ProjectCard 
-                    imageSource={ali} 
-                    projectTitle='ali' 
+                    imageSource={portraits} 
+                    projectTitle='portraits' 
                     imageAlt='portrait of a man'
-                    url='ali'
+                    url='portraits'
                 />
                 <div className="my-1/5 h-1/2 w-1/2 invisible"></div>
             </div>
