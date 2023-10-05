@@ -8,6 +8,16 @@ import headshots7 from '../../../../public/images/projects/headshots/headshots7.
 import headshots8 from '../../../../public/images/projects/headshots/headshots8.jpg'
 import headshots9 from '../../../../public/images/projects/headshots/headshots9.jpg'
 import headshots10 from '../../../../public/images/projects/headshots/headshots10.jpg'
+import headshots11 from '../../../../public/images/projects/headshots/headshots11.jpg'
+import headshots12 from '../../../../public/images/projects/headshots/headshots12.jpg'
+import headshots13 from '../../../../public/images/projects/headshots/headshots13.jpg'
+import headshots14 from '../../../../public/images/projects/headshots/headshots14.jpg'
+import headshots15 from '../../../../public/images/projects/headshots/headshots15.jpg'
+import headshots16 from '../../../../public/images/projects/headshots/headshots16.jpg'
+import headshots17 from '../../../../public/images/projects/headshots/headshots17.jpg'
+import headshots18 from '../../../../public/images/projects/headshots/headshots18.jpg'
+import headshots19 from '../../../../public/images/projects/headshots/headshots19.jpg'
+import headshots20 from '../../../../public/images/projects/headshots/headshots20.jpg'
 
 export default [
     {
@@ -69,5 +79,65 @@ export default [
         src: '/images/projects/headshots/headshots10.jpg',
         staticImageData: headshots10,
         thumb: '/images/projects/headshots/thumbnails/headshots-thumb10.jpg' 
+    },
+    {
+        alt: 'headshots11',
+        src: '/images/projects/headshots/headshots11.jpg',
+        staticImageData: headshots11,
+        thumb: '/images/projects/headshots/thumbnails/headshots-thumb11.jpg' 
+    },
+    {
+        alt: 'headshots12',
+        src: '/images/projects/headshots/headshots12.jpg',
+        staticImageData: headshots12,
+        thumb: '/images/projects/headshots/thumbnails/headshots-thumb12.jpg' 
+    },
+    {
+        alt: 'headshots13',
+        src: '/images/projects/headshots/headshots13.jpg',
+        staticImageData: headshots13,
+        thumb: '/images/projects/headshots/thumbnails/headshots-thumb13.jpg' 
+    },
+    {
+        alt: 'headshots14',
+        src: '/images/projects/headshots/headshots14.jpg',
+        staticImageData: headshots14,
+        thumb: '/images/projects/headshots/thumbnails/headshots-thumb14.jpg' 
+    },
+    {
+        alt: 'headshots15',
+        src: '/images/projects/headshots/headshots15.jpg',
+        staticImageData: headshots15,
+        thumb: '/images/projects/headshots/thumbnails/headshots-thumb15.jpg' 
+    },
+    {
+        alt: 'headshots16',
+        src: '/images/projects/headshots/headshots16.jpg',
+        staticImageData: headshots16,
+        thumb: '/images/projects/headshots/thumbnails/headshots-thumb16.jpg' 
+    },
+    {
+        alt: 'headshots17',
+        src: '/images/projects/headshots/headshots17.jpg',
+        staticImageData: headshots17,
+        thumb: '/images/projects/headshots/thumbnails/headshots-thumb17.jpg' 
+    },
+    {
+        alt: 'headshots18',
+        src: '/images/projects/headshots/headshots18.jpg',
+        staticImageData: headshots18,
+        thumb: '/images/projects/headshots/thumbnails/headshots-thumb18.jpg' 
+    },
+    {
+        alt: 'headshots19',
+        src: '/images/projects/headshots/headshots19.jpg',
+        staticImageData: headshots19,
+        thumb: '/images/projects/headshots/thumbnails/headshots-thumb19.jpg' 
+    },
+    {
+        alt: 'headshots20',
+        src: '/images/projects/headshots/headshots20.jpg',
+        staticImageData: headshots20,
+        thumb: '/images/projects/headshots/thumbnails/headshots-thumb20.jpg' 
     },
 ]

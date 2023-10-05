@@ -33,8 +33,8 @@ TODO / FIX
     11. change loading gif on lightgallery component.
     12. change breakpoint for single column masonry grid on film page.✅
     13. finish about section.✅
-    14. resize super wide panorama images for better quality. 
-    15. add proper thumbnail images for homepage. 
+    14. resize super wide panorama images for better quality. ✅
+    15. add proper thumbnail images for homepage. ✅
     16. rewrite homepage to render dynamically, use fewer lines of code.
     17. add bottom margin to 'Hello' on about page. 
     18. film masonry grid should not render all images with priority=true prop. 

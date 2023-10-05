@@ -19,12 +19,12 @@ export default function Page(){
             url:'mailto:rubyparkerphotography@gmail.com',
             isDownload:false
         },
-        {
-            firstLineText:'Download my',
-            secondLineText:'Portfolio',
-            url:'/data/RubyParkerPortfolio.pdf',
-            isDownload:true
-        }
+        // {
+        //     firstLineText:'Download my',
+        //     secondLineText:'Portfolio',
+        //     url:'/data/RubyParkerPortfolio.pdf',
+        //     isDownload:true
+        // }
     ];
 
     const mainVariant = {
