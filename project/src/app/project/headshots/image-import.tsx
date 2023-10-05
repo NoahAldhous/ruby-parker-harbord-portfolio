@@ -16,8 +16,6 @@ import headshots15 from '../../../../public/images/projects/headshots/headshots1
 import headshots16 from '../../../../public/images/projects/headshots/headshots16.jpg'
 import headshots17 from '../../../../public/images/projects/headshots/headshots17.jpg'
 import headshots18 from '../../../../public/images/projects/headshots/headshots18.jpg'
-import headshots19 from '../../../../public/images/projects/headshots/headshots19.jpg'
-import headshots20 from '../../../../public/images/projects/headshots/headshots20.jpg'
 
 export default [
     {
@@ -127,17 +125,5 @@ export default [
         src: '/images/projects/headshots/headshots18.jpg',
         staticImageData: headshots18,
         thumb: '/images/projects/headshots/thumbnails/headshots-thumb18.jpg' 
-    },
-    {
-        alt: 'headshots19',
-        src: '/images/projects/headshots/headshots19.jpg',
-        staticImageData: headshots19,
-        thumb: '/images/projects/headshots/thumbnails/headshots-thumb19.jpg' 
-    },
-    {
-        alt: 'headshots20',
-        src: '/images/projects/headshots/headshots20.jpg',
-        staticImageData: headshots20,
-        thumb: '/images/projects/headshots/thumbnails/headshots-thumb20.jpg' 
     },
 ]
