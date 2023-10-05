@@ -11,6 +11,7 @@ import portraits from '../../../public/images/projects/portraits/portraits3.jpg'
 import patient from '../../../public/images/projects/patient/patient4.png'
 import summer from '../../../public/images/projects/summer-scott/summer11.jpg'
 import carpet from '../../../public/images/projects/red-carpet/red-carpet8.jpg'
+import events from '../../../public/images/projects/events/events15.jpg'
 
 export default function Page(){
     return <main className="flex flex-col items-center pt-24 bg-primary dark:bg-dark overflow-x-hidden box-border">
@@ -42,6 +43,13 @@ export default function Page(){
                     projectTitle='summer scott' 
                     imageAlt='woman standing amongst trees'
                     url='summer-scott'
+                />
+                <div className="my-1/5 h-1/2 w-1/2 invisible"></div>
+                <ProjectCard 
+                    imageSource={events} 
+                    projectTitle='events' 
+                    imageAlt='woman standing amongst trees'
+                    url='events'
                 />
                 <div className="my-1/5 h-1/2 w-1/2 invisible"></div>
             </div>
