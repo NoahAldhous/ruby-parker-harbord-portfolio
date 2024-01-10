@@ -7,8 +7,7 @@ import cafeMelo from '../../../public/images/projects/cafe-melo/melo14.jpg';
 import engagements from '../../../public/images/projects/engagements/engagements16.jpg';
 import headshots from '../../../public/images/projects/headshots/headshots5.jpg'
 import namesBand from '../../../public/images/projects/names-band/names2.jpg'
-import portraits from '../../../public/images/projects/portraits/portraits3.jpg'
-import patient from '../../../public/images/projects/patient/patient4.png'
+import portraits from '../../../public/images/projects/portraits/portraits6.jpg'
 import summer from '../../../public/images/projects/summer-scott/summer11.jpg'
 import carpet from '../../../public/images/projects/red-carpet/red-carpet8.jpg'
 import events from '../../../public/images/projects/events/events15.jpg'
