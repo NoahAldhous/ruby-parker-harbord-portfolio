@@ -50,13 +50,13 @@ export default function Page(){
                 <div className="hidden sm:inline sm:my-1/5 sm:h-1/2 sm:w-1/2 invisible"></div>
                 <ProjectCard 
                     imageSource={events} 
-                    projectTitle={`events {<br/>} and {<br/>} theatre`} 
+                    projectTitle={`events ${<br/>}
+                     and ${<br/>} theatre`} 
                     imageAlt='a drag queen performance'
                     url='events'
                 />
                 <div className="my-1/5 h-1/2 w-1/2 invisible"></div>
                 <ProjectCard 
-                //will be changed to BTS stills
                     imageSource={BTS} 
                     projectTitle='BTS Stills' 
                     imageAlt='two actors having a cigarette between takes on a film set'
