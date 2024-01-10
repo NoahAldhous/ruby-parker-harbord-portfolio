@@ -50,8 +50,7 @@ export default function Page(){
                 <div className="hidden sm:inline sm:my-1/5 sm:h-1/2 sm:w-1/2 invisible"></div>
                 <ProjectCard 
                     imageSource={events} 
-                    projectTitle={`events ${<br/>}
-                     and ${<br/>} theatre`} 
+                    projectTitle={`events <br/> and <br/> theatre`}
                     imageAlt='a drag queen performance'
                     url='events'
                 />
