@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import cafeMelo from '../../../public/images/projects/cafe-melo/melo14.jpg';
 import engagements from '../../../public/images/projects/engagements/engagements16.jpg';
 import headshots from '../../../public/images/projects/headshots/headshots5.jpg'
-import namesBand from '../../../public/images/projects/names-band/names2.jpg'
+import musicians from '../../../public/images/projects/musicians/musicians2.jpg'
 import portraits from '../../../public/images/projects/portraits/portraits6.jpg'
 import BTS from '../../../public/images/projects/BTS/BTS19.jpg'
 import carpet from '../../../public/images/projects/red-carpet/red-carpet8.jpg'
@@ -38,11 +38,10 @@ export default function Page(){
                 />
                 <div className="my-1/5 h-1/2 w-1/2 invisible"></div>
                 <ProjectCard 
-                    imageSource={namesBand} 
-                    projectTitle='Music Artists' 
+                    imageSource={musicians} 
+                    projectTitle='Musician Portraits' 
                     imageAlt='people from a band'
-                    // change the url page name to more generic e.g 'band' or 'music artists'
-                    url='names-band'
+                    url='musicians'
                 />
                 <div className="my-1/5 h-1/2 w-1/2 invisible"></div>
             </div>
