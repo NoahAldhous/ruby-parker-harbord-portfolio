@@ -28,6 +28,8 @@ import portraits27 from '../../../../public/images/projects/portraits/portraits2
 import portraits28 from '../../../../public/images/projects/portraits/portraits28.jpg'
 import portraits29 from '../../../../public/images/projects/portraits/portraits29.jpg'
 import portraits30 from '../../../../public/images/projects/portraits/portraits30.jpg'
+import portraits31 from '../../../../public/images/projects/portraits/portraits31.jpg'
+import portraits32 from '../../../../public/images/projects/portraits/portraits32.jpg'
 
 export default [
     {
@@ -209,5 +211,17 @@ export default [
         src: '/images/projects/portraits/portraits30.jpg',
         staticImageData: portraits30,
         thumb: '/images/projects/portraits/thumbnails/portraits-thumb30.jpg'
+    },
+    {
+        alt: 'portraits31',
+        src: '/images/projects/portraits/portraits31.jpg',
+        staticImageData: portraits31,
+        thumb: '/images/projects/portraits/thumbnails/portraits-thumb31.jpg'
+    },
+    {
+        alt: 'portraits32',
+        src: '/images/projects/portraits/portraits32.jpg',
+        staticImageData: portraits32,
+        thumb: '/images/projects/portraits/thumbnails/portraits-thumb32.jpg'
     },
 ]
