@@ -7,10 +7,10 @@ import cafeMelo from '../../../public/images/projects/cafe-melo/melo14.jpg';
 import engagements from '../../../public/images/projects/engagements/engagements16.jpg';
 import headshots from '../../../public/images/projects/headshots/headshots5.jpg'
 import musicians from '../../../public/images/projects/musicians/musicians2.jpg'
-import portraits from '../../../public/images/projects/portraits/portraits6.jpg'
+import portraits from '../../../public/images/projects/portraits/portraits4.jpg'
 import BTS from '../../../public/images/projects/BTS/BTS19.jpg'
 import carpet from '../../../public/images/projects/red-carpet/red-carpet8.jpg'
-import events from '../../../public/images/projects/events/events15.jpg'
+import events from '../../../public/images/projects/events/events31.jpg'
 
 export default function Page(){
     return <main className="flex flex-col items-center pt-24 bg-primary dark:bg-dark overflow-x-hidden box-border">
