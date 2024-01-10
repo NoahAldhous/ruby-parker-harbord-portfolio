@@ -8,7 +8,7 @@ import engagements from '../../../public/images/projects/engagements/engagements
 import headshots from '../../../public/images/projects/headshots/headshots5.jpg'
 import namesBand from '../../../public/images/projects/names-band/names2.jpg'
 import portraits from '../../../public/images/projects/portraits/portraits6.jpg'
-import summer from '../../../public/images/projects/summer-scott/summer11.jpg'
+import BTS from '../../../public/images/projects/BTS/BTS19.jpg'
 import carpet from '../../../public/images/projects/red-carpet/red-carpet8.jpg'
 import events from '../../../public/images/projects/events/events15.jpg'
 
@@ -51,22 +51,22 @@ export default function Page(){
                 <div className="hidden sm:inline sm:my-1/5 sm:h-1/2 sm:w-1/2 invisible"></div>
                 <ProjectCard 
                     imageSource={events} 
-                    projectTitle='events and theatre' 
+                    projectTitle={`events {<br/>} and {<br/>} theatre`} 
                     imageAlt='a drag queen performance'
                     url='events'
                 />
                 <div className="my-1/5 h-1/2 w-1/2 invisible"></div>
                 <ProjectCard 
                 //will be changed to BTS stills
-                    imageSource={summer} 
-                    projectTitle='summer scott' 
-                    imageAlt='woman standing amongst trees'
-                    url='summer-scott'
+                    imageSource={BTS} 
+                    projectTitle='BTS Stills' 
+                    imageAlt='two actors having a cigarette between takes on a film set'
+                    url='BTS'
                 />
                 <div className="my-1/5 h-1/2 w-1/2 invisible"></div>
                 <ProjectCard 
                     imageSource={portraits} 
-                    projectTitle='portraits' 
+                    projectTitle='portrait photography' 
                     imageAlt='portrait of a man'
                     url='portraits'
                 />
