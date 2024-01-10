@@ -50,7 +50,7 @@ export default function ProjectCard({imageSource, projectTitle, imageAlt, url}:P
                         quality={100}
                     />
                     <Link 
-                        className='transition duration-300 absolute text-2xl text-primary dark:text-dark h-full w-full items-center flex justify-center items-center bg-dark dark:bg-primary opacity-0 lg:hover:opacity-80' 
+                        className='transition duration-300 absolute text-2xl text-primary dark:text-dark h-full w-full flex justify-center items-center text-center bg-dark dark:bg-primary opacity-0 lg:hover:opacity-80' 
                         href={`/project/${url}`}
                     >
                         {projectTitle}
